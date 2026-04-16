@@ -50,7 +50,16 @@ class HabitatDetailScreen extends StatelessWidget {
                     'No.${habitat.id.toString().padLeft(3, '0')}',
                     style: const TextStyle(color: Colors.white70, fontSize: 14, fontWeight: FontWeight.w500),
                   ),
-                  const SizedBox(height: 4),
+                  if (habitat.image != null) ...[
+                    const SizedBox(height: 12),
+                    Image.asset(
+                      'assets/images/habitats/${habitat.image}',
+                      height: 120,
+                      fit: BoxFit.contain,
+                    ),
+                    const SizedBox(height: 16),
+                  ] else
+                    const SizedBox(height: 4),
                   Text(
                     habitat.name,
                     style: const TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold),
@@ -84,6 +93,7 @@ class HabitatDetailScreen extends StatelessWidget {
               spacing: 8,
               runSpacing: 8,
               children: habitat.pokemon.map((p) {
+                final imageFile = provider.pokemonNameMap[p];
                 return GestureDetector(
                   onTap: () => Navigator.push(
                     context,
@@ -100,7 +110,13 @@ class HabitatDetailScreen extends StatelessWidget {
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        const Text('⚡', style: TextStyle(fontSize: 13)),
+                        if (imageFile != null)
+                          Image.asset(
+                            'assets/images/pokemon/$imageFile',
+                            width: 60,
+                            height: 60,
+                            fit: BoxFit.contain,
+                          ),
                         const SizedBox(width: 4),
                         Text(p, style: const TextStyle(fontSize: 14, color: Color(0xFFCC0000), fontWeight: FontWeight.w600)),
                       ],

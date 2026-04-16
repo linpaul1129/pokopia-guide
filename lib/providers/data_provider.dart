@@ -7,10 +7,12 @@ import '../models/habitat.dart';
 class DataProvider extends ChangeNotifier {
   List<Habitat> _habitats = [];
   Set<int> _favorites = {};
+  Map<String, String> _pokemonNameMap = {};
   bool _isLoading = true;
 
   List<Habitat> get habitats => _habitats;
   Set<int> get favorites => _favorites;
+  Map<String, String> get pokemonNameMap => _pokemonNameMap;
   bool get isLoading => _isLoading;
 
   DataProvider() {
@@ -24,6 +26,10 @@ class DataProvider extends ChangeNotifier {
     _habitats = (jsonData['habitats'] as List)
         .map((e) => Habitat.fromJson(e as Map<String, dynamic>))
         .toList();
+
+    final String nameMapStr =
+        await rootBundle.loadString('assets/data/pokemon_name_map.json');
+    _pokemonNameMap = Map<String, String>.from(json.decode(nameMapStr) as Map);
 
     final prefs = await SharedPreferences.getInstance();
     final favList = prefs.getStringList('favorites') ?? [];
