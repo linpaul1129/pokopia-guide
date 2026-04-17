@@ -4,6 +4,7 @@ import 'providers/data_provider.dart';
 import 'screens/habitat_list_screen.dart';
 import 'screens/search_screen.dart';
 import 'screens/favorites_screen.dart';
+import 'screens/recipe_list_screen.dart';
 
 void main() {
   runApp(
@@ -44,6 +45,7 @@ class _MainShellState extends State<MainShell> {
   final List<Widget> _screens = const [
     HabitatListScreen(),
     SearchScreen(),
+    RecipeListScreen(),
     FavoritesScreen(),
   ];
 
@@ -59,6 +61,7 @@ class _MainShellState extends State<MainShell> {
         onTap: (i) => setState(() => _currentIndex = i),
         selectedItemColor: const Color(0xFFCC0000),
         unselectedItemColor: Colors.grey,
+        type: BottomNavigationBarType.fixed,
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.landscape),
@@ -67,6 +70,10 @@ class _MainShellState extends State<MainShell> {
           BottomNavigationBarItem(
             icon: Icon(Icons.search),
             label: '搜尋',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.construction),
+            label: '配方',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.star),

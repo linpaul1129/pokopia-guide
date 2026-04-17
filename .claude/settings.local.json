@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dart scripts/build_recipe_assets.dart)"
+    ]
+  }
+}

@@ -1,0 +1,8831 @@
+{
+  "收納箱": {
+    "image": "storage-box.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "壁掛收納箱": {
+    "image": "wall-storage-box.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "大型收納箱": {
+    "image": "big-storage-box.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "樸素木箱": {
+    "image": "plain-chest.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "辦公櫃": {
+    "image": "office-cabinet.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "電競冰箱": {
+    "image": "gaming-fridge.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "精靈球箱": {
+    "image": "pok-ball-chest.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "古董木箱": {
+    "image": "antique-chest.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "樸素衣櫃": {
+    "image": "plain-closet.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "辦公置物櫃": {
+    "image": "office-locker.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "古董衣櫃": {
+    "image": "antique-closet.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "辦公層架": {
+    "image": "office-shelf.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "稻草桌": {
+    "image": "straw-table.png",
+    "materials": [
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 1
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "原木桌": {
+    "image": "log-table.png",
+    "materials": [
+      {
+        "name": "小木材",
+        "image": "item-1.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "邊桌": {
+    "image": "side-table.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "庭園桌": {
+    "image": "garden-table.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木製桌": {
+    "image": "wooden-table.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "櫃檯": {
+    "image": "counter.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "壁掛桌": {
+    "image": "wall-mounted-table.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "寶可夢中心櫃檯": {
+    "image": "pok-mon-center-counter.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "廚房桌": {
+    "image": "kitchen-table.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "推車": {
+    "image": "cart.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "展示架": {
+    "image": "exhibition-stand.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "樸素展示架": {
+    "image": "plain-stand.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "鐵架": {
+    "image": "iron-stand.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "餐飲櫃檯": {
+    "image": "food-counter.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "樸素桌": {
+    "image": "plain-table.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "古董桌": {
+    "image": "antique-table.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "工業風書桌": {
+    "image": "industrial-desk.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "鐵製桌": {
+    "image": "iron-table.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "辦公書桌": {
+    "image": "office-desk.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "書桌": {
+    "image": "study-desk.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "可愛桌": {
+    "image": "cute-table.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "鐵製層架": {
+    "image": "iron-rack.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "度假村桌": {
+    "image": "resort-table.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時尚桌": {
+    "image": "chic-table.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "普普風桌": {
+    "image": "pop-art-table.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "精靈球桌": {
+    "image": "pok-ball-table.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "樹果桌": {
+    "image": "berry-table.png",
+    "materials": [
+      {
+        "name": "勿花果",
+        "image": "item-610.png",
+        "quantity": 2
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "石製桌": {
+    "image": "stone-table.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "豪華桌": {
+    "image": "luxury-table.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 4
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "辦公桌": {
+    "image": "office-table.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "稻草凳": {
+    "image": "straw-stool.png",
+    "materials": [
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "樹果椅": {
+    "image": "berry-chair.png",
+    "materials": [
+      {
+        "name": "蘋野果",
+        "image": "item-16.png",
+        "quantity": 1
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "簡約坐墊": {
+    "image": "simple-cushion.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "原木椅": {
+    "image": "log-chair.png",
+    "materials": [
+      {
+        "name": "小木材",
+        "image": "item-1.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "樸素凳": {
+    "image": "plain-stool.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "度假村凳": {
+    "image": "resort-stool.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "時尚凳": {
+    "image": "stylish-stool.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "工業風椅": {
+    "image": "industrial-chair.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "防水椅": {
+    "image": "waterproof-seat.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "木製凳": {
+    "image": "wooden-stool.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "鐵製椅": {
+    "image": "iron-chair.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "公共座椅": {
+    "image": "public-seat.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "柔軟座椅": {
+    "image": "soft-seat.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "箱型沙發": {
+    "image": "box-sofa.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "樸素椅": {
+    "image": "plain-chair.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "度假村椅": {
+    "image": "resort-chair.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "時尚椅": {
+    "image": "chic-chair.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "華麗椅": {
+    "image": "fancy-chair.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "古董椅": {
+    "image": "antique-chair.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "觀眾椅": {
+    "image": "spectator-chair.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "豪華椅": {
+    "image": "luxury-chair.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 2
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "庭園椅": {
+    "image": "garden-chair.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "摺疊椅": {
+    "image": "folding-chair.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "辦公椅": {
+    "image": "office-chair.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "可愛椅": {
+    "image": "cute-chair.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "普普風椅": {
+    "image": "pop-art-chair.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "電競椅": {
+    "image": "gaming-chair.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "木製長椅": {
+    "image": "wooden-bench.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "石製長椅": {
+    "image": "stone-bench.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "樸素沙發": {
+    "image": "plain-sofa.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "度假村沙發": {
+    "image": "resort-sofa.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時尚沙發": {
+    "image": "chic-sofa.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "古董沙發": {
+    "image": "antique-sofa.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵製長椅": {
+    "image": "iron-bench.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "工業風長椅": {
+    "image": "industrial-bench.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "豪華沙發": {
+    "image": "luxury-sofa.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 4
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "庭園長椅": {
+    "image": "garden-bench.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "可愛沙發": {
+    "image": "cute-sofa.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "普普風沙發": {
+    "image": "pop-art-sofa.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "精靈球沙發": {
+    "image": "pok-ball-sofa.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "原木床": {
+    "image": "log-bed.png",
+    "materials": [
+      {
+        "name": "小木材",
+        "image": "item-1.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "迷你簡約床": {
+    "image": "mini-plain-bed.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "度假村床": {
+    "image": "resort-bed.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵製床": {
+    "image": "iron-bed.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "躺椅": {
+    "image": "deck-chair.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "沙灘椅": {
+    "image": "beach-chair.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "稻草床": {
+    "image": "straw-bed.png",
+    "materials": [
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "普普藝術床": {
+    "image": "pop-art-bed.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "寶可夢球床": {
+    "image": "pok-ball-bed.png",
+    "materials": [
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "樹果床": {
+    "image": "berry-bed.png",
+    "materials": [
+      {
+        "name": "桃桃果",
+        "image": "item-609.png",
+        "quantity": 2
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      },
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木製床": {
+    "image": "wooden-bed.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "簡約床": {
+    "image": "plain-bed.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "度假村吊床": {
+    "image": "resort-hammock.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "客房床": {
+    "image": "guest-room-bed.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "復古床": {
+    "image": "antique-bed.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "工業風床": {
+    "image": "industrial-bed.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "豪華床": {
+    "image": "luxury-bed.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 4
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "可愛床": {
+    "image": "cute-bed.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 3
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "電競床": {
+    "image": "gaming-bed.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "壁掛鏡": {
+    "image": "wall-mirror.png",
+    "materials": [
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "大型鏡子": {
+    "image": "large-mirror.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "復古梳妝台": {
+    "image": "antique-dresser.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "豪華梳妝台": {
+    "image": "luxury-dresser.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 4
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 2
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "可愛梳妝台": {
+    "image": "cute-dresser.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "木製盤子": {
+    "image": "wooden-plate.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "盤子": {
+    "image": "plate.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "派對拼盤": {
+    "image": "party-platter.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "野餐籃": {
+    "image": "picnic-basket.png",
+    "materials": [
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 1
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "馬克杯": {
+    "image": "mug.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "茶具組": {
+    "image": "tea-set.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 1
+      },
+      {
+        "name": "羅絲雷朵茶",
+        "image": "item-685.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "餐桌擺設": {
+    "image": "table-setting.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "派對紙杯": {
+    "image": "paper-party-cups.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "披薩": {
+    "image": "pizza.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "炸薯條": {
+    "image": "fried-potatoes.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "漂浮汽水": {
+    "image": "soda-float.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "下午茶組": {
+    "image": "afternoon-tea-set.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "巧克力餅乾": {
+    "image": "chocolate-cookies.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "三明治": {
+    "image": "sandwiches.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "刨冰": {
+    "image": "shaved-ice.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "緞帶蛋糕": {
+    "image": "ribbon-cake.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "樹果籃": {
+    "image": "berry-basket.png",
+    "materials": [
+      {
+        "name": "零餘果",
+        "image": "item-607.png",
+        "quantity": 1
+      },
+      {
+        "name": "柿仔果",
+        "image": "item-608.png",
+        "quantity": 1
+      },
+      {
+        "name": "桃桃果",
+        "image": "item-609.png",
+        "quantity": 1
+      },
+      {
+        "name": "勿花果",
+        "image": "item-610.png",
+        "quantity": 1
+      },
+      {
+        "name": "文柚果",
+        "image": "item-611.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "小型花瓶": {
+    "image": "small-vase.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 1
+      },
+      {
+        "name": "野花",
+        "image": "item-15.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "華麗花束": {
+    "image": "extravagant-flowers.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 1
+      },
+      {
+        "name": "野花",
+        "image": "item-15.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "小型垃圾桶": {
+    "image": "small-garbage-can.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "筆筒": {
+    "image": "pencil-holder.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "精緻鋼筆": {
+    "image": "fancy-pen.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "信": {
+    "image": "letter.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "筆記本": {
+    "image": "notepad.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "書": {
+    "image": "book.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "打開的書": {
+    "image": "open-book.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "文件": {
+    "image": "papers.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "報紙": {
+    "image": "newspaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "相框": {
+    "image": "photo-frame.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "壁掛相框": {
+    "image": "wall-photo-frame.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "軟木留言板": {
+    "image": "corkboard.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 4
+      },
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "CD架": {
+    "image": "cd-rack.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "雜誌架": {
+    "image": "magazine-rack.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "迷你書櫃": {
+    "image": "mini-bookcase.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "書櫃": {
+    "image": "bookcase.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "石頭壁爐": {
+    "image": "stone-fireplace.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      },
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "餐邊櫃": {
+    "image": "dining-cabinet.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      },
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "現代水槽": {
+    "image": "modern-sink.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "瓦斯爐": {
+    "image": "cooking-stove.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "微波爐": {
+    "image": "microwave-oven.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "冰箱": {
+    "image": "refrigerator.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "電風扇": {
+    "image": "fan.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "冷氣機": {
+    "image": "air-conditioner.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "印表機": {
+    "image": "printer.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "洗衣機": {
+    "image": "washing-machine.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "馬桶": {
+    "image": "toilet.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "水槽": {
+    "image": "sink.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "毛巾架": {
+    "image": "towel-rack.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "沐浴用品組": {
+    "image": "bathtime-set.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "清潔用品": {
+    "image": "cleaning-supplies.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "蓮蓬頭": {
+    "image": "shower.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "浴缸": {
+    "image": "bathtub.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "平板電腦": {
+    "image": "tablet.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "手機": {
+    "image": "cell-phone.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "筆記型電腦": {
+    "image": "laptop.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "電腦": {
+    "image": "computer.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "電競電腦": {
+    "image": "gaming-pc.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "電視": {
+    "image": "television.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "壁掛螢幕": {
+    "image": "wall-monitor.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鬧鐘": {
+    "image": "alarm-clock.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "積木": {
+    "image": "toy-blocks.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "風車": {
+    "image": "pinwheels.png",
+    "materials": [
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 1
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 1
+      },
+      {
+        "name": "廢紙",
+        "image": "item-368.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "編織用品": {
+    "image": "knitting-supplies.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "Game Boy主機": {
+    "image": "game-boy-system.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "加濕器": {
+    "image": "humidifier.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "急救箱": {
+    "image": "first-aid-kit.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "水晶球": {
+    "image": "crystal-ball.png",
+    "materials": [
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 3
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "顯微鏡": {
+    "image": "microscope.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "科學實驗組": {
+    "image": "science-experiment.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "雜亂的電線": {
+    "image": "jumbled-cords.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "CD播放機": {
+    "image": "cd-player.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "桌上型麥克風": {
+    "image": "tabletop-mic.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "立式麥克風": {
+    "image": "standing-mic.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "大鼓": {
+    "image": "big-drum.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "酷炫電吉他": {
+    "image": "cool-electric-guitar.png",
+    "materials": [
+      {
+        "name": "奇異的線",
+        "image": "item-399.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "酷炫貝斯": {
+    "image": "cool-bass-guitar.png",
+    "materials": [
+      {
+        "name": "奇異的線",
+        "image": "item-399.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "混音器": {
+    "image": "audio-mixer.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "音響": {
+    "image": "speaker.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "氣球": {
+    "image": "balloons.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "拳擊遊戲機": {
+    "image": "punching-game.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "踏腳凳": {
+    "image": "step-stool.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "紙箱": {
+    "image": "cardboard-boxes.png",
+    "materials": [
+      {
+        "name": "廢紙",
+        "image": "item-368.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "白板": {
+    "image": "whiteboard.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "控制裝置": {
+    "image": "control-unit.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "祝慶之鎧": {
+    "image": "auspicious-armor.png",
+    "materials": [
+      {
+        "name": "盔甲碎片",
+        "image": "item-165.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "詛咒之鎧": {
+    "image": "malicious-armor.png",
+    "materials": [
+      {
+        "name": "盔甲碎片",
+        "image": "item-165.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "清澈鈴鐺": {
+    "image": "clear-bell.png",
+    "materials": [
+      {
+        "name": "稀有寶可金屬",
+        "image": "item-366.png",
+        "quantity": 5
+      },
+      {
+        "name": "彩虹羽毛",
+        "image": "item-31.png",
+        "quantity": 5
+      }
+    ]
+  },
+  "潮汐鈴鐺": {
+    "image": "tidal-bell.png",
+    "materials": [
+      {
+        "name": "稀有寶可金屬",
+        "image": "item-366.png",
+        "quantity": 5
+      },
+      {
+        "name": "銀色羽毛",
+        "image": "item-203.png",
+        "quantity": 5
+      }
+    ]
+  },
+  "船舵": {
+    "image": "ship-s-wheel.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "壁掛月曆": {
+    "image": "wall-calendar.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "花圈": {
+    "image": "wreath.png",
+    "materials": [
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 1
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 1
+      },
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "裝飾書架": {
+    "image": "decorative-bookshelf.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "裝飾收納架": {
+    "image": "decorative-storage-shelf.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "裝飾花架": {
+    "image": "decorative-plant-shelf.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "古董時鐘": {
+    "image": "antique-clock.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "懸掛旗幟": {
+    "image": "hanging-banner.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "派對彩旗": {
+    "image": "party-bunting.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "藤蔓壁飾": {
+    "image": "vine-wall-decoration.png",
+    "materials": [
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 1
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "樹果壁飾": {
+    "image": "berry-wall-decoration.png",
+    "materials": [
+      {
+        "name": "文柚果",
+        "image": "item-611.png",
+        "quantity": 1
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "掛軸": {
+    "image": "hanging-scroll.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "吊扇": {
+    "image": "ceiling-fan.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "篝火": {
+    "image": "bonfire.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 8
+      }
+    ]
+  },
+  "火把": {
+    "image": "torch.png",
+    "materials": [
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 1
+      },
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "細長蠟燭": {
+    "image": "slender-candle.png",
+    "materials": [
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 1
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "壁掛火把": {
+    "image": "wall-torch.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "營火": {
+    "image": "firepit.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "沙坑": {
+    "image": "sandbox.png",
+    "materials": [
+      {
+        "name": "海灘沙",
+        "image": "item-442.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "輪胎玩具": {
+    "image": "tire-toy.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "水泥管": {
+    "image": "concrete-pipe.png",
+    "materials": [
+      {
+        "name": "混凝土",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "拳擊沙包": {
+    "image": "punching-bag.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      },
+      {
+        "name": "海灘沙",
+        "image": "item-442.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "溜滑梯": {
+    "image": "slide.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 5
+      }
+    ]
+  },
+  "自動販賣機": {
+    "image": "vending-machine.png",
+    "materials": [
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 2
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "壁掛花卉": {
+    "image": "wall-mounted-flowers.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "野花",
+        "image": "item-15.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "吉利蛋盆栽": {
+    "image": "chansey-plant.png",
+    "materials": [
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 3
+      },
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "花盆": {
+    "image": "planter.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 1
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "庭園花卉": {
+    "image": "garden-flowers.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      },
+      {
+        "name": "野花",
+        "image": "item-15.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "棲木": {
+    "image": "perch.png",
+    "materials": [
+      {
+        "name": "小木材",
+        "image": "item-1.png",
+        "quantity": 2
+      },
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "木製鳥屋": {
+    "image": "wooden-birdhouse.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "郵筒": {
+    "image": "mailbox.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "風向雞": {
+    "image": "weather-vane.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "墓碑": {
+    "image": "gravestone.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "空白畫布": {
+    "image": "blank-canvas.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "大砲": {
+    "image": "cannon.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "鐘": {
+    "image": "bell.png",
+    "materials": [
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 1
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "小型舞台": {
+    "image": "small-stage.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "溫泉出水口": {
+    "image": "hot-spring-spout.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "水盆": {
+    "image": "water-basin.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "獨木舟": {
+    "image": "canoe.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "充氣船": {
+    "image": "inflatable-boat.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "沙灘陽傘": {
+    "image": "beach-parasol.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "箭頭指示牌": {
+    "image": "arrow-sign.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "菜單板": {
+    "image": "menu-board.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "招牌": {
+    "image": "sign.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "指示牌": {
+    "image": "signpost.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "資訊板": {
+    "image": "information-board.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "老舊木箱": {
+    "image": "worn-wooden-crate.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "木箱": {
+    "image": "wooden-crate.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "木桶": {
+    "image": "barrel.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "垃圾袋": {
+    "image": "garbage-bags.png",
+    "materials": [
+      {
+        "name": "不可燃垃圾",
+        "image": "item-397.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "垃圾桶": {
+    "image": "garbage-bin.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "回收桶": {
+    "image": "recycling-bin.png",
+    "materials": [
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "交通錐": {
+    "image": "traffic-cone.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "人孔蓋": {
+    "image": "sewer-hole-cover.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "消防栓": {
+    "image": "fire-hydrant.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "沙包": {
+    "image": "sandbags.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "挖掘工具": {
+    "image": "excavation-tools.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "輪胎": {
+    "image": "tires.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "金屬桶": {
+    "image": "metal-drum.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "建築材料": {
+    "image": "construction-supplies.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵管": {
+    "image": "iron-pipes.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "手推車": {
+    "image": "wheelbarrow.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      },
+      {
+        "name": "條紋土壤",
+        "image": "item-738.png",
+        "quantity": 1
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "大型通風扇": {
+    "image": "large-ventilation-fan.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "百變怪旗幟": {
+    "image": "ditto-flag.png",
+    "materials": [
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "蘋野果",
+        "image": "item-16.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "工作台": {
+    "image": "workbench.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "公用箱": {
+    "image": "community-box.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "畫框": {
+    "image": "frame.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "砧板": {
+    "image": "cutting-board.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "平底鍋": {
+    "image": "frying-pan.png",
+    "materials": [
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時髦平底鍋": {
+    "image": "stylish-frying-pan.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "烹飪鍋": {
+    "image": "cooking-pot.png",
+    "materials": [
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時髦烹飪鍋": {
+    "image": "stylish-cooking-pot.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "麵包烤箱": {
+    "image": "bread-oven.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      },
+      {
+        "name": "小木材",
+        "image": "item-1.png",
+        "quantity": 2
+      },
+      {
+        "name": "火山灰",
+        "image": "item-508.png",
+        "quantity": 4
+      }
+    ]
+  },
+  "熔爐": {
+    "image": "smelting-furnace.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 4
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 4
+      }
+    ]
+  },
+  "金屬熔爐": {
+    "image": "metallic-smelting-furnace.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 10
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 3
+      },
+      {
+        "name": "叮噹齒輪",
+        "image": "item-301.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "混凝土攪拌機": {
+    "image": "concrete-mixer.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵軌": {
+    "image": "railway-track.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "平交道柵欄": {
+    "image": "crossing-gate.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "軌道手推車": {
+    "image": "handcar.png",
+    "materials": [
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "升降平台": {
+    "image": "lift-platform.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 5
+      },
+      {
+        "name": "混凝土",
+        "image": "item-221.png",
+        "quantity": 5
+      },
+      {
+        "name": "叮噹齒輪",
+        "image": "item-301.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "收銀機": {
+    "image": "cash-register.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "灑水器": {
+    "image": "sprinkler.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "小型水閘": {
+    "image": "mini-floodgate.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "電線桿": {
+    "image": "utility-pole.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "無線電力傳輸開關": {
+    "image": "wireless-power-transmitter-switch.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "無線電力傳輸器": {
+    "image": "wireless-power-transmitter.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "小型發電機": {
+    "image": "mini-generator.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "地板開關": {
+    "image": "floor-switch.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "牆壁開關": {
+    "image": "wall-switch.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "讀卡機": {
+    "image": "card-reader.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "雷射感應器": {
+    "image": "laser-sensor.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "蘑菇路燈": {
+    "image": "mushroom-streetlight.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "發光蘑菇",
+        "image": "item-223.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "城鎮路燈": {
+    "image": "town-streetlight.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "港口路燈": {
+    "image": "harbor-streetlight.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      },
+      {
+        "name": "海玻璃碎片",
+        "image": "item-200.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "時髦路燈": {
+    "image": "chic-streetlight.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      },
+      {
+        "name": "水晶碎片",
+        "image": "item-170.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "雙頭路燈": {
+    "image": "double-streetlight.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "蘑菇燈": {
+    "image": "mushroom-lamp.png",
+    "materials": [
+      {
+        "name": "發光蘑菇",
+        "image": "item-223.png",
+        "quantity": 1
+      },
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "樸素燈": {
+    "image": "plain-lamp.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "桌燈": {
+    "image": "desk-light.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "寶可夢球燈": {
+    "image": "pok-ball-lamp.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "樹果桌燈": {
+    "image": "berry-table-lamp.png",
+    "materials": [
+      {
+        "name": "柿仔果",
+        "image": "item-608.png",
+        "quantity": 1
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "可愛燈": {
+    "image": "cute-lamp.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "行星模型": {
+    "image": "model-planet.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "豪華燈": {
+    "image": "luxury-lamp.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 2
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "庭園燈": {
+    "image": "garden-light.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "燈籠": {
+    "image": "lantern.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "鏡面球": {
+    "image": "mirror-ball.png",
+    "materials": [
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 1
+      },
+      {
+        "name": "水晶碎片",
+        "image": "item-170.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "壁燈": {
+    "image": "wall-light.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "貝殼燈": {
+    "image": "shell-lamp.png",
+    "materials": [
+      {
+        "name": "貝殼",
+        "image": "item-369.png",
+        "quantity": 1
+      },
+      {
+        "name": "海玻璃碎片",
+        "image": "item-200.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "日光燈": {
+    "image": "fluorescent-light.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "電競燈": {
+    "image": "gaming-light.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "度假村燈": {
+    "image": "resort-light.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 1
+      },
+      {
+        "name": "海玻璃碎片",
+        "image": "item-200.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "串燈": {
+    "image": "string-lights.png",
+    "materials": [
+      {
+        "name": "海玻璃碎片",
+        "image": "item-200.png",
+        "quantity": 2
+      },
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "普普藝術燈": {
+    "image": "pop-art-lamp.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "樹果吊燈": {
+    "image": "berry-hanging-lamp.png",
+    "materials": [
+      {
+        "name": "零餘果",
+        "image": "item-607.png",
+        "quantity": 1
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "表面燈": {
+    "image": "surface-light.png",
+    "materials": [
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "聚光燈": {
+    "image": "spotlight.png",
+    "materials": [
+      {
+        "name": "海玻璃碎片",
+        "image": "item-200.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "古董吊燈": {
+    "image": "antique-chandelier.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "音樂地墊（低Do）": {
+    "image": "music-mat-low-do.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "音樂地墊（Re）": {
+    "image": "music-mat-re.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "音樂地墊（Mi）": {
+    "image": "music-mat-mi.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "音樂地墊（Fa）": {
+    "image": "music-mat-fa.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "音樂地墊（Sol）": {
+    "image": "music-mat-sol.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "音樂地墊（La）": {
+    "image": "music-mat-la.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "音樂地墊（Ti）": {
+    "image": "music-mat-ti.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "音樂地墊（高Do）": {
+    "image": "music-mat-high-do.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "木製階梯": {
+    "image": "wooden-steps.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時髦階梯": {
+    "image": "stylish-steps.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "石製階梯": {
+    "image": "stone-steps.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "水泥階梯": {
+    "image": "concrete-steps.png",
+    "materials": [
+      {
+        "name": "混凝土",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "磚製階梯": {
+    "image": "brick-steps.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵製階梯": {
+    "image": "iron-steps.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木製梯子": {
+    "image": "wooden-ladder.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵製梯子": {
+    "image": "iron-ladder.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鋼索": {
+    "image": "wire.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "金屬鍊": {
+    "image": "metal-chain.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "繩索": {
+    "image": "rope.png",
+    "materials": [
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "滑輪": {
+    "image": "pulley.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "鄉村風門": {
+    "image": "rustic-door.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "簡樸門": {
+    "image": "simple-door.png",
+    "materials": [
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "船艙門": {
+    "image": "boat-door.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "現代風門": {
+    "image": "modern-door.png",
+    "materials": [
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時髦門": {
+    "image": "stylish-door.png",
+    "materials": [
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 2
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "智慧門": {
+    "image": "brainy-door.png",
+    "materials": [
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵門": {
+    "image": "iron-door.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "大型木門": {
+    "image": "large-wooden-door.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "自動門": {
+    "image": "automatic-doors.png",
+    "materials": [
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "捲門": {
+    "image": "shutter.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木製柵門": {
+    "image": "wooden-gate.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "雙開門": {
+    "image": "swinging-doors.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵柵門": {
+    "image": "iron-gate.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "簡樸窗簾（左）": {
+    "image": "simple-curtain-left.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "簡樸窗簾（右）": {
+    "image": "simple-curtain-right.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "艙口窗": {
+    "image": "hatch-window.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "地下艙口": {
+    "image": "underground-hatch.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "玻璃窗": {
+    "image": "glass-window.png",
+    "materials": [
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 2
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "窗玻璃": {
+    "image": "window-pane.png",
+    "materials": [
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 2
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "彩繪玻璃窗（上）": {
+    "image": "stained-glass-window-upper.png",
+    "materials": [
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "彩繪玻璃窗（中）": {
+    "image": "stained-glass-window-middle.png",
+    "materials": [
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "彩繪玻璃窗（下）": {
+    "image": "stained-glass-window-lower.png",
+    "materials": [
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "雙層推拉窗": {
+    "image": "sash-window.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "斜瓦屋頂": {
+    "image": "sloped-tiled-roof.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "瓦片四坡屋頂": {
+    "image": "tiled-hipped-roof.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "瓦片屋頂谷": {
+    "image": "tiled-roof-valley.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "平瓦屋頂": {
+    "image": "flat-tiled-roof.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "瓦片屋頂裝飾": {
+    "image": "tiled-roof-decoration.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鯉魚王裝飾": {
+    "image": "magikarp-decoration.png",
+    "materials": [
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 1
+      },
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "斜石屋頂": {
+    "image": "sloped-stone-roof.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "天窗": {
+    "image": "skylight.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "石頭四坡屋頂": {
+    "image": "stone-hipped-roof.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "石頭屋頂谷": {
+    "image": "stone-roof-valley.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "平石屋頂": {
+    "image": "flat-stone-roof.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "石頭屋頂裝飾": {
+    "image": "stone-roof-decoration.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "斜磚屋頂": {
+    "image": "pitched-brick-roof.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "磚製老虎窗屋頂": {
+    "image": "dormered-brick-roof.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "磚製四坡屋頂": {
+    "image": "brick-hipped-roof.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "磚製屋頂谷": {
+    "image": "brick-roof-valley.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "平磚屋頂": {
+    "image": "flat-brick-roof.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "磚製屋頂裝飾": {
+    "image": "brick-roof-decoration.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "斜帳篷屋頂": {
+    "image": "sloped-tent-roof.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "帳篷四坡屋頂": {
+    "image": "tent-hipped-roof.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "帳篷屋頂谷": {
+    "image": "tent-roof-valley.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "平帳篷屋頂": {
+    "image": "flat-tent-roof.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "光滑遮陽篷": {
+    "image": "glossy-awning.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "波浪鐵板": {
+    "image": "corrugated-metal.png",
+    "materials": [
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "突出牆壁": {
+    "image": "protruding-wall.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "彎曲屋簷": {
+    "image": "curved-eave.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 4
+      }
+    ]
+  },
+  "木製圍籬": {
+    "image": "wooden-fencing.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木製圍欄": {
+    "image": "wooden-enclosure.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵製圍欄": {
+    "image": "iron-enclosure.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "金屬圍籬": {
+    "image": "metal-fencing.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "石頭圍籬": {
+    "image": "stone-fencing.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "船隻欄杆": {
+    "image": "boat-railing.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木製扶手": {
+    "image": "wooden-handrail.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "扶手": {
+    "image": "handrail.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "港口樁": {
+    "image": "harbor-pole.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "拱形柵欄": {
+    "image": "arched-barrier.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木板壁板": {
+    "image": "wooden-siding-panel.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木製柱子": {
+    "image": "wooden-posts.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木製隔板": {
+    "image": "wooden-partition.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵格柵欄": {
+    "image": "grate-fencing.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木板小徑": {
+    "image": "wooden-path.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "踏腳石": {
+    "image": "stepping-stones.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "走道": {
+    "image": "walkway.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "橋面木板": {
+    "image": "bridge-planks.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "鐵格地板": {
+    "image": "grate-flooring.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "混凝土板": {
+    "image": "concrete-slab.png",
+    "materials": [
+      {
+        "name": "混凝土",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵製鷹架板": {
+    "image": "iron-scaffold-plank.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "鐵製鷹架": {
+    "image": "iron-scaffold.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "拱橋": {
+    "image": "arch-bridge.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木製邊框（直線）": {
+    "image": "wooden-border-line.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木製邊框（單個）": {
+    "image": "wooden-border-single.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木製邊框（轉角）": {
+    "image": "wooden-border-corner.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "混凝土邊框（直線）": {
+    "image": "concrete-border-line.png",
+    "materials": [
+      {
+        "name": "混凝土",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "混凝土邊框（單個）": {
+    "image": "concrete-border-single.png",
+    "materials": [
+      {
+        "name": "混凝土",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "混凝土邊框（轉角）": {
+    "image": "concrete-border-corner.png",
+    "materials": [
+      {
+        "name": "混凝土",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "磚製邊框（直線）": {
+    "image": "brick-border-line.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "磚製邊框（單個）": {
+    "image": "brick-border-single.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "磚製邊框（轉角）": {
+    "image": "brick-border-corner.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "橫向原木": {
+    "image": "sideways-log.png",
+    "materials": [
+      {
+        "name": "小木材",
+        "image": "item-1.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "直立原木": {
+    "image": "upright-log.png",
+    "materials": [
+      {
+        "name": "小木材",
+        "image": "item-1.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵製橫樑": {
+    "image": "iron-beam.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵製圓柱": {
+    "image": "iron-column.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵製支柱": {
+    "image": "iron-pillar.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "華麗支柱（上）": {
+    "image": "extravagant-pillar-upper.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "華麗支柱（中）": {
+    "image": "extravagant-pillar-middle.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "華麗支柱（下）": {
+    "image": "extravagant-pillar-lower.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "圓形支柱（上）": {
+    "image": "round-pillar-upper.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 4
+      }
+    ]
+  },
+  "圓形支柱（中）": {
+    "image": "round-pillar-middle.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 4
+      }
+    ]
+  },
+  "圓形支柱（下）": {
+    "image": "round-pillar-lower.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 4
+      }
+    ]
+  },
+  "房屋隔間": {
+    "image": "house-partition.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "簡約支柱（四分之一）": {
+    "image": "simple-pillar-quarter.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "水流支柱（四分之一）": {
+    "image": "water-pillar-quarter.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "屋頂支撐": {
+    "image": "roof-support.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵製水管（水平）": {
+    "image": "iron-pipe-horizontal.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵製水管（向下彎曲）": {
+    "image": "iron-pipe-downward-curve.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵製水管（垂直交叉）": {
+    "image": "iron-pipe-vertical-cross.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵製水管（垂直T型）": {
+    "image": "iron-pipe-vertical-t.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵製水管（垂直）": {
+    "image": "iron-pipe-vertical.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵管（向上彎）": {
+    "image": "iron-pipe-upward-curve.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵管（向上T字）": {
+    "image": "iron-pipe-upward-t.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵管（向下T字）": {
+    "image": "iron-pipe-downward-t.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵管（水平彎）": {
+    "image": "iron-pipe-horizontal-curve.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵管（水平T字）": {
+    "image": "iron-pipe-horizontal-t.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵管（水平十字）": {
+    "image": "iron-pipe-horizontal-cross.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木牆": {
+    "image": "wooden-wall.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "輕木牆": {
+    "image": "light-wooden-wall.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "漆面牆": {
+    "image": "painted-wall.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "灰泥牆": {
+    "image": "plaster-wall.png",
+    "materials": [
+      {
+        "name": "貝殼",
+        "image": "item-369.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "布面牆": {
+    "image": "cloth-wall.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "客房牆": {
+    "image": "guest-room-wall.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "星空牆": {
+    "image": "starry-sky-wall.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 10
+      }
+    ]
+  },
+  "軟墊牆": {
+    "image": "cushy-wall.png",
+    "materials": [
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "現代牆": {
+    "image": "modern-wall.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "破損磁磚牆": {
+    "image": "broken-tiling-wall.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鵝卵石牆": {
+    "image": "cobblestone-wall.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "磚牆": {
+    "image": "brick-wall.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "石磚牆": {
+    "image": "stone-brick-wall.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "風化石牆": {
+    "image": "aged-stone-wall.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "紋樣風化石牆": {
+    "image": "patterned-aged-stone-wall.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "水泥牆": {
+    "image": "concrete-wall.png",
+    "materials": [
+      {
+        "name": "混凝土",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "粗糙牆": {
+    "image": "rough-wall.png",
+    "materials": [
+      {
+        "name": "混凝土",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "條紋牆": {
+    "image": "striped-wall.png",
+    "materials": [
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "青銅牆": {
+    "image": "bronze-wall.png",
+    "materials": [
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時尚青銅牆": {
+    "image": "stylish-bronze-wall.png",
+    "materials": [
+      {
+        "name": "銅錠",
+        "image": "item-93.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵牆": {
+    "image": "iron-wall.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時尚鐵牆": {
+    "image": "stylish-iron-wall.png",
+    "materials": [
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時尚金牆": {
+    "image": "stylish-gold-wall.png",
+    "materials": [
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "水晶牆": {
+    "image": "crystal-wall.png",
+    "materials": [
+      {
+        "name": "水晶碎片",
+        "image": "item-170.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "寶可夢球牆": {
+    "image": "pok-ball-wall.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "警告牆": {
+    "image": "warning-wall.png",
+    "materials": [
+      {
+        "name": "混凝土",
+        "image": "item-221.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵錠",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "時尚牆（上）": {
+    "image": "stylish-wall-upper.png",
+    "materials": [
+      {
+        "name": "貝殼",
+        "image": "item-369.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "時尚牆（中）": {
+    "image": "stylish-wall-middle.png",
+    "materials": [
+      {
+        "name": "貝殼",
+        "image": "item-369.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "時尚牆（下）": {
+    "image": "stylish-wall-lower.png",
+    "materials": [
+      {
+        "name": "貝殼",
+        "image": "item-369.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "復古牆（上）": {
+    "image": "antique-wall-upper.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "復古牆（中）": {
+    "image": "antique-wall-middle.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "復古牆（下）": {
+    "image": "antique-wall-lower.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "淺色復古牆（上）": {
+    "image": "light-antique-wall-upper.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "淺色復古牆（中）": {
+    "image": "light-antique-wall-middle.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "淺色復古牆（下）": {
+    "image": "light-antique-wall-lower.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "木柱（上）": {
+    "image": "wooden-pillar-upper.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木柱（中）": {
+    "image": "wooden-pillar-middle.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木柱（下）": {
+    "image": "wooden-pillar-lower.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時尚磚牆（上）": {
+    "image": "stylish-brick-wall-upper.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時尚磚牆（中）": {
+    "image": "stylish-brick-wall-middle.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時尚磚牆（下）": {
+    "image": "stylish-brick-wall-lower.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "石柱（上）": {
+    "image": "stone-pillar-upper.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "石柱（中）": {
+    "image": "stone-pillar-middle.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "石柱（下）": {
+    "image": "stone-pillar-lower.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "普普藝術牆（上）": {
+    "image": "pop-art-wall-upper.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "普普藝術牆（中）": {
+    "image": "pop-art-wall-middle.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "普普藝術牆（下）": {
+    "image": "pop-art-wall-lower.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "糖果屋牆（上）": {
+    "image": "confectionery-wall-upper.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "糖果屋牆（中）": {
+    "image": "confectionery-wall-middle.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "寶可夢中心牆（上）": {
+    "image": "pok-mon-center-wall-upper.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "寶可夢中心牆（中）": {
+    "image": "pok-mon-center-wall-middle.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "寶可夢中心牆（下）": {
+    "image": "pok-mon-center-wall-lower.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "寶可夢中心牆（飾邊）": {
+    "image": "pok-mon-center-wall-trim.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "木地板": {
+    "image": "wooden-flooring.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "斜紋木地板": {
+    "image": "diagonal-wooden-flooring.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "交錯木地板": {
+    "image": "crisscross-wooden-flooring.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "硬木地板": {
+    "image": "hardwood-flooring.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "現代地毯": {
+    "image": "modern-carpeting.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "編織地毯": {
+    "image": "woven-carpeting.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "毛絨地板": {
+    "image": "fluffy-flooring.png",
+    "materials": [
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "柔軟地毯": {
+    "image": "soft-carpeting.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "奢華地毯": {
+    "image": "extravagant-carpeting.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "金錠",
+        "image": "item-197.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "榻榻米": {
+    "image": "tatami-mat.png",
+    "materials": [
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "毛氈墊": {
+    "image": "felt-mat.png",
+    "materials": [
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "蓬蓬樹柱": {
+    "image": "puffy-tree-pillar.png",
+    "materials": [
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "草地地板": {
+    "image": "grass-flooring.png",
+    "materials": [
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "簡約地板": {
+    "image": "simple-flooring.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "大理石": {
+    "image": "marble.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 4
+      }
+    ]
+  },
+  "石地板": {
+    "image": "stone-flooring.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "線條石地板": {
+    "image": "lined-stone-flooring.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "深色大理石地板": {
+    "image": "dark-marble-flooring.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 4
+      }
+    ]
+  },
+  "淺色大理石地板": {
+    "image": "light-marble-flooring.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 4
+      }
+    ]
+  },
+  "風化石地板": {
+    "image": "aged-stone-flooring.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "簡約方磚": {
+    "image": "simple-square-tiling.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時尚磁磚": {
+    "image": "stylish-tiling.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "六角形地板": {
+    "image": "hexagonal-flooring.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "商店地板": {
+    "image": "shop-flooring.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "三角紋地板": {
+    "image": "triangle-design-flooring.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵板地板": {
+    "image": "iron-plate-flooring.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵磚": {
+    "image": "iron-tiling.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "霓虹地板": {
+    "image": "neon-flooring.png",
+    "materials": [
+      {
+        "name": "海玻璃碎片",
+        "image": "item-200.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "賽博地板": {
+    "image": "cyber-flooring.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "拱形磚": {
+    "image": "arched-tiling.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "石磚": {
+    "image": "stone-tiling.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "方格磚": {
+    "image": "square-tiling.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "馬賽克磚": {
+    "image": "mosaic-tiling.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "磚塊地板": {
+    "image": "brick-flooring.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時髦石板地": {
+    "image": "stylish-stone-flooring.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "魚鱗磚": {
+    "image": "fish-scale-tiling.png",
+    "materials": [
+      {
+        "name": "黏土",
+        "image": "item-215.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "柏油路": {
+    "image": "asphalt-road.png",
+    "materials": [
+      {
+        "name": "混凝土",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "標線道路（橫）": {
+    "image": "marked-road-horizontal.png",
+    "materials": [
+      {
+        "name": "混凝土",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "標線道路（縱）": {
+    "image": "marked-road-vertical.png",
+    "materials": [
+      {
+        "name": "混凝土",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "灰色圓點地板": {
+    "image": "gray-circle-flooring.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "乾草堆": {
+    "image": "hay-pile.png",
+    "materials": [
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "鐵板": {
+    "image": "iron-plating.png",
+    "materials": [
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "方塊燈": {
+    "image": "cube-light.png",
+    "materials": [
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "地基": {
+    "image": "foundation.png",
+    "materials": [
+      {
+        "name": "混凝土",
+        "image": "item-221.png",
+        "quantity": 1
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "堤防": {
+    "image": "levee.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "廢鐵方塊": {
+    "image": "scrap-cube.png",
+    "materials": [
+      {
+        "name": "不可燃垃圾",
+        "image": "item-397.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵礦石",
+        "image": "item-35.png",
+        "quantity": 1
+      },
+      {
+        "name": "銅礦石",
+        "image": "item-75.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "圓點花紋": {
+    "image": "polka-dot-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "泡泡花紋": {
+    "image": "bubble-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "直條紋": {
+    "image": "vertical-stripe-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "橫條紋": {
+    "image": "horizontal-stripe-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "格紋": {
+    "image": "gingham-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "蘇格蘭格紋": {
+    "image": "tartan-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "菱格紋": {
+    "image": "argyle-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "千鳥格紋": {
+    "image": "houndstooth-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "藤蔓花紋": {
+    "image": "vine-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "漩渦花紋": {
+    "image": "swirl-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "冬季花紋": {
+    "image": "winter-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "Z字花紋": {
+    "image": "zig-zag-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "葉子花紋": {
+    "image": "leaf-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "花朵花紋": {
+    "image": "flower-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "星星花紋": {
+    "image": "star-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "咖哩花紋": {
+    "image": "curry-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "樹果花紋": {
+    "image": "berry-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "寶可夢球花紋": {
+    "image": "pok-ball-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "時髦寶可夢球花紋": {
+    "image": "stylish-pok-ball-print.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "雕刻白岩": {
+    "image": "carved-white-rock.png",
+    "materials": [
+      {
+        "name": "白色岩石",
+        "image": "item-767.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "雕刻粗岩": {
+    "image": "carved-coarse-rock.png",
+    "materials": []
+  },
+  "雕刻淺棕岩": {
+    "image": "carved-light-brown-rock.png",
+    "materials": [
+      {
+        "name": "淺棕色岩石",
+        "image": "item-763.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "雕刻紅岩": {
+    "image": "carved-red-rock.png",
+    "materials": [
+      {
+        "name": "紅色岩石",
+        "image": "item-764.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "雕刻黃岩": {
+    "image": "carved-yellow-rock.png",
+    "materials": [
+      {
+        "name": "黃色岩石",
+        "image": "item-765.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "龜裂砂岩": {
+    "image": "cracked-sandstone.png",
+    "materials": [
+      {
+        "name": "砂岩",
+        "image": "item-772.png",
+        "quantity": 1
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "探寶器": {
+    "image": "dowsing-machine.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "新型探寶器": {
+    "image": "neo-dowsing-machine.png",
+    "materials": [
+      {
+        "name": "探寶器",
+        "image": "item-68.png",
+        "quantity": 1
+      },
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 5
+      }
+    ]
+  },
+  "派對拉炮": {
+    "image": "party-popper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      },
+      {
+        "name": "藤蔓繩",
+        "image": "item-48.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "星星碎片": {
+    "image": "star-piece.png",
+    "materials": [
+      {
+        "name": "星星沙子",
+        "image": "item-290.png",
+        "quantity": 99
+      }
+    ]
+  },
+  "顏料氣球（白）": {
+    "image": "paint-balloon-white.png",
+    "materials": [
+      {
+        "name": "白色顏料",
+        "image": "item-581.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "顏料氣球（紅）": {
+    "image": "paint-balloon-red.png",
+    "materials": [
+      {
+        "name": "紅色顏料",
+        "image": "item-582.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "顏料氣球（黃）": {
+    "image": "paint-balloon-yellow.png",
+    "materials": [
+      {
+        "name": "黃色顏料",
+        "image": "item-583.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "顏料氣球（綠）": {
+    "image": "paint-balloon-green.png",
+    "materials": [
+      {
+        "name": "綠色顏料",
+        "image": "item-584.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "顏料氣球（玫瑰紅）": {
+    "image": "paint-balloon-rose.png",
+    "materials": [
+      {
+        "name": "紅色顏料",
+        "image": "item-582.png",
+        "quantity": 1
+      },
+      {
+        "name": "粉紅色顏料",
+        "image": "item-587.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "顏料氣球（粉紅）": {
+    "image": "paint-balloon-pink.png",
+    "materials": [
+      {
+        "name": "粉紅色顏料",
+        "image": "item-587.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "顏料氣球（橘）": {
+    "image": "paint-balloon-orange.png",
+    "materials": [
+      {
+        "name": "紅色顏料",
+        "image": "item-582.png",
+        "quantity": 1
+      },
+      {
+        "name": "黃色顏料",
+        "image": "item-583.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "顏料氣球（紫）": {
+    "image": "paint-balloon-purple.png",
+    "materials": [
+      {
+        "name": "粉紅色顏料",
+        "image": "item-587.png",
+        "quantity": 1
+      },
+      {
+        "name": "藍色顏料",
+        "image": "item-586.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "顏料氣球（棕）": {
+    "image": "paint-balloon-brown.png",
+    "materials": [
+      {
+        "name": "紅色顏料",
+        "image": "item-582.png",
+        "quantity": 1
+      },
+      {
+        "name": "綠色顏料",
+        "image": "item-584.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "顏料氣球（米色）": {
+    "image": "paint-balloon-beige.png",
+    "materials": [
+      {
+        "name": "白色顏料",
+        "image": "item-581.png",
+        "quantity": 1
+      },
+      {
+        "name": "黑色顏料",
+        "image": "item-585.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "顏料氣球（黑）": {
+    "image": "paint-balloon-black.png",
+    "materials": [
+      {
+        "name": "黑色顏料",
+        "image": "item-585.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "顏料氣球（萊姆綠）": {
+    "image": "paint-balloon-lime.png",
+    "materials": [
+      {
+        "name": "綠色顏料",
+        "image": "item-584.png",
+        "quantity": 1
+      },
+      {
+        "name": "黃色顏料",
+        "image": "item-583.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "顏料氣球（梅紫）": {
+    "image": "paint-balloon-plum.png",
+    "materials": [
+      {
+        "name": "紅色顏料",
+        "image": "item-582.png",
+        "quantity": 1
+      },
+      {
+        "name": "藍色顏料",
+        "image": "item-586.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "顏料氣球（海軍藍）": {
+    "image": "paint-balloon-navy.png",
+    "materials": [
+      {
+        "name": "藍色顏料",
+        "image": "item-586.png",
+        "quantity": 1
+      },
+      {
+        "name": "黑色顏料",
+        "image": "item-585.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "顏料氣球（藍）": {
+    "image": "paint-balloon-blue.png",
+    "materials": [
+      {
+        "name": "藍色顏料",
+        "image": "item-586.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "顏料氣球（青）": {
+    "image": "paint-balloon-cyan.png",
+    "materials": [
+      {
+        "name": "青色顏料",
+        "image": "item-588.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "顏料氣球（灰）": {
+    "image": "paint-balloon-gray.png",
+    "materials": [
+      {
+        "name": "藍色顏料",
+        "image": "item-586.png",
+        "quantity": 1
+      },
+      {
+        "name": "白色顏料",
+        "image": "item-581.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "顏料氣球（海藍）": {
+    "image": "paint-balloon-aquamarine.png",
+    "materials": [
+      {
+        "name": "綠色顏料",
+        "image": "item-584.png",
+        "quantity": 1
+      },
+      {
+        "name": "青色顏料",
+        "image": "item-588.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "煙火（白）": {
+    "image": "firework-white.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      },
+      {
+        "name": "白色顏料",
+        "image": "item-581.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "煙火（紅）": {
+    "image": "firework-red.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      },
+      {
+        "name": "紅色顏料",
+        "image": "item-582.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "煙火（綠）": {
+    "image": "firework-green.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      },
+      {
+        "name": "綠色顏料",
+        "image": "item-584.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "煙火（黃）": {
+    "image": "firework-yellow.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      },
+      {
+        "name": "黃色顏料",
+        "image": "item-583.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "煙火（藍）": {
+    "image": "firework-blue.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "堅韌木棒",
+        "image": "item-4.png",
+        "quantity": 1
+      },
+      {
+        "name": "發光石",
+        "image": "item-224.png",
+        "quantity": 1
+      },
+      {
+        "name": "藍色顏料",
+        "image": "item-586.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "石磚（壁紙）": {
+    "image": "stone-tiling-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "木牆（壁紙）": {
+    "image": "wooden-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "時髦石磚牆 (壁紙)": {
+    "image": "stylish-stone-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "木質地板（壁紙）": {
+    "image": "wooden-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "蓬鬆地板 (壁紙)": {
+    "image": "fluffy-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "拱形磁磚 (壁紙)": {
+    "image": "arched-tiling-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "馬賽克磁磚 (壁紙)": {
+    "image": "mosaic-tiling-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "星空牆 (壁紙)": {
+    "image": "starry-sky-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "編織地毯 (壁紙)": {
+    "image": "woven-carpeting-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "黃金牆 (壁紙)": {
+    "image": "gold-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "時尚黃金牆 (壁紙)": {
+    "image": "stylish-gold-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "復古花紋石牆 (壁紙)": {
+    "image": "patterned-aged-stone-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "老舊石牆 (壁紙)": {
+    "image": "aged-stone-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "老舊石地板 (壁紙)": {
+    "image": "aged-stone-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "警告牆 (壁紙)": {
+    "image": "warning-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "水晶牆 (壁紙)": {
+    "image": "crystal-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "現代地毯 (壁紙)": {
+    "image": "modern-carpeting-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "鐵板地板 (壁紙)": {
+    "image": "iron-plate-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "商店磁磚 (壁紙)": {
+    "image": "shop-tiling-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "磚牆 (壁紙)": {
+    "image": "brick-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "水泥牆 (壁紙)": {
+    "image": "concrete-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "石地板 (壁紙)": {
+    "image": "stone-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "紋路石地板 (壁紙)": {
+    "image": "lined-stone-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "灰泥牆 (壁紙)": {
+    "image": "plaster-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "石磚牆 (壁紙)": {
+    "image": "stone-brick-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "斜紋木地板 (壁紙)": {
+    "image": "diagonal-wooden-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "時尚磁磚 (壁紙)": {
+    "image": "stylish-tiling-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "磚地板 (壁紙)": {
+    "image": "brick-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "布料牆 (壁紙)": {
+    "image": "cloth-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "方格磁磚 (壁紙)": {
+    "image": "square-tiling-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "堤防 (壁紙)": {
+    "image": "levee-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "方塊燈 (壁紙)": {
+    "image": "cube-light-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "鐵製磁磚 (壁紙)": {
+    "image": "iron-tiling-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "深色大理石地板 (壁紙)": {
+    "image": "dark-marble-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "簡約地板 (壁紙)": {
+    "image": "simple-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "硬木地板 (壁紙)": {
+    "image": "hardwood-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "魚鱗磁磚 (壁紙)": {
+    "image": "fish-scale-tiling-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "鵝卵石牆 (壁紙)": {
+    "image": "cobblestone-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "乾草堆 (壁紙)": {
+    "image": "hay-pile-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "破損磁磚牆 (壁紙)": {
+    "image": "broken-tiling-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "彩繪牆 (壁紙)": {
+    "image": "painted-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "條紋牆 (壁紙)": {
+    "image": "striped-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "賽博地板 (壁紙)": {
+    "image": "cyber-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "霓虹地板 (壁紙)": {
+    "image": "neon-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "粗糙牆 (壁紙)": {
+    "image": "rough-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "現代牆 (壁紙)": {
+    "image": "modern-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "鐵板 (壁紙)": {
+    "image": "iron-plating-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "六角形地板 (壁紙)": {
+    "image": "hexagonal-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "廢料方塊 (壁紙)": {
+    "image": "scrap-cube-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "簡約方格磁磚 (壁紙)": {
+    "image": "simple-square-tiling-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "蓬鬆樹柱 (壁紙)": {
+    "image": "puffy-tree-pillar-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "毛氈墊 (壁紙)": {
+    "image": "felt-mat-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "三角圖案地板 (壁紙)": {
+    "image": "triangle-design-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "交叉木地板 (壁紙)": {
+    "image": "crisscross-wooden-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "淺色木牆 (壁紙)": {
+    "image": "light-wooden-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "淺色大理石地板 (壁紙)": {
+    "image": "light-marble-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "青銅牆 (壁紙)": {
+    "image": "bronze-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "時尚青銅牆 (壁紙)": {
+    "image": "stylish-bronze-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "鐵牆 (壁紙)": {
+    "image": "iron-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "時尚鐵牆 (壁紙)": {
+    "image": "stylish-iron-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "草地地板 (壁紙)": {
+    "image": "grass-flooring-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "寶可夢球牆 (壁紙)": {
+    "image": "pok-ball-wall-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "圓點圖案 (壁紙)": {
+    "image": "polka-dot-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "直條紋圖案 (壁紙)": {
+    "image": "vertical-stripe-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "橫條紋圖案 (壁紙)": {
+    "image": "horizontal-stripe-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "格紋圖案 (壁紙)": {
+    "image": "gingham-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "蘇格蘭格紋圖案 (壁紙)": {
+    "image": "tartan-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "菱格紋圖案 (壁紙)": {
+    "image": "argyle-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "樹果圖案 (壁紙)": {
+    "image": "berry-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "寶可夢球圖案 (壁紙)": {
+    "image": "pok-ball-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "時尚寶可夢球圖案 (壁紙)": {
+    "image": "stylish-pok-ball-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "大理石 (壁紙)": {
+    "image": "marble-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "泡泡圖案 (壁紙)": {
+    "image": "bubble-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "千鳥格紋圖案 (壁紙)": {
+    "image": "houndstooth-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "藤蔓圖案 (壁紙)": {
+    "image": "vine-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "漩渦圖案 (壁紙)": {
+    "image": "swirl-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "冬季圖案 (壁紙)": {
+    "image": "winter-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "鋸齒印花牆 (壁紙)": {
+    "image": "zig-zag-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "葉子圖案 (壁紙)": {
+    "image": "leaf-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "花朵圖案 (壁紙)": {
+    "image": "flower-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "星星圖案 (壁紙)": {
+    "image": "star-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "咖哩圖案 (壁紙)": {
+    "image": "curry-print-wallpaper.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 6
+      }
+    ]
+  },
+  "小型窄地毯": {
+    "image": "small-narrow-rug.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "寶可夢球門墊": {
+    "image": "pok-ball-doormat.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "小圓地毯": {
+    "image": "small-round-rug.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "小方地毯": {
+    "image": "small-square-rug.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 2
+      }
+    ]
+  },
+  "百變怪地毯": {
+    "image": "ditto-rug.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "長橢圓地毯": {
+    "image": "oblong-rug.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 3
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "藤編地毯": {
+    "image": "ratan-rug.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 3
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "大圓地毯": {
+    "image": "large-round-rug.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 3
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "蕾絲地毯": {
+    "image": "lace-rug.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 3
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "寶可夢球地墊": {
+    "image": "pok-ball-mat.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "大長條地毯": {
+    "image": "large-narrow-rug.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 3
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "大方地毯": {
+    "image": "large-square-rug.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 3
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 3
+      }
+    ]
+  },
+  "柔軟地墊": {
+    "image": "soft-mat.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 4
+      },
+      {
+        "name": "絨毛",
+        "image": "item-626.png",
+        "quantity": 4
+      }
+    ]
+  },
+  "海報・氣球": {
+    "image": "balloon-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "月光海報": {
+    "image": "moonlight-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "舞蹈海報": {
+    "image": "dance-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "油畫海報": {
+    "image": "oil-painting-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "陽光海報": {
+    "image": "sunny-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "冰淇淋海報": {
+    "image": "ice-cream-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "風車海報": {
+    "image": "windmill-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "城鎮風光海報": {
+    "image": "townscape-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "山岳海報": {
+    "image": "mountain-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "壓克力海報": {
+    "image": "acrylic-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "水彩海報": {
+    "image": "watercolor-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "熱情海報": {
+    "image": "passionate-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "疾速海報": {
+    "image": "speedy-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "成長海報": {
+    "image": "growth-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "飲品海報": {
+    "image": "drink-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "美食海報": {
+    "image": "food-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "科技海報": {
+    "image": "technology-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "黃金海報": {
+    "image": "golden-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "海洋海報": {
+    "image": "ocean-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "草原海報": {
+    "image": "meadow-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  },
+  "忍者海報": {
+    "image": "ninja-poster.png",
+    "materials": [
+      {
+        "name": "紙",
+        "image": "item-427.png",
+        "quantity": 1
+      }
+    ]
+  }
+}
