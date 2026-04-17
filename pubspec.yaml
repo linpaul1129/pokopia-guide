@@ -23,8 +23,8 @@ flutter:
     - assets/data/habitats.json
     - assets/data/pokemon_name_map.json
     - assets/data/makeRecipe.json
-    - assets/data/materials.json
+    - assets/data/items.json
     - assets/images/pokemon/
     - assets/images/habitats/
     - assets/images/makeRecipe/
-    - assets/images/materials/
+    - assets/images/items/

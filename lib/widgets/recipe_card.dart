@@ -118,7 +118,7 @@ class _MaterialChips extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               Image.asset(
-                'assets/images/materials/${m.image}',
+                'assets/images/items/${m.image}',
                 width: 18,
                 height: 18,
                 errorBuilder: (_, __, ___) =>

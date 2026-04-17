@@ -1,0 +1,2600 @@
+{
+  "甜甜蜜": {
+    "image": "item-14.png",
+    "description": "散發甜甜香味的蜜。在巢穴裡使用的話，住在那裡的寶可夢就會回來。",
+    "sources": [
+      "從花朵的閃光中取得",
+      "透過三蜜蜂的「亂丟」能力取得"
+    ],
+    "category": "材料"
+  },
+  "堅固樹枝": {
+    "image": "item-4.png",
+    "description": "從某棵樹上掉下來的樹枝。拿來做玩具或日用品最適合了。",
+    "sources": [
+      "在乾枯荒野撿取"
+    ],
+    "category": "材料"
+  },
+  "石頭": {
+    "image": "item-5.png",
+    "description": "隨手可得的普通石頭。可以當作各種東西的材料。",
+    "sources": [
+      "在場地上撿到",
+      "從部分寶可夢的棲息地取得",
+      "破壞大石頭後獲得",
+      "破壞特定方塊後獲得"
+    ],
+    "category": "材料"
+  },
+  "葉子": {
+    "image": "item-3.png",
+    "description": "鬱鬱蔥蔥又水嫩的葉子。砍樹或割草就能取得。",
+    "sources": [
+      "在野外割草叢撿取"
+    ],
+    "category": "材料"
+  },
+  "小圓木": {
+    "image": "item-1.png",
+    "description": "加工後會變成木材，但有時也能直接當材料使用。",
+    "sources": [
+      "在乾枯荒野撿取"
+    ],
+    "category": "材料"
+  },
+  "藤繩": {
+    "image": "item-48.png",
+    "description": "砍斷生長在高處或洞窟裡的植物藤蔓就能取得。",
+    "sources": [
+      "用居合斬切斷藤蔓取得"
+    ],
+    "category": "材料"
+  },
+  "發光蘑菇": {
+    "image": "item-223.png",
+    "description": "在黑暗中也會微微發光的蘑菇。雖然不能吃，但可以當照明用。",
+    "sources": [
+      "在乾枯荒野撿取",
+      "在崎嶇山撿取",
+      "在陰沉海濱撿取",
+      "在荒野的夢之島撿取"
+    ],
+    "category": "材料"
+  },
+  "線頭": {
+    "image": "item-52.png",
+    "description": "破壞布製的垃圾就能取得。蟲屬性的寶可夢有時也會製作。",
+    "sources": [
+      "從部分寶可夢的棲息地取得",
+      "對布或蜘蛛網使用「居合斬」取得",
+      "在商店購買（崎嶇山Lv.2）"
+    ],
+    "category": "材料"
+  },
+  "海玻璃碎片": {
+    "image": "item-200.png",
+    "description": "被海浪磨得圓圓的玻璃。可以當作玻璃製品的材料。",
+    "sources": [
+      "在陰沉海濱撿取",
+      "在大海的夢之島撿取",
+      "從海邊的沙子中機率性獲得"
+    ],
+    "category": "材料"
+  },
+  "貝殼": {
+    "image": "item-369.png",
+    "description": "掉在沙灘上的普通貝殼。也能當作蓋房子的材料。",
+    "sources": [
+      "在陰沉海濱撿取",
+      "在大海的夢之島撿取",
+      "從海邊的沙子中機率性獲得"
+    ],
+    "category": "材料"
+  },
+  "不可燃垃圾": {
+    "image": "item-397.png",
+    "description": "隨處可見的垃圾。聽說有些寶可夢還蠻喜歡的。",
+    "sources": [
+      "在陰沉海濱撿取",
+      "破壞廢料方塊時隨機獲得"
+    ],
+    "category": "材料"
+  },
+  "軟黏土": {
+    "image": "item-215.png",
+    "description": "柔軟又能當作各種東西的材料。燒硬之後還能變成磚塊。",
+    "sources": [
+      "在野外破壞黏土方塊",
+      "從烏波或土王的棲息地撿取"
+    ],
+    "category": "材料"
+  },
+  "棉花": {
+    "image": "item-376.png",
+    "description": "蓬鬆的觸感讓人愛不釋手。寶可夢有時候也會來「弄亂」喔。",
+    "sources": [
+      "從部分寶可夢的棲息地取得",
+      "在商店購買（崎嶇山Lv.3）"
+    ],
+    "category": "材料"
+  },
+  "廢紙": {
+    "image": "item-368.png",
+    "description": "直接用來製作東西有點困難。回收再利用做成紙吧。",
+    "sources": [
+      "在天空的夢之島撿取",
+      "在閃亮浮島撿取"
+    ],
+    "category": "材料"
+  },
+  "銅礦": {
+    "image": "item-75.png",
+    "description": "含有銅的原石。做成銅錠的話就能當各種道具的材料。",
+    "sources": [
+      "破壞銅礦石後獲得"
+    ],
+    "category": "材料"
+  },
+  "鐵": {
+    "image": "item-35.png",
+    "description": "從鐵礦石中提取的金屬。也會混在金屬垃圾裡面。",
+    "sources": [
+      "破壞鐵礦石取得",
+      "從部分寶可夢的棲息地取得",
+      "破壞方塊和障礙物取得",
+      "讓人回收不可燃垃圾",
+      "在野外或夢之島撿取"
+    ],
+    "category": "材料"
+  },
+  "金礦": {
+    "image": "item-218.png",
+    "description": "從金礦石中提取的金屬。閃亮亮的，充滿奢華氛圍。",
+    "sources": [
+      "破壞金礦石取得"
+    ],
+    "category": "材料"
+  },
+  "寶可金屬碎片": {
+    "image": "item-559.png",
+    "description": "從寶可金屬礦石中取得的金屬。色彩繽紛又閃閃發亮。",
+    "sources": [],
+    "category": "材料"
+  },
+  "稀有寶可金屬碎片": {
+    "image": "item-370.png",
+    "description": "偶爾能從寶可金屬礦石中取得。因為很稀有，能拿到就很幸運。",
+    "sources": [
+      "在閃亮浮島破壞寶可金屬方塊取得（需要漢堡排）",
+      "在快龍玩偶的夢之島破壞寶可金屬方塊取得（需要漢堡排）"
+    ],
+    "category": "材料"
+  },
+  "水晶碎片": {
+    "image": "item-170.png",
+    "description": "水晶碎裂而成的碎片。因為是透明的，可以看穿到另一側。",
+    "sources": [
+      "破壞崎嶇山礦山內的水晶"
+    ],
+    "category": "材料"
+  },
+  "木材": {
+    "image": "item-2.png",
+    "description": "把小圓木切成方便使用的大小。用來當木製品的材料再適合不過了。",
+    "sources": [
+      "讓擅長「居合斬」的寶可夢加工",
+      "在乾枯荒野撿取",
+      "偶爾從親密的寶可夢獲得"
+    ],
+    "category": "材料"
+  },
+  "磚塊": {
+    "image": "item-201.png",
+    "description": "最適合蓋建築和鋪路的磚塊。其實是用黏土燒製而成的喔。",
+    "sources": [
+      "讓擅長燃燒的寶可夢加工黏土"
+    ],
+    "category": "材料"
+  },
+  "銅棒": {
+    "image": "item-93.png",
+    "description": "在熔爐中加工的銅。外觀可能有點像巧克力。",
+    "sources": [
+      "在熔爐中加工銅"
+    ],
+    "category": "材料"
+  },
+  "鐵棒": {
+    "image": "item-94.png",
+    "description": "在熔爐中加工的鐵。非常堅硬而且沉甸甸的。",
+    "sources": [
+      "在熔爐中加工鐵"
+    ],
+    "category": "材料"
+  },
+  "金棒": {
+    "image": "item-197.png",
+    "description": "在熔爐中加工黃金。光是拿著就有種奢華的感覺。",
+    "sources": [
+      "在熔爐中加工黃金"
+    ],
+    "category": "材料"
+  },
+  "寶可金屬": {
+    "image": "item-78.png",
+    "description": "用熔爐加工寶可金屬碎片。可以成為各種道具的材料。",
+    "sources": [
+      "在熔爐中加工寶可金屬碎片",
+      "透過「交易」取得",
+      "從夢之島的黃色精靈球取得",
+      "在商店購買（乾枯荒野Lv.6等）"
+    ],
+    "category": "材料"
+  },
+  "稀有寶可金屬": {
+    "image": "item-366.png",
+    "description": "將稀有寶可金屬碎片放入熔爐加工。可以作為珍貴道具的材料。",
+    "sources": [
+      "在熔爐中加工稀有寶可金屬碎片",
+      "透過「交易」取得",
+      "從夢之島的黃色精靈球取得",
+      "在商店購買（乾枯荒野Lv.7等）"
+    ],
+    "category": "材料"
+  },
+  "玻璃": {
+    "image": "item-214.png",
+    "description": "把沙子或砂岩放進熔爐裡融化就能製作。打碎破裂的窗玻璃也能取得。",
+    "sources": [
+      "在熔爐中加工沙子或砂岩",
+      "破壞碎裂的窗玻璃撿取"
+    ],
+    "category": "材料"
+  },
+  "水泥": {
+    "image": "item-221.png",
+    "description": "黏稠的液體凝固而成。硬邦邦的非常堅固。",
+    "sources": [
+      "在混凝土攪拌機加工石灰石"
+    ],
+    "category": "材料"
+  },
+  "紙": {
+    "image": "item-427.png",
+    "description": "一個污點都沒有的潔白紙張。將紙類垃圾「回收」而成的東西。",
+    "sources": [
+      "回收廢紙取得"
+    ],
+    "category": "材料"
+  },
+  "巨齒輪": {
+    "image": "item-301.png",
+    "description": "巨鍛匠加工的帥氣齒輪。充滿了匠人的堅持與講究。",
+    "sources": [
+      "讓閃亮浮島的巨鍛匠加工「鐵棒」"
+    ],
+    "category": "材料"
+  },
+  "奇妙琴弦": {
+    "image": "item-399.png",
+    "description": "撥動就會發出帥氣音色的弦。製作吉他或貝斯時可以用到。",
+    "sources": [
+      "用探寶器找到發光的地面並挖掘",
+      "與索財靈交換隨機獲得"
+    ],
+    "category": "材料"
+  },
+  "鎧甲碎片": {
+    "image": "item-165.png",
+    "description": "碎裂散落的鎧甲碎片。收集起來就能打造充滿心意的鎧甲。",
+    "sources": [
+      "用探寶器找到發光的地面並挖掘",
+      "與索財靈交換隨機獲得"
+    ],
+    "category": "材料"
+  },
+  "星沙": {
+    "image": "item-290.png",
+    "description": "加工後會變成星星碎片的沙子。可以在夢之島取得。",
+    "sources": [
+      "在夢之島撿取"
+    ],
+    "category": "材料"
+  },
+  "紅色顏料": {
+    "image": "item-582.png",
+    "description": "用樹果搗碎製成的顏料。「上色」的時候會用到。",
+    "sources": [
+      "將蘋野果交給擅長「壓碎」的寶可夢",
+      "在商店購買（嶄新小鎮Lv.5）"
+    ],
+    "category": "材料"
+  },
+  "藍色顏料": {
+    "image": "item-586.png",
+    "description": "用樹果搗碎製成的顏料。「上色」的時候會用到。",
+    "sources": [
+      "將零餘果交給擅長「壓碎」的寶可夢",
+      "在商店購買（嶄新小鎮Lv.5）"
+    ],
+    "category": "材料"
+  },
+  "綠色顏料": {
+    "image": "item-584.png",
+    "description": "用樹果搗碎製成的顏料。「上色」的時候會用到。",
+    "sources": [
+      "將木子果交給擅長「壓碎」的寶可夢",
+      "在商店購買（嶄新小鎮Lv.5）"
+    ],
+    "category": "材料"
+  },
+  "黃色顏料": {
+    "image": "item-583.png",
+    "description": "用樹果搗碎製成的顏料。「上色」的時候會用到。",
+    "sources": [
+      "將柿仔果交給擅長「壓碎」的寶可夢",
+      "在商店購買（嶄新小鎮Lv.5）"
+    ],
+    "category": "材料"
+  },
+  "粉紅色顏料": {
+    "image": "item-587.png",
+    "description": "用樹果搗碎製成的顏料。「上色」的時候會用到。",
+    "sources": [
+      "將桃桃果交給擅長「壓碎」的寶可夢",
+      "在商店購買（嶄新小鎮Lv.5）"
+    ],
+    "category": "材料"
+  },
+  "水藍色顏料": {
+    "image": "item-588.png",
+    "description": "用樹果搗碎製成的顏料。「上色」的時候會用到。",
+    "sources": [
+      "將rawst果實交給擅長「壓碎」的寶可夢",
+      "在商店購買（嶄新小鎮Lv.5）"
+    ],
+    "category": "材料"
+  },
+  "白色顏料": {
+    "image": "item-581.png",
+    "description": "用樹果搗碎製成的顏料。「上色」的時候會用到。",
+    "sources": [
+      "製作顏料時有機率獲得",
+      "在商店購買（嶄新小鎮Lv.5）"
+    ],
+    "category": "材料"
+  },
+  "黑色顏料": {
+    "image": "item-585.png",
+    "description": "用樹果搗碎製成的顏料。「上色」的時候會用到。",
+    "sources": [
+      "製作顏料時有機率獲得",
+      "在商店購買（嶄新小鎮Lv.5）"
+    ],
+    "category": "材料"
+  },
+  "棉花孢子": {
+    "image": "item-626.png",
+    "description": "小小的純白棉絮。帶去毽子草那裡吧。",
+    "sources": [
+      "在「毽子棉收集棉花」活動期間於夢之島撿取"
+    ],
+    "category": "材料"
+  },
+  "木牆": {
+    "image": "item-382.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買「荒野房屋建造配方套組」（乾枯荒野 Lv. 3）"
+    ],
+    "category": "方塊"
+  },
+  "淺色木牆": {
+    "image": "item-790.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "嶄新小鎮環境等級 7 解鎖商店"
+    ],
+    "category": "方塊"
+  },
+  "油漆牆": {
+    "image": "item-828.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（乾枯荒野 Lv. 7）"
+    ],
+    "category": "方塊"
+  },
+  "灰泥牆": {
+    "image": "item-341.png",
+    "materials": [
+      {
+        "name": "貝殼",
+        "image": "item-369.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（陰沉海濱 Lv. 5）"
+    ],
+    "category": "方塊"
+  },
+  "布牆": {
+    "image": "item-285.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（陰沉海濱 Lv. 7）"
+    ],
+    "category": "方塊"
+  },
+  "客房牆壁": {
+    "image": "item-908.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "星空牆": {
+    "image": "item-840.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      },
+      {
+        "name": "光之石",
+        "image": "item-224.png",
+        "quantity": 10
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（陰沉海濱 Lv. 9）"
+    ],
+    "category": "方塊"
+  },
+  "皮革牆": {
+    "image": "item-853.png",
+    "materials": [
+      {
+        "name": "金棒",
+        "image": "item-197.png",
+        "quantity": 1
+      },
+      {
+        "name": "棉花",
+        "image": "item-376.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（崎嶇山 Lv. 9）"
+    ],
+    "category": "方塊"
+  },
+  "現代風牆": {
+    "image": "item-825.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（乾枯荒野 Lv. 9）"
+    ],
+    "category": "方塊"
+  },
+  "碎磚牆": {
+    "image": "item-927.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "碎石牆": {
+    "image": "item-384.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買「山地房屋建造配方套組」"
+    ],
+    "category": "方塊"
+  },
+  "磚牆": {
+    "image": "item-849.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "石磚牆": {
+    "image": "item-951.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "暗沉沉海邊環境等級3解鎖商店"
+    ],
+    "category": "方塊"
+  },
+  "老舊石牆": {
+    "image": "item-969.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "老舊石牆圖案": {
+    "image": "item-970.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "清水模牆": {
+    "image": "item-617.png",
+    "materials": [
+      {
+        "name": "水泥",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買「浮島房屋建造配方套組」（閃亮浮島 Lv. 3）"
+    ],
+    "category": "方塊"
+  },
+  "粗糙牆壁": {
+    "image": "item-724.png",
+    "materials": [
+      {
+        "name": "水泥",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（閃亮浮島 Lv. 7）"
+    ],
+    "category": "方塊"
+  },
+  "直紋牆壁": {
+    "image": "item-868.png",
+    "materials": [
+      {
+        "name": "銅棒",
+        "image": "item-93.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "寶可夢圖鑑登錄110隻寶可夢時的報酬"
+    ],
+    "category": "方塊"
+  },
+  "青銅牆壁": {
+    "image": "item-920.png",
+    "materials": [
+      {
+        "name": "銅棒",
+        "image": "item-93.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "時尚青銅牆": {
+    "image": "item-935.png",
+    "materials": [
+      {
+        "name": "銅棒",
+        "image": "item-93.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "鐵牆": {
+    "image": "item-856.png",
+    "materials": [
+      {
+        "name": "鐵棒",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（崎嶇山 Lv. 7）"
+    ],
+    "category": "方塊"
+  },
+  "時尚鐵牆": {
+    "image": "item-601.png",
+    "materials": [
+      {
+        "name": "鐵棒",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "黃金牆": {
+    "image": "item-932.png",
+    "materials": [
+      {
+        "name": "金棒",
+        "image": "item-197.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "時尚黃金牆": {
+    "image": "item-1016.png",
+    "materials": [
+      {
+        "name": "金棒",
+        "image": "item-197.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "水晶牆": {
+    "image": "item-923.png",
+    "materials": [
+      {
+        "name": "水晶碎片",
+        "image": "item-170.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "精靈球牆壁": {
+    "image": "item-931.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      },
+      {
+        "name": "光之石",
+        "image": "item-224.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "危險地帶牆壁": {
+    "image": "item-910.png",
+    "materials": [
+      {
+        "name": "水泥",
+        "image": "item-221.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵棒",
+        "image": "item-94.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "時尚牆壁・上": {
+    "image": "item-1017.png",
+    "materials": [
+      {
+        "name": "貝殼",
+        "image": "item-369.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "時尚牆壁・中": {
+    "image": "item-1018.png",
+    "materials": [
+      {
+        "name": "貝殼",
+        "image": "item-369.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "時尚牆壁・下": {
+    "image": "item-1019.png",
+    "materials": [
+      {
+        "name": "貝殼",
+        "image": "item-369.png",
+        "quantity": 1
+      },
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "古典牆（上段）": {
+    "image": "item-778.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買「古典牆壁配方套組」(需要：空空鎮環境等級7)"
+    ],
+    "category": "方塊"
+  },
+  "古典牆（中段）": {
+    "image": "item-779.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買「古典牆壁配方套組」(需要：空空鎮環境等級7)"
+    ],
+    "category": "方塊"
+  },
+  "古典牆（下段）": {
+    "image": "item-780.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買「古典牆壁配方套組」(需要：空空鎮環境等級7)"
+    ],
+    "category": "方塊"
+  },
+  "淺色古典牆（上段）": {
+    "image": "item-768.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "金棒",
+        "image": "item-197.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買「淺色古典牆壁配方套組」(需要：空空鎮環境等級8)"
+    ],
+    "category": "方塊"
+  },
+  "淺色古典牆（中段）": {
+    "image": "item-769.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "金棒",
+        "image": "item-197.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買「淺色古典牆壁配方套組」(需要：空空鎮環境等級8)"
+    ],
+    "category": "方塊"
+  },
+  "淺色古典牆（下段）": {
+    "image": "item-770.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 1
+      },
+      {
+        "name": "金棒",
+        "image": "item-197.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買「淺色古典牆壁配方套組」(需要：空空鎮環境等級8)"
+    ],
+    "category": "方塊"
+  },
+  "木柱・上": {
+    "image": "item-1020.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "木柱・中": {
+    "image": "item-1021.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "木柱・下": {
+    "image": "item-1022.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "時尚磚塊・上": {
+    "image": "item-956.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "時尚磚塊・中": {
+    "image": "item-957.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "時尚磚塊・下": {
+    "image": "item-958.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "石柱（上段）": {
+    "image": "item-275.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "石柱（中段）": {
+    "image": "item-271.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "石柱（下段）": {
+    "image": "item-274.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "流行風牆壁・上": {
+    "image": "item-1026.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "流行風牆壁・中": {
+    "image": "item-1027.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "流行風牆壁・下": {
+    "image": "item-1028.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "甜點牆壁・上": {
+    "image": "item-1029.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "甜點牆壁・中": {
+    "image": "item-1030.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "甜點牆壁・下": {
+    "image": "item-1031.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "寶可夢中心牆（邊框）": {
+    "image": "item-729.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "寶可夢中心牆（上段）": {
+    "image": "item-726.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "寶可夢中心牆（中段）": {
+    "image": "item-727.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "寶可夢中心牆（下段）": {
+    "image": "item-728.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "木地板": {
+    "image": "item-342.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "交叉木地板": {
+    "image": "item-334.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（乾枯荒野 Lv. 6）"
+    ],
+    "category": "方塊"
+  },
+  "縱橫木紋地板": {
+    "image": "item-926.png",
+    "materials": [
+      {
+        "name": "木材",
+        "image": "item-2.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "現代風地毯": {
+    "image": "item-602.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "格紋地板": {
+    "image": "item-284.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買「浮島房屋建造配方套組」"
+    ],
+    "category": "方塊"
+  },
+  "棉花地板": {
+    "image": "item-912.png",
+    "materials": [
+      {
+        "name": "棉花",
+        "image": "item-376.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "蓬鬆地毯": {
+    "image": "item-846.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)"
+    ],
+    "category": "方塊"
+  },
+  "豪華地毯": {
+    "image": "item-941.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      },
+      {
+        "name": "金棒",
+        "image": "item-197.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "榻榻米": {
+    "image": "item-940.png",
+    "materials": [
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "毛氈墊": {
+    "image": "item-936.png",
+    "materials": [
+      {
+        "name": "棉花",
+        "image": "item-376.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "蓬鬆樹柱": {
+    "image": "item-561.png",
+    "materials": [
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "登錄40隻寶可夢圖鑑時的報酬"
+    ],
+    "category": "方塊"
+  },
+  "草坪地板": {
+    "image": "item-562.png",
+    "materials": [
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 1
+      },
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "寶可夢圖鑑登錄50隻寶可夢時的報酬"
+    ],
+    "category": "方塊"
+  },
+  "簡約地板": {
+    "image": "item-829.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（乾枯荒野 Lv. 8）"
+    ],
+    "category": "方塊"
+  },
+  "大理石地板": {
+    "image": "item-276.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 4
+      }
+    ],
+    "unlockConditions": [
+      "獲得石灰石"
+    ],
+    "category": "方塊"
+  },
+  "石地板": {
+    "image": "item-383.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買「山地房屋建造配方套組」"
+    ],
+    "category": "方塊"
+  },
+  "石紋地板": {
+    "image": "item-424.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在地圖中獲得▶獲得地點圖像"
+    ],
+    "category": "方塊"
+  },
+  "深色大理石地板": {
+    "image": "item-623.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 4
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（崎嶇山 Lv. 4）"
+    ],
+    "category": "方塊"
+  },
+  "大理石地板・淺色": {
+    "image": "item-939.png",
+    "materials": [
+      {
+        "name": "石灰石",
+        "image": "item-225.png",
+        "quantity": 4
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "老舊石地板": {
+    "image": "item-971.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "簡約方磚": {
+    "image": "item-425.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "時尚磚": {
+    "image": "item-426.png",
+    "materials": [
+      {
+        "name": "軟黏土",
+        "image": "item-215.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "寶可夢圖鑑登錄60隻時的報酬"
+    ],
+    "category": "方塊"
+  },
+  "六角形地板": {
+    "image": "item-715.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "商店地板": {
+    "image": "item-732.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "三角花紋地板": {
+    "image": "item-928.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "鐵板地板": {
+    "image": "item-947.png",
+    "materials": [
+      {
+        "name": "鐵",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "鐵磚": {
+    "image": "item-270.png",
+    "materials": [
+      {
+        "name": "鐵棒",
+        "image": "item-94.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（崎嶇山 Lv. 4）"
+    ],
+    "category": "方塊"
+  },
+  "霓虹地板": {
+    "image": "item-283.png",
+    "materials": [
+      {
+        "name": "寶可金屬",
+        "image": "item-78.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "拱形磚": {
+    "image": "item-335.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（乾枯荒野 Lv. 3）"
+    ],
+    "category": "方塊"
+  },
+  "石磚": {
+    "image": "item-428.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "寶可夢圖鑑登錄20隻時的報酬"
+    ],
+    "category": "方塊"
+  },
+  "方磚": {
+    "image": "item-429.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在暗沉沉海邊的黃色精靈球中獲得 在地圖中獲得▶獲得地點圖像"
+    ],
+    "category": "方塊"
+  },
+  "馬賽克磚": {
+    "image": "item-612.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "閃閃浮島的城鎮環境等級達到2時在商店開放"
+    ],
+    "category": "方塊"
+  },
+  "紅磚地板": {
+    "image": "item-952.png",
+    "materials": [
+      {
+        "name": "磚塊",
+        "image": "item-201.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "暗沉沉海邊環境等級3解鎖商店"
+    ],
+    "category": "方塊"
+  },
+  "時尚地磚": {
+    "image": "item-857.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（崎嶇山 Lv. 6）"
+    ],
+    "category": "方塊"
+  },
+  "鱗片瓷磚": {
+    "image": "item-1032.png",
+    "materials": [
+      {
+        "name": "軟黏土",
+        "image": "item-215.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "柏油路": {
+    "image": "item-718.png",
+    "materials": [
+      {
+        "name": "水泥",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（閃亮浮島 Lv. 2）"
+    ],
+    "category": "方塊"
+  },
+  "白線道路・橫": {
+    "image": "item-1033.png",
+    "materials": [
+      {
+        "name": "水泥",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "白線道路・縱向": {
+    "image": "item-1034.png",
+    "materials": [
+      {
+        "name": "水泥",
+        "image": "item-221.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "灰色圓圈地板": {
+    "image": "item-925.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "乾草堆": {
+    "image": "item-336.png",
+    "materials": [
+      {
+        "name": "葉子",
+        "image": "item-3.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（乾枯荒野 Lv. 3）"
+    ],
+    "category": "方塊"
+  },
+  "鐵板": {
+    "image": "item-933.png",
+    "materials": [
+      {
+        "name": "鐵",
+        "image": "item-35.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "方塊燈": {
+    "image": "item-854.png",
+    "materials": [
+      {
+        "name": "光之石",
+        "image": "item-224.png",
+        "quantity": 1
+      },
+      {
+        "name": "玻璃",
+        "image": "item-214.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（崎嶇山 Lv. 8）"
+    ],
+    "category": "方塊"
+  },
+  "房屋地基": {
+    "image": "item-1035.png",
+    "materials": [
+      {
+        "name": "水泥",
+        "image": "item-221.png",
+        "quantity": 1
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "防波堤": {
+    "image": "item-841.png",
+    "materials": [
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（陰沉海濱 Lv. 8）"
+    ],
+    "category": "方塊"
+  },
+  "廢鐵方塊": {
+    "image": "item-447.png",
+    "materials": [
+      {
+        "name": "不可燃垃圾",
+        "image": "item-397.png",
+        "quantity": 1
+      },
+      {
+        "name": "鐵",
+        "image": "item-35.png",
+        "quantity": 1
+      },
+      {
+        "name": "銅礦",
+        "image": "item-75.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "在地圖中獲得▶獲得地點圖像"
+    ],
+    "category": "方塊"
+  },
+  "水玉點點圖樣": {
+    "image": "item-826.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（乾枯荒野 Lv. 10）"
+    ],
+    "category": "方塊"
+  },
+  "垂直條紋": {
+    "image": "item-1036.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "橫條紋": {
+    "image": "item-1037.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "格紋圖樣": {
+    "image": "item-839.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（陰沉海濱 Lv. 10）"
+    ],
+    "category": "方塊"
+  },
+  "蘇格蘭格紋": {
+    "image": "item-1038.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "菱格紋": {
+    "image": "item-1039.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "樹果圖樣": {
+    "image": "item-731.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（閃亮浮島 Lv. 10）"
+    ],
+    "category": "方塊"
+  },
+  "寶可夢球圖樣": {
+    "image": "item-745.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（嶄新小鎮 Lv. 10）"
+    ],
+    "category": "方塊"
+  },
+  "時尚寶可夢球圖樣": {
+    "image": "item-851.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "在商店購買（崎嶇山 Lv. 10）"
+    ],
+    "category": "方塊"
+  },
+  "泡泡圖案": {
+    "image": "item-972.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "千鳥格柵": {
+    "image": "item-965.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "從水面閃光處隨機獲得"
+    ],
+    "category": "方塊"
+  },
+  "唐草紋": {
+    "image": "item-1040.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "螺旋花紋": {
+    "image": "item-1041.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "冬季圖案": {
+    "image": "item-1042.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "鋸齒紋路": {
+    "image": "item-1043.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "葉子圖案": {
+    "image": "item-1044.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "花朵圖案": {
+    "image": "item-1045.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "星星圖案": {
+    "image": "item-1046.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "咖哩紋路": {
+    "image": "item-1047.png",
+    "materials": [
+      {
+        "name": "線頭",
+        "image": "item-52.png",
+        "quantity": 2
+      }
+    ],
+    "unlockConditions": [
+      "於商店購買(每日隨機)",
+      "從水面的閃光處稀有獲得"
+    ],
+    "category": "方塊"
+  },
+  "草原草地": {
+    "image": "item-833.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "海岸草地": {
+    "image": "item-1129.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "山岳草坪": {
+    "image": "item-1130.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "天空草坪": {
+    "image": "item-1131.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "普通泥土": {
+    "image": "item-831.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "貝殼土": {
+    "image": "item-1133.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "條紋土地": {
+    "image": "item-738.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "純白土": {
+    "image": "item-1132.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "黏土": {
+    "image": "item-1127.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "普通的沙子": {
+    "image": "item-1123.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "海邊沙": {
+    "image": "item-442.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "浮島之砂": {
+    "image": "item-1124.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "粗糙沙灘": {
+    "image": "item-1125.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "火山灰": {
+    "image": "item-508.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "砂岩": {
+    "image": "item-772.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "浮島砂岩": {
+    "image": "item-1126.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "懸崖岩石": {
+    "image": "item-1115.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "顆粒懸崖岩石": {
+    "image": "item-1116.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "赤色懸崖岩": {
+    "image": "item-1117.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "紅色顆粒懸崖岩": {
+    "image": "item-1118.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "黑崖岩": {
+    "image": "item-1119.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "黑粒崖岩": {
+    "image": "item-1120.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "浮島懸崖岩": {
+    "image": "item-1121.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "浮島顆粒懸崖岩": {
+    "image": "item-1122.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "白色岩石": {
+    "image": "item-767.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "粗糙岩石": {
+    "image": "item-762.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "淺棕岩石": {
+    "image": "item-763.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "紅色岩石": {
+    "image": "item-764.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "黃色岩石": {
+    "image": "item-765.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "黑色岩石": {
+    "image": "item-1202.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "岩漿岩石": {
+    "image": "item-198.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "洞窟岩石": {
+    "image": "item-1128.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "海邊岩石": {
+    "image": "item-1156.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "紅褐色洞窟岩石": {
+    "image": "item-1157.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "火山岩": {
+    "image": "item-1158.png",
+    "materials": [
+      {
+        "name": "白色岩石",
+        "image": "item-767.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "白色崖岩": {
+    "image": "item-766.png",
+    "materials": [
+      {
+        "name": "白色岩石",
+        "image": "item-767.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "純淨城鎮環境等級9時解鎖商店"
+    ],
+    "category": "方塊"
+  },
+  "粗糙崖岩": {
+    "image": "item-758.png",
+    "materials": [
+      {
+        "name": "粗糙岩石",
+        "image": "item-762.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "純淨城鎮環境等級9時解鎖商店"
+    ],
+    "category": "方塊"
+  },
+  "淺棕崖岩": {
+    "image": "item-759.png",
+    "materials": [
+      {
+        "name": "淺棕岩石",
+        "image": "item-763.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "純淨城鎮環境等級9時解鎖商店"
+    ],
+    "category": "方塊"
+  },
+  "紅色崖岩": {
+    "image": "item-760.png",
+    "materials": [
+      {
+        "name": "紅色岩石",
+        "image": "item-764.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "純淨城鎮環境等級9時解鎖商店"
+    ],
+    "category": "方塊"
+  },
+  "黃色崖岩": {
+    "image": "item-761.png",
+    "materials": [
+      {
+        "name": "黃色岩石",
+        "image": "item-765.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "純淨城鎮環境等級9時解鎖商店"
+    ],
+    "category": "方塊"
+  },
+  "銅礦石（乾巴巴）": {
+    "image": "item-1152.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "銅礦石（暗沉沉）": {
+    "image": "item-1153.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "銅礦石（凸隆隆）": {
+    "image": "item-1154.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "銅礦石（閃閃）": {
+    "image": "item-1155.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "鐵礦石": {
+    "image": "item-1203.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "金礦石": {
+    "image": "item-1149.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "寶可金屬礦石": {
+    "image": "item-1150.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "苔蘚土": {
+    "image": "item-1204.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "碎石": {
+    "image": "item-1147.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "石灰石": {
+    "image": "item-225.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "光之石": {
+    "image": "item-224.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "謎之石": {
+    "image": "item-875.png",
+    "materials": [],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "冰塊": {
+    "image": "item-172.png",
+    "materials": [
+      {
+        "name": "砂岩",
+        "image": "item-772.png",
+        "quantity": 1
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [],
+    "category": "方塊"
+  },
+  "龜裂砂岩": {
+    "image": "item-771.png",
+    "materials": [
+      {
+        "name": "砂岩",
+        "image": "item-772.png",
+        "quantity": 1
+      },
+      {
+        "name": "石頭",
+        "image": "item-5.png",
+        "quantity": 1
+      }
+    ],
+    "unlockConditions": [
+      "嶄新小鎮環境等級 8 解鎖商店"
+    ],
+    "category": "方塊"
+  }
+}

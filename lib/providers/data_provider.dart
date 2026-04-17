@@ -66,7 +66,7 @@ class DataProvider extends ChangeNotifier {
     _recipeFavorites = recFavList.toSet();
 
     final String matStr =
-        await rootBundle.loadString('assets/data/materials.json');
+        await rootBundle.loadString('assets/data/items.json');
     final Map<String, dynamic> matMap =
         json.decode(matStr) as Map<String, dynamic>;
     _materialsInfo = matMap.map(

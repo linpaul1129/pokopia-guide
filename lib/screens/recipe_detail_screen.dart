@@ -213,7 +213,7 @@ class _MaterialDetailCard extends StatelessWidget {
           ),
           padding: const EdgeInsets.all(6),
           child: Image.asset(
-            'assets/images/materials/${material.image}',
+            'assets/images/items/${material.image}',
             fit: BoxFit.contain,
             errorBuilder: (_, __, ___) =>
                 const Icon(Icons.help_outline, color: Colors.grey),

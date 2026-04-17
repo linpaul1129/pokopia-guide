@@ -123,7 +123,7 @@ class _MaterialIcons extends StatelessWidget {
                     child: Padding(
                       padding: const EdgeInsets.all(3),
                       child: Image.asset(
-                        'assets/images/materials/${m.image}',
+                        'assets/images/items/${m.image}',
                         fit: BoxFit.contain,
                         errorBuilder: (_, __, ___) => const Icon(
                           Icons.help_outline,
