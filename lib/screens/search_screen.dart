@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/data_provider.dart';
-import '../widgets/habitat_card.dart';
-import 'habitat_detail_screen.dart';
+import '../widgets/habitat_view_switcher.dart';
 
 enum SearchMode { byPokemon, byHabitat }
 
@@ -17,6 +16,7 @@ class _SearchScreenState extends State<SearchScreen> {
   final TextEditingController _controller = TextEditingController();
   String _query = '';
   SearchMode _mode = SearchMode.byPokemon;
+  bool _isGridView = false;
 
   @override
   void dispose() {
@@ -39,6 +39,16 @@ class _SearchScreenState extends State<SearchScreen> {
         backgroundColor: const Color(0xFFCC0000),
         title: const Text('🔍 搜尋',
             style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20)),
+        actions: [
+          IconButton(
+            icon: Icon(
+              _isGridView ? Icons.view_list : Icons.grid_view,
+              color: Colors.white,
+            ),
+            tooltip: _isGridView ? '切換為清單' : '切換為格狀',
+            onPressed: () => setState(() => _isGridView = !_isGridView),
+          ),
+        ],
       ),
       body: Column(
         children: [
@@ -151,22 +161,10 @@ class _SearchScreenState extends State<SearchScreen> {
                             ),
                           ),
                           Expanded(
-                            child: ListView.builder(
-                              padding: const EdgeInsets.all(12),
-                              itemCount: results.length,
-                              itemBuilder: (context, index) {
-                                final habitat = results[index];
-                                return HabitatCard(
-                                  habitat: habitat,
-                                  highlightPokemon: _mode == SearchMode.byPokemon ? _query : null,
-                                  onTap: () => Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (_) => HabitatDetailScreen(habitat: habitat),
-                                    ),
-                                  ),
-                                );
-                              },
+                            child: HabitatViewSwitcher(
+                              habitats: List.from(results),
+                              isGridView: _isGridView,
+                              highlightPokemon: _mode == SearchMode.byPokemon ? _query : null,
                             ),
                           ),
                         ],

@@ -1,11 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/data_provider.dart';
-import '../widgets/habitat_card.dart';
-import 'habitat_detail_screen.dart';
+import '../widgets/habitat_view_switcher.dart';
 
-class FavoritesScreen extends StatelessWidget {
+class FavoritesScreen extends StatefulWidget {
   const FavoritesScreen({super.key});
+
+  @override
+  State<FavoritesScreen> createState() => _FavoritesScreenState();
+}
+
+class _FavoritesScreenState extends State<FavoritesScreen> {
+  bool _isGridView = false;
 
   @override
   Widget build(BuildContext context) {
@@ -20,6 +26,17 @@ class FavoritesScreen extends StatelessWidget {
           '⭐ 收藏清單',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20),
         ),
+        actions: [
+          if (favs.isNotEmpty)
+            IconButton(
+              icon: Icon(
+                _isGridView ? Icons.view_list : Icons.grid_view,
+                color: Colors.white,
+              ),
+              tooltip: _isGridView ? '切換為清單' : '切換為格狀',
+              onPressed: () => setState(() => _isGridView = !_isGridView),
+            ),
+        ],
       ),
       body: favs.isEmpty
           ? Center(
@@ -47,21 +64,9 @@ class FavoritesScreen extends StatelessWidget {
                   ),
                 ),
                 Expanded(
-                  child: ListView.builder(
-                    padding: const EdgeInsets.all(12),
-                    itemCount: favs.length,
-                    itemBuilder: (context, index) {
-                      final habitat = favs[index];
-                      return HabitatCard(
-                        habitat: habitat,
-                        onTap: () => Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (_) => HabitatDetailScreen(habitat: habitat),
-                          ),
-                        ),
-                      );
-                    },
+                  child: HabitatViewSwitcher(
+                    habitats: favs,
+                    isGridView: _isGridView,
                   ),
                 ),
               ],

@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/data_provider.dart';
 import '../models/habitat.dart';
-import '../widgets/habitat_card.dart';
-import 'habitat_detail_screen.dart';
+import '../widgets/habitat_view_switcher.dart';
 
 class HabitatListScreen extends StatefulWidget {
   const HabitatListScreen({super.key});
@@ -15,6 +14,7 @@ class HabitatListScreen extends StatefulWidget {
 class _HabitatListScreenState extends State<HabitatListScreen> {
   final TextEditingController _searchController = TextEditingController();
   String _query = '';
+  bool _isGridView = false;
 
   @override
   void dispose() {
@@ -43,6 +43,16 @@ class _HabitatListScreenState extends State<HabitatListScreen> {
             fontSize: 20,
           ),
         ),
+        actions: [
+          IconButton(
+            icon: Icon(
+              _isGridView ? Icons.view_list : Icons.grid_view,
+              color: Colors.white,
+            ),
+            tooltip: _isGridView ? '切換為清單' : '切換為格狀',
+            onPressed: () => setState(() => _isGridView = !_isGridView),
+          ),
+        ],
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(56),
           child: Padding(
@@ -80,22 +90,9 @@ class _HabitatListScreenState extends State<HabitatListScreen> {
           : list.isEmpty
               ? const Center(
                   child: Text('找不到符合的棲息地', style: TextStyle(fontSize: 16)))
-              : ListView.builder(
-                  padding: const EdgeInsets.all(12),
-                  itemCount: list.length,
-                  itemBuilder: (context, index) {
-                    final habitat = list[index];
-                    return HabitatCard(
-                      habitat: habitat,
-                      onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (_) =>
-                              HabitatDetailScreen(habitat: habitat),
-                        ),
-                      ),
-                    );
-                  },
+              : HabitatViewSwitcher(
+                  habitats: list,
+                  isGridView: _isGridView,
                 ),
     );
   }
