@@ -197,7 +197,7 @@
     ],
     "category": "材料"
   },
-  "銅棒": {
+  "銅錠": {
     "image": "item-93.png",
     "description": "在熔爐中加工的銅。外觀可能有點像巧克力。",
     "sources": [
@@ -205,7 +205,7 @@
     ],
     "category": "材料"
   },
-  "鐵棒": {
+  "鐵錠": {
     "image": "item-94.png",
     "description": "在熔爐中加工的鐵。非常堅硬而且沉甸甸的。",
     "sources": [
@@ -213,7 +213,7 @@
     ],
     "category": "材料"
   },
-  "金棒": {
+  "金錠": {
     "image": "item-197.png",
     "description": "在熔爐中加工黃金。光是拿著就有種奢華的感覺。",
     "sources": [
