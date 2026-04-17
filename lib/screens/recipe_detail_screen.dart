@@ -161,8 +161,32 @@ class _MaterialDetailCard extends StatelessWidget {
       cardChildren.add(_buildDescription(description));
     }
 
+    final isBlock = info?.category == '方塊';
     final sources = info?.sources ?? const <String>[];
-    if (sources.isNotEmpty) {
+    final unlockConditions = info?.unlockConditions ?? const <String>[];
+
+    if (isBlock) {
+      if (sources.isNotEmpty || unlockConditions.isNotEmpty) {
+        cardChildren.add(const SizedBox(height: 10));
+        cardChildren.add(const Divider(height: 1, color: Color(0xFFE5E7EB)));
+        cardChildren.add(const SizedBox(height: 10));
+      }
+      if (sources.isNotEmpty) {
+        cardChildren.add(_buildSourcesLabel());
+        cardChildren.add(const SizedBox(height: 6));
+        for (final src in sources) {
+          cardChildren.add(_buildSourceRow(src));
+        }
+      }
+      if (unlockConditions.isNotEmpty) {
+        if (sources.isNotEmpty) cardChildren.add(const SizedBox(height: 10));
+        cardChildren.add(_buildUnlockLabel());
+        cardChildren.add(const SizedBox(height: 6));
+        for (final cond in unlockConditions) {
+          cardChildren.add(_buildSourceRow(cond));
+        }
+      }
+    } else if (sources.isNotEmpty) {
       cardChildren.add(const SizedBox(height: 10));
       cardChildren.add(const Divider(height: 1, color: Color(0xFFE5E7EB)));
       cardChildren.add(const SizedBox(height: 10));
@@ -232,22 +256,15 @@ class _MaterialDetailCard extends StatelessWidget {
                   color: Color(0xFF1A1A1A),
                 ),
               ),
-              const SizedBox(height: 4),
-              Container(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
-                decoration: BoxDecoration(
-                  color: const Color(0xFFCC0000).withValues(alpha: 0.1),
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                child: Text(
-                  '需要 × ${material.quantity}',
-                  style: const TextStyle(
-                    fontSize: 12,
-                    fontWeight: FontWeight.bold,
-                    color: Color(0xFFCC0000),
-                  ),
-                ),
+              const SizedBox(height: 6),
+              Wrap(
+                spacing: 6,
+                runSpacing: 4,
+                children: [
+                  if (info != null && info!.category.isNotEmpty)
+                    _CategoryBadge(category: info!.category),
+                  _QuantityBadge(quantity: material.quantity),
+                ],
               ),
             ],
           ),
@@ -276,6 +293,25 @@ class _MaterialDetailCard extends StatelessWidget {
         const SizedBox(width: 4),
         Text(
           '獲得方式',
+          style: TextStyle(
+            fontSize: 12,
+            fontWeight: FontWeight.bold,
+            color: Colors.grey[600],
+            letterSpacing: 0.5,
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildUnlockLabel() {
+    return Row(
+      children: [
+        const Icon(Icons.lock_open_outlined,
+            size: 14, color: Color(0xFF6B7280)),
+        const SizedBox(width: 4),
+        Text(
+          '配方解鎖條件',
           style: TextStyle(
             fontSize: 12,
             fontWeight: FontWeight.bold,
@@ -327,6 +363,60 @@ class _MaterialDetailCard extends StatelessWidget {
         fontSize: 12,
         color: Colors.grey[400],
         fontStyle: FontStyle.italic,
+      ),
+    );
+  }
+}
+
+// ── Category badge ───────────────────────────────────────────────────────────
+
+class _CategoryBadge extends StatelessWidget {
+  final String category;
+  const _CategoryBadge({required this.category});
+
+  static const _styles = <String, (Color, Color)>{
+    '材料': (Color(0xFFFFF3CD), Color(0xFF92600A)),
+    '方塊': (Color(0xFFF3F4F6), Color(0xFF4B5563)),
+  };
+
+  @override
+  Widget build(BuildContext context) {
+    final (bg, fg) = _styles[category] ?? (const Color(0xFFE0F2FE), const Color(0xFF0369A1));
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 2),
+      decoration: BoxDecoration(
+        color: bg,
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Text(
+        category,
+        style: TextStyle(fontSize: 11, fontWeight: FontWeight.bold, color: fg),
+      ),
+    );
+  }
+}
+
+// ── Quantity badge ───────────────────────────────────────────────────────────
+
+class _QuantityBadge extends StatelessWidget {
+  final int quantity;
+  const _QuantityBadge({required this.quantity});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 2),
+      decoration: BoxDecoration(
+        color: const Color(0xFFCC0000).withValues(alpha: 0.1),
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Text(
+        '需要 × $quantity',
+        style: const TextStyle(
+          fontSize: 11,
+          fontWeight: FontWeight.bold,
+          color: Color(0xFFCC0000),
+        ),
       ),
     );
   }
