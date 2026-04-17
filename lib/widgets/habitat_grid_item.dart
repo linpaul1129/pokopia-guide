@@ -44,11 +44,11 @@ class HabitatGridItem extends StatelessWidget {
             children: [
               // 第一行：左邊編號+名稱 column，右邊最愛星號
               Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Expanded(
                     child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         // 棲息地編號
                         Text(
@@ -58,7 +58,6 @@ class HabitatGridItem extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                             color: Color(0xFFCC0000),
                           ),
-                          textAlign: TextAlign.center,
                         ),
                         // 編號與名稱間隔 4px
                         const SizedBox(height: 4),
@@ -70,14 +69,13 @@ class HabitatGridItem extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                             color: Color(0xFF222222),
                           ),
-                          textAlign: TextAlign.center,
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,
                         ),
                       ],
                     ),
                   ),
-                  // 最愛按鈕（與編號名稱同行，靠右）
+                  // 最愛按鈕（垂直置中於編號與名稱之間，對齊圖片右邊界）
                   GestureDetector(
                     onTap: () => provider.toggleFavorite(habitat.id),
                     child: Icon(
@@ -90,15 +88,18 @@ class HabitatGridItem extends StatelessWidget {
               ),
               // 名稱與照片間隔 12px
               const SizedBox(height: 12),
-              // 棲息地照片（原尺寸 * 1.5）
+              // 棲息地照片（100×100）
               if (habitat.image != null)
-                Image.asset(
-                  'assets/images/habitats/${habitat.image}',
-                  height: 84,
-                  fit: BoxFit.contain,
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(16),
+                  child: Image.asset(
+                    'assets/images/habitats/${habitat.image}',
+                    width: double.infinity,
+                    fit: BoxFit.contain,
+                  ),
                 )
               else
-                const SizedBox(height: 84),
+                const SizedBox(width: double.infinity, height: 100),
               // 照片與寶可夢名稱間隔 16px
               const SizedBox(height: 16),
               // 寶可夢名稱列表（按鈕樣式）
