@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/habitat.dart';
 import '../providers/data_provider.dart';
-import 'pokemon_result_screen.dart';
+import 'pokemon_detail_screen.dart';
 
 class HabitatDetailScreen extends StatelessWidget {
   final Habitat habitat;
@@ -97,7 +97,7 @@ class HabitatDetailScreen extends StatelessWidget {
                 return GestureDetector(
                   onTap: () => Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (_) => PokemonResultScreen(pokemonName: p)),
+                    MaterialPageRoute(builder: (_) => PokemonDetailScreen(pokemonName: p)),
                   ),
                   child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
