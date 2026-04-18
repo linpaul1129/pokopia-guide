@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../models/habitat.dart';
-import '../models/recipe.dart';
 import '../models/material_info.dart';
 
 class DataProvider extends ChangeNotifier {
@@ -11,8 +10,7 @@ class DataProvider extends ChangeNotifier {
   Set<int> _favorites = {};
   Map<String, String> _pokemonNameMap = {};
 
-  List<Recipe> _recipes = [];
-  Set<String> _recipeFavorites = {};
+  Set<String> _itemFavorites = {};
   Map<String, MaterialInfo> _materialsInfo = {};
 
   bool _isLoading = true;
@@ -20,7 +18,6 @@ class DataProvider extends ChangeNotifier {
   List<Habitat> get habitats => _habitats;
   Set<int> get favorites => _favorites;
   Map<String, String> get pokemonNameMap => _pokemonNameMap;
-  List<Recipe> get recipes => _recipes;
   bool get isLoading => _isLoading;
 
   MaterialInfo? getMaterialInfo(String name) => _materialsInfo[name];
@@ -41,29 +38,19 @@ class DataProvider extends ChangeNotifier {
         await rootBundle.loadString('assets/data/pokemon_name_map.json');
     _pokemonNameMap = Map<String, String>.from(json.decode(nameMapStr) as Map);
 
-    final String recipeStr =
-        await rootBundle.loadString('assets/data/makeRecipe.json');
-    final Map<String, dynamic> recipeMap =
-        json.decode(recipeStr) as Map<String, dynamic>;
-    _recipes = recipeMap.entries.map((entry) {
-      final data = entry.value as Map<String, dynamic>;
-      final materials = (data['materials'] as List)
-          .map((m) => RecipeMaterial.fromJson(m as Map<String, dynamic>))
-          .toList();
-      return Recipe(
-        name: entry.key,
-        image: data['image'] as String,
-        materials: materials,
-      );
-    }).toList();
-
     final prefs = await SharedPreferences.getInstance();
 
     final favList = prefs.getStringList('favorites') ?? [];
     _favorites = favList.map(int.parse).toSet();
 
-    final recFavList = prefs.getStringList('recipeFavorites') ?? [];
-    _recipeFavorites = recFavList.toSet();
+    final itemFavList = prefs.getStringList('itemFavorites') ?? [];
+    // migrate old key
+    if (itemFavList.isEmpty) {
+      final old = prefs.getStringList('recipeFavorites') ?? [];
+      _itemFavorites = old.toSet();
+    } else {
+      _itemFavorites = itemFavList.toSet();
+    }
 
     final String matStr =
         await rootBundle.loadString('assets/data/items.json');
@@ -108,31 +95,54 @@ class DataProvider extends ChangeNotifier {
   List<Habitat> get favoriteHabitats =>
       _habitats.where((h) => _favorites.contains(h.id)).toList();
 
-  // ── Recipe favorites ───────────────────────────────────────────────────────
+  // ── Item favorites ─────────────────────────────────────────────────────────
 
-  bool isRecipeFavorite(String name) => _recipeFavorites.contains(name);
+  bool isRecipeFavorite(String name) => _itemFavorites.contains(name);
 
   Future<void> toggleRecipeFavorite(String name) async {
-    if (_recipeFavorites.contains(name)) {
-      _recipeFavorites.remove(name);
+    if (_itemFavorites.contains(name)) {
+      _itemFavorites.remove(name);
     } else {
-      _recipeFavorites.add(name);
+      _itemFavorites.add(name);
     }
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setStringList('recipeFavorites', _recipeFavorites.toList());
+    await prefs.setStringList('itemFavorites', _itemFavorites.toList());
     notifyListeners();
   }
 
-  List<Recipe> get favoriteRecipes =>
-      _recipes.where((r) => _recipeFavorites.contains(r.name)).toList();
+  List<MapEntry<String, MaterialInfo>> get favoriteItemEntries =>
+      _materialsInfo.entries
+          .where((e) => _itemFavorites.contains(e.key))
+          .toList();
 
-  List<Recipe> searchRecipes(String query) {
-    if (query.isEmpty) return _recipes;
+  // ── Search ─────────────────────────────────────────────────────────────────
+
+  List<String> get allCategories {
+    final seen = <String>{};
+    final result = <String>[];
+    for (final info in _materialsInfo.values) {
+      if (info.category.isNotEmpty && seen.add(info.category)) {
+        result.add(info.category);
+      }
+    }
+    return result;
+  }
+
+  List<MapEntry<String, MaterialInfo>> searchAllItems(
+    String query, {
+    String category = '',
+  }) {
+    var entries = _materialsInfo.entries.toList();
+    if (category.isNotEmpty) {
+      entries = entries.where((e) => e.value.category == category).toList();
+    }
+    if (query.isEmpty) return entries;
     final q = query.toLowerCase();
-    return _recipes
-        .where((r) =>
-            r.name.contains(query) ||
-            r.materials.any((m) => m.name.toLowerCase().contains(q)))
+    return entries
+        .where((e) =>
+            e.key.toLowerCase().contains(q) ||
+            e.value.craftMaterials.any(
+                (m) => (m['name'] as String? ?? '').toLowerCase().contains(q)))
         .toList();
   }
 }

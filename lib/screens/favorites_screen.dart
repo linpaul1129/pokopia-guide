@@ -33,7 +33,7 @@ class _FavoritesScreenState extends State<FavoritesScreen>
   Widget build(BuildContext context) {
     final provider = context.watch<DataProvider>();
     final habFavs = provider.favoriteHabitats;
-    final recFavs = provider.favoriteRecipes;
+    final recFavs = provider.favoriteItemEntries;
 
     return Scaffold(
       backgroundColor: const Color(0xFFFFF8F8),
@@ -62,7 +62,7 @@ class _FavoritesScreenState extends State<FavoritesScreen>
           unselectedLabelColor: Colors.white60,
           tabs: [
             Tab(text: '棲息地 (${habFavs.length})'),
-            Tab(text: '配方 (${recFavs.length})'),
+            Tab(text: '道具 (${recFavs.length})'),
           ],
         ),
       ),
@@ -96,14 +96,14 @@ class _FavoritesScreenState extends State<FavoritesScreen>
 
           // ── Recipe favorites ───────────────────────────────────────────────
           recFavs.isEmpty
-              ? _emptyState('🔨', '還沒有收藏的配方\n在配方頁點選星星即可收藏')
+              ? _emptyState('⭐', '還沒有收藏的道具\n在道具圖鑑點選星星即可收藏')
               : Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
                       padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
                       child: Text(
-                        '已收藏 ${recFavs.length} 筆配方',
+                        '已收藏 ${recFavs.length} 筆道具',
                         style: TextStyle(
                             fontSize: 13,
                             color: Colors.grey[600],
@@ -114,8 +114,13 @@ class _FavoritesScreenState extends State<FavoritesScreen>
                       child: ListView.builder(
                         padding: const EdgeInsets.fromLTRB(12, 6, 12, 12),
                         itemCount: recFavs.length,
-                        itemBuilder: (context, index) =>
-                            RecipeCard(recipe: recFavs[index]),
+                        itemBuilder: (context, index) {
+                          final entry = recFavs[index];
+                          return RecipeCard(
+                            itemName: entry.key,
+                            info: entry.value,
+                          );
+                        },
                       ),
                     ),
                   ],

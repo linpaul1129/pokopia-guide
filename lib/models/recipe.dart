@@ -15,15 +15,3 @@ class RecipeMaterial {
         quantity: json['quantity'] as int,
       );
 }
-
-class Recipe {
-  final String name;
-  final String image;
-  final List<RecipeMaterial> materials;
-
-  const Recipe({
-    required this.name,
-    required this.image,
-    required this.materials,
-  });
-}

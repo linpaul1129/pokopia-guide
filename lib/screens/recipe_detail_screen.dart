@@ -3,16 +3,22 @@ import 'package:provider/provider.dart';
 import '../models/recipe.dart';
 import '../models/material_info.dart';
 import '../providers/data_provider.dart';
+import '../widgets/item_image.dart';
+import 'item_detail_screen.dart';
 
 class RecipeDetailScreen extends StatelessWidget {
-  final Recipe recipe;
+  final String itemName;
+  final MaterialInfo info;
 
-  const RecipeDetailScreen({super.key, required this.recipe});
+  const RecipeDetailScreen(
+      {super.key, required this.itemName, required this.info});
 
   @override
   Widget build(BuildContext context) {
     final provider = context.watch<DataProvider>();
-    final isFav = provider.isRecipeFavorite(recipe.name);
+    final isFav = provider.isRecipeFavorite(itemName);
+    final materials =
+        info.craftMaterials.map(RecipeMaterial.fromJson).toList();
 
     return Scaffold(
       backgroundColor: const Color(0xFFFFF8F8),
@@ -20,7 +26,7 @@ class RecipeDetailScreen extends StatelessWidget {
         backgroundColor: const Color(0xFFCC0000),
         iconTheme: const IconThemeData(color: Colors.white),
         title: Text(
-          recipe.name,
+          itemName,
           style: const TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
@@ -33,7 +39,7 @@ class RecipeDetailScreen extends StatelessWidget {
               isFav ? Icons.star : Icons.star_border,
               color: isFav ? const Color(0xFFFFD700) : Colors.white,
             ),
-            onPressed: () => provider.toggleRecipeFavorite(recipe.name),
+            onPressed: () => provider.toggleRecipeFavorite(itemName),
           ),
         ],
       ),
@@ -42,13 +48,12 @@ class RecipeDetailScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            _RecipeHero(recipe: recipe),
+            _ItemHero(itemName: itemName, info: info),
             const SizedBox(height: 24),
-            _SectionHeader(
-                label: '所需材料 (${recipe.materials.length})'),
+            _SectionHeader(label: '所需材料 (${materials.length})'),
             const SizedBox(height: 12),
-            for (final mat in recipe.materials)
-              _MaterialDetailCard(
+            for (final mat in materials)
+              _MaterialCard(
                 material: mat,
                 info: provider.getMaterialInfo(mat.name),
               ),
@@ -59,11 +64,12 @@ class RecipeDetailScreen extends StatelessWidget {
   }
 }
 
-// ── Recipe hero ──────────────────────────────────────────────────────────────
+// ── Item hero ─────────────────────────────────────────────────────────────────
 
-class _RecipeHero extends StatelessWidget {
-  final Recipe recipe;
-  const _RecipeHero({required this.recipe});
+class _ItemHero extends StatelessWidget {
+  final String itemName;
+  final MaterialInfo info;
+  const _ItemHero({required this.itemName, required this.info});
 
   @override
   Widget build(BuildContext context) {
@@ -85,32 +91,37 @@ class _RecipeHero extends StatelessWidget {
               ],
             ),
             padding: const EdgeInsets.all(12),
-            child: Image.asset(
-              'assets/images/makeRecipe/${recipe.image}',
-              fit: BoxFit.contain,
-              errorBuilder: (_, __, ___) => const Icon(
-                Icons.broken_image_outlined,
-                size: 48,
-                color: Colors.grey,
-              ),
-            ),
+            child: ItemImage(filename: info.image, size: 96),
           ),
           const SizedBox(height: 12),
           Text(
-            recipe.name,
+            itemName,
             style: const TextStyle(
               fontSize: 22,
               fontWeight: FontWeight.bold,
               color: Color(0xFF1A1A1A),
             ),
           ),
+          if (info.description.isNotEmpty) ...[
+            const SizedBox(height: 8),
+            Text(
+              info.description,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 13,
+                color: Colors.grey[600],
+                fontStyle: FontStyle.italic,
+                height: 1.5,
+              ),
+            ),
+          ],
         ],
       ),
     );
   }
 }
 
-// ── Section header ───────────────────────────────────────────────────────────
+// ── Section header ────────────────────────────────────────────────────────────
 
 class _SectionHeader extends StatelessWidget {
   final String label;
@@ -142,280 +153,92 @@ class _SectionHeader extends StatelessWidget {
   }
 }
 
-// ── Material detail card ─────────────────────────────────────────────────────
+// ── Material card ─────────────────────────────────────────────────────────────
 
-class _MaterialDetailCard extends StatelessWidget {
+class _MaterialCard extends StatelessWidget {
   final RecipeMaterial material;
   final MaterialInfo? info;
 
-  const _MaterialDetailCard({required this.material, this.info});
+  const _MaterialCard({required this.material, this.info});
 
   @override
   Widget build(BuildContext context) {
-    // Build children imperatively to avoid nested-spread issues in dart2js
-    final cardChildren = <Widget>[_buildHeader()];
-
-    final description = info?.description ?? '';
-    if (description.isNotEmpty) {
-      cardChildren.add(const SizedBox(height: 10));
-      cardChildren.add(_buildDescription(description));
-    }
-
-    final isBlock = info?.category == '方塊';
-    final sources = info?.sources ?? const <String>[];
-    final unlockConditions = info?.unlockConditions ?? const <String>[];
-
-    if (isBlock) {
-      if (sources.isNotEmpty || unlockConditions.isNotEmpty) {
-        cardChildren.add(const SizedBox(height: 10));
-        cardChildren.add(const Divider(height: 1, color: Color(0xFFE5E7EB)));
-        cardChildren.add(const SizedBox(height: 10));
-      }
-      if (sources.isNotEmpty) {
-        cardChildren.add(_buildSourcesLabel());
-        cardChildren.add(const SizedBox(height: 6));
-        for (final src in sources) {
-          cardChildren.add(_buildSourceRow(src));
-        }
-      }
-      if (unlockConditions.isNotEmpty) {
-        if (sources.isNotEmpty) cardChildren.add(const SizedBox(height: 10));
-        cardChildren.add(_buildUnlockLabel());
-        cardChildren.add(const SizedBox(height: 6));
-        for (final cond in unlockConditions) {
-          cardChildren.add(_buildSourceRow(cond));
-        }
-      }
-    } else if (sources.isNotEmpty) {
-      cardChildren.add(const SizedBox(height: 10));
-      cardChildren.add(const Divider(height: 1, color: Color(0xFFE5E7EB)));
-      cardChildren.add(const SizedBox(height: 10));
-      cardChildren.add(_buildSourcesLabel());
-      cardChildren.add(const SizedBox(height: 6));
-      for (final src in sources) {
-        cardChildren.add(_buildSourceRow(src));
-      }
-    } else if (info == null) {
-      cardChildren.add(const SizedBox(height: 8));
-      cardChildren.add(_buildNoInfo());
-    }
-
-    return Container(
-      margin: const EdgeInsets.only(bottom: 12),
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(14),
-        border: Border.all(color: const Color(0xFFE0E7FF)),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withValues(alpha: 0.04),
-            blurRadius: 8,
-            offset: const Offset(0, 2),
+    return GestureDetector(
+      onTap: () {
+        final target = info;
+        if (target == null) return;
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (_) => target.craftMaterials.isNotEmpty
+                ? RecipeDetailScreen(itemName: material.name, info: target)
+                : ItemDetailScreen(itemName: material.name, info: target),
           ),
-        ],
-      ),
-      child: Padding(
-        padding: const EdgeInsets.all(14),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: cardChildren,
+        );
+      },
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 10),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(14),
+          border: Border.all(color: const Color(0xFFE0E7FF)),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withValues(alpha: 0.04),
+              blurRadius: 8,
+              offset: const Offset(0, 2),
+            ),
+          ],
         ),
-      ),
-    );
-  }
-
-  Widget _buildHeader() {
-    return Row(
-      children: [
-        Container(
-          width: 52,
-          height: 52,
-          decoration: BoxDecoration(
-            color: const Color(0xFFEFF6FF),
-            borderRadius: BorderRadius.circular(10),
-            border: Border.all(color: const Color(0xFFBFDBFE)),
-          ),
-          padding: const EdgeInsets.all(6),
-          child: Image.asset(
-            'assets/images/items/${material.image}',
-            fit: BoxFit.contain,
-            errorBuilder: (_, __, ___) =>
-                const Icon(Icons.help_outline, color: Colors.grey),
-          ),
-        ),
-        const SizedBox(width: 12),
-        Expanded(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+          child: Row(
             children: [
-              Text(
-                material.name,
-                style: const TextStyle(
-                  fontSize: 15,
-                  fontWeight: FontWeight.bold,
-                  color: Color(0xFF1A1A1A),
+              Container(
+                width: 52,
+                height: 52,
+                decoration: BoxDecoration(
+                  color: const Color(0xFFEFF6FF),
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(color: const Color(0xFFBFDBFE)),
+                ),
+                padding: const EdgeInsets.all(6),
+                child: ItemImage(filename: material.image, size: 40),
+              ),
+              const SizedBox(width: 14),
+              Expanded(
+                child: Text(
+                  material.name,
+                  style: const TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w600,
+                    color: Color(0xFF1A1A1A),
+                  ),
                 ),
               ),
-              const SizedBox(height: 6),
-              Wrap(
-                spacing: 6,
-                runSpacing: 4,
-                children: [
-                  if (info != null && info!.category.isNotEmpty)
-                    _CategoryBadge(category: info!.category),
-                  _QuantityBadge(quantity: material.quantity),
-                ],
+              Container(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                decoration: BoxDecoration(
+                  color: const Color(0xFFCC0000).withValues(alpha: 0.1),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Text(
+                  '× ${material.quantity}',
+                  style: const TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.bold,
+                    color: Color(0xFFCC0000),
+                  ),
+                ),
               ),
+              if (info != null) ...[
+                const SizedBox(width: 8),
+                const Icon(Icons.chevron_right,
+                    size: 18, color: Color(0xFFADB5BD)),
+              ],
             ],
           ),
-        ),
-      ],
-    );
-  }
-
-  Widget _buildDescription(String text) {
-    return Text(
-      text,
-      style: TextStyle(
-        fontSize: 12,
-        color: Colors.grey[600],
-        fontStyle: FontStyle.italic,
-        height: 1.5,
-      ),
-    );
-  }
-
-  Widget _buildSourcesLabel() {
-    return Row(
-      children: [
-        const Icon(Icons.location_on_outlined,
-            size: 14, color: Color(0xFF6B7280)),
-        const SizedBox(width: 4),
-        Text(
-          '獲得方式',
-          style: TextStyle(
-            fontSize: 12,
-            fontWeight: FontWeight.bold,
-            color: Colors.grey[600],
-            letterSpacing: 0.5,
-          ),
-        ),
-      ],
-    );
-  }
-
-  Widget _buildUnlockLabel() {
-    return Row(
-      children: [
-        const Icon(Icons.lock_open_outlined,
-            size: 14, color: Color(0xFF6B7280)),
-        const SizedBox(width: 4),
-        Text(
-          '配方解鎖條件',
-          style: TextStyle(
-            fontSize: 12,
-            fontWeight: FontWeight.bold,
-            color: Colors.grey[600],
-            letterSpacing: 0.5,
-          ),
-        ),
-      ],
-    );
-  }
-
-  Widget _buildSourceRow(String src) {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 4),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Padding(
-            padding: const EdgeInsets.only(top: 6),
-            child: Container(
-              width: 5,
-              height: 5,
-              decoration: BoxDecoration(
-                color: const Color(0xFFCC0000).withValues(alpha: 0.5),
-                shape: BoxShape.circle,
-              ),
-            ),
-          ),
-          const SizedBox(width: 8),
-          Expanded(
-            child: Text(
-              src,
-              style: const TextStyle(
-                fontSize: 13,
-                color: Color(0xFF374151),
-                height: 1.4,
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildNoInfo() {
-    return Text(
-      '暫無詳細資訊',
-      style: TextStyle(
-        fontSize: 12,
-        color: Colors.grey[400],
-        fontStyle: FontStyle.italic,
-      ),
-    );
-  }
-}
-
-// ── Category badge ───────────────────────────────────────────────────────────
-
-class _CategoryBadge extends StatelessWidget {
-  final String category;
-  const _CategoryBadge({required this.category});
-
-  static const _styles = <String, (Color, Color)>{
-    '材料': (Color(0xFFFFF3CD), Color(0xFF92600A)),
-    '方塊': (Color(0xFFF3F4F6), Color(0xFF4B5563)),
-  };
-
-  @override
-  Widget build(BuildContext context) {
-    final (bg, fg) = _styles[category] ?? (const Color(0xFFE0F2FE), const Color(0xFF0369A1));
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 2),
-      decoration: BoxDecoration(
-        color: bg,
-        borderRadius: BorderRadius.circular(8),
-      ),
-      child: Text(
-        category,
-        style: TextStyle(fontSize: 11, fontWeight: FontWeight.bold, color: fg),
-      ),
-    );
-  }
-}
-
-// ── Quantity badge ───────────────────────────────────────────────────────────
-
-class _QuantityBadge extends StatelessWidget {
-  final int quantity;
-  const _QuantityBadge({required this.quantity});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 2),
-      decoration: BoxDecoration(
-        color: const Color(0xFFCC0000).withValues(alpha: 0.1),
-        borderRadius: BorderRadius.circular(8),
-      ),
-      child: Text(
-        '需要 × $quantity',
-        style: const TextStyle(
-          fontSize: 11,
-          fontWeight: FontWeight.bold,
-          color: Color(0xFFCC0000),
         ),
       ),
     );

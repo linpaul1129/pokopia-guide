@@ -73,7 +73,7 @@ class _MainShellState extends State<MainShell> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.construction),
-            label: '配方',
+            label: '物品',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.star),
