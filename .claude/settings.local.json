@@ -4,7 +4,8 @@
       "Bash(dart scripts/build_recipe_assets.dart)",
       "Bash(dart parse_items.dart)",
       "Bash(dart parse_items2.dart)",
-      "Bash(dart verify.dart)"
+      "Bash(dart verify.dart)",
+      "Bash(dart parse_habitats.dart)"
     ]
   }
 }

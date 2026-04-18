@@ -1,4 +1,3 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/data_provider.dart';
@@ -196,14 +195,7 @@ class _CategoryChips extends StatelessWidget {
     final all = ['全部', ...categories];
     return SizedBox(
       height: 40,
-      child: ScrollConfiguration(
-        behavior: ScrollConfiguration.of(context).copyWith(
-          dragDevices: {
-            PointerDeviceKind.touch,
-            PointerDeviceKind.mouse,
-          },
-        ),
-        child: ListView.builder(
+      child: ListView.builder(
           scrollDirection: Axis.horizontal,
           padding: const EdgeInsets.symmetric(horizontal: 12),
         itemCount: all.length,
@@ -246,7 +238,6 @@ class _CategoryChips extends StatelessWidget {
           );
         },
         ),
-      ),
     );
   }
 }

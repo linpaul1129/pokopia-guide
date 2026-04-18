@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'providers/data_provider.dart';
@@ -15,6 +16,16 @@ void main() {
   );
 }
 
+class _AppScrollBehavior extends MaterialScrollBehavior {
+  @override
+  Set<PointerDeviceKind> get dragDevices => {
+        PointerDeviceKind.touch,
+        PointerDeviceKind.mouse,
+        PointerDeviceKind.trackpad,
+        PointerDeviceKind.stylus,
+      };
+}
+
 class PokopiaApp extends StatelessWidget {
   const PokopiaApp({super.key});
 
@@ -23,6 +34,7 @@ class PokopiaApp extends StatelessWidget {
     return MaterialApp(
       title: 'Pokopia 攻略',
       debugShowCheckedModeBanner: false,
+      scrollBehavior: _AppScrollBehavior(),
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFCC0000)),
         useMaterial3: true,
