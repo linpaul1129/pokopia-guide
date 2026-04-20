@@ -1,0 +1,8535 @@
+[
+  {
+    "number": "001",
+    "name": "妙蛙種子",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "specialties": [
+      "栽培"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "綠色草叢",
+      "綠色長椅"
+    ],
+    "image": "bulbasaur.png"
+  },
+  {
+    "number": "002",
+    "name": "妙蛙草",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "specialties": [
+      "栽培"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "花卉盛景",
+      "綠色長椅"
+    ],
+    "image": "ivysaur.png"
+  },
+  {
+    "number": "003",
+    "name": "妙蛙花",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "specialties": [
+      "栽培",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "花卉盛景",
+      "庭園露台"
+    ],
+    "image": "venusaur.png"
+  },
+  {
+    "number": "004",
+    "name": "小火龍",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "綠色草叢"
+    ],
+    "image": "charmander.png"
+  },
+  {
+    "number": "005",
+    "name": "火恐龍",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "露營套組"
+    ],
+    "image": "charmeleon.png"
+  },
+  {
+    "number": "006",
+    "name": "噴火龍",
+    "types": [
+      "火",
+      "飛行"
+    ],
+    "specialties": [
+      "燃燒",
+      "飛行"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "綠色草叢",
+      "果實盛宴營地"
+    ],
+    "image": "charizard.png"
+  },
+  {
+    "number": "007",
+    "name": "傑尼龜",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "綠色草叢",
+      "濕潤草叢"
+    ],
+    "image": "squirtle.png"
+  },
+  {
+    "number": "008",
+    "name": "卡咪龜",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤草叢"
+    ],
+    "image": "wartortle.png"
+  },
+  {
+    "number": "009",
+    "name": "水箭龜",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "澆水",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤草叢",
+      "在陰涼處玩水"
+    ],
+    "image": "blastoise.png"
+  },
+  {
+    "number": "010",
+    "name": "波波",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "specialties": [
+      "搜索",
+      "飛行"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "高台草叢",
+      "美麗花田"
+    ],
+    "image": "pidgey.png"
+  },
+  {
+    "number": "011",
+    "name": "比比鳥",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "specialties": [
+      "飛行",
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "高台草叢",
+      "美麗花田"
+    ],
+    "image": "pidgeotto.png"
+  },
+  {
+    "number": "012",
+    "name": "大比鳥",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "specialties": [
+      "飛行",
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "奢華嘰嘰喳喳餵食"
+    ],
+    "image": "pidgeot.png"
+  },
+  {
+    "number": "013",
+    "name": "走路草",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "specialties": [
+      "栽培"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "綠色草叢"
+    ],
+    "image": "oddish.png"
+  },
+  {
+    "number": "014",
+    "name": "臭臭花",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "specialties": [
+      "栽培"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "南國風情"
+    ],
+    "image": "gloom.png"
+  },
+  {
+    "number": "015",
+    "name": "霸王花",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "specialties": [
+      "栽培",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "吉利蛋休憩所"
+    ],
+    "image": "vileplume.png"
+  },
+  {
+    "number": "016",
+    "name": "美麗花",
+    "types": [
+      "草"
+    ],
+    "specialties": [
+      "栽培",
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "吉利蛋休憩所"
+    ],
+    "image": "bellossom.png"
+  },
+  {
+    "number": "017",
+    "name": "派拉斯",
+    "types": [
+      "蟲",
+      "草"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "高台花田",
+      "花園"
+    ],
+    "image": "paras.png"
+  },
+  {
+    "number": "018",
+    "name": "派拉斯特",
+    "types": [
+      "蟲",
+      "草"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "高台花田",
+      "花園"
+    ],
+    "image": "parasect.png"
+  },
+  {
+    "number": "019",
+    "name": "毛球",
+    "types": [
+      "蟲",
+      "毒"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "被照亮的草叢",
+      "被照亮的長椅"
+    ],
+    "image": "venonat.png"
+  },
+  {
+    "number": "020",
+    "name": "摩魯蛾",
+    "types": [
+      "蟲",
+      "毒"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "被照亮的草叢",
+      "被照亮的長椅"
+    ],
+    "image": "venomoth.png"
+  },
+  {
+    "number": "021",
+    "name": "喇叭芽",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "specialties": [
+      "栽培",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "樹蔭草叢"
+    ],
+    "image": "bellsprout.png"
+  },
+  {
+    "number": "022",
+    "name": "口呆花",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "specialties": [
+      "栽培",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "華麗餐桌",
+      "光芒與香氣的誘惑"
+    ],
+    "image": "weepinbell.png"
+  },
+  {
+    "number": "023",
+    "name": "大食花",
+    "types": [
+      "草",
+      "毒"
+    ],
+    "specialties": [
+      "砍伐",
+      "栽培"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "華麗餐桌",
+      "光芒與香氣的誘惑"
+    ],
+    "image": "victreebel.png"
+  },
+  {
+    "number": "024",
+    "name": "呆呆獸",
+    "types": [
+      "水",
+      "超能力"
+    ],
+    "specialties": [
+      "澆水",
+      "哈欠"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "海浪邊草叢"
+    ],
+    "image": "slowpoke.png"
+  },
+  {
+    "number": "025",
+    "name": "呆殼獸",
+    "types": [
+      "水",
+      "超能力"
+    ],
+    "specialties": [
+      "澆水",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "海浪邊草叢",
+      "玩偶與晚安",
+      "釣魚池"
+    ],
+    "image": "slowbro.png"
+  },
+  {
+    "number": "026",
+    "name": "呆呆王",
+    "types": [
+      "水",
+      "超能力"
+    ],
+    "specialties": [
+      "澆水",
+      "傳送"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "海浪邊草叢",
+      "玩偶與晚安",
+      "釣魚池"
+    ],
+    "image": "slowking.png"
+  },
+  {
+    "number": "027",
+    "name": "小磁怪",
+    "types": [
+      "電",
+      "鋼"
+    ],
+    "specialties": [
+      "發電"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "工廠倉庫"
+    ],
+    "image": "magnemite.png"
+  },
+  {
+    "number": "028",
+    "name": "三合一磁怪",
+    "types": [
+      "電",
+      "鋼"
+    ],
+    "specialties": [
+      "發電"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "垃圾桶滿了",
+      "迷你遊戲角"
+    ],
+    "image": "magneton.png"
+  },
+  {
+    "number": "029",
+    "name": "自爆磁怪",
+    "types": [
+      "電",
+      "鋼"
+    ],
+    "specialties": [
+      "發電",
+      "回收"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "垃圾桶滿了",
+      "迷你遊戲角"
+    ],
+    "image": "magnezone.png"
+  },
+  {
+    "number": "030",
+    "name": "大岩蛇",
+    "types": [
+      "岩石",
+      "地面"
+    ],
+    "specialties": [
+      "粉碎",
+      "推平"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "沙沙草叢"
+    ],
+    "image": "onix.png"
+  },
+  {
+    "number": "031",
+    "name": "大鋼蛇",
+    "types": [
+      "鋼",
+      "地面"
+    ],
+    "specialties": [
+      "粉碎",
+      "推平"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "叮噹鐵骨工程"
+    ],
+    "image": "steelix.png"
+  },
+  {
+    "number": "032",
+    "name": "卡拉卡拉",
+    "types": [
+      "地面"
+    ],
+    "specialties": [
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "花環墓地"
+    ],
+    "image": "cubone.png"
+  },
+  {
+    "number": "033",
+    "name": "嘎啦嘎啦",
+    "types": [
+      "地面"
+    ],
+    "specialties": [
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "花環墓地"
+    ],
+    "image": "marowak.png"
+  },
+  {
+    "number": "034",
+    "name": "無畏小子",
+    "types": [
+      "格鬥"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "修行瀑布"
+    ],
+    "image": "tyrogue.png"
+  },
+  {
+    "number": "035",
+    "name": "飛腿郎",
+    "types": [
+      "格鬥"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "緊急救護所"
+    ],
+    "image": "hitmonlee.png"
+  },
+  {
+    "number": "036",
+    "name": "快拳郎",
+    "types": [
+      "格鬥"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "健身房休息處"
+    ],
+    "image": "hitmonchan.png"
+  },
+  {
+    "number": "037",
+    "name": "戰舞郎",
+    "types": [
+      "格鬥"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "健身房急救站"
+    ],
+    "image": "hitmontop.png"
+  },
+  {
+    "number": "038",
+    "name": "瓦斯彈",
+    "types": [
+      "毒"
+    ],
+    "specialties": [
+      "回收"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "垃圾集中處"
+    ],
+    "image": "koffing.png"
+  },
+  {
+    "number": "039",
+    "name": "雙彈瓦斯",
+    "types": [
+      "毒"
+    ],
+    "specialties": [
+      "回收"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "美好的古董",
+      "垃圾集中處"
+    ],
+    "image": "weezing.png"
+  },
+  {
+    "number": "040",
+    "name": "蔓藤怪",
+    "types": [
+      "草"
+    ],
+    "specialties": [
+      "栽培",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "滿滿的精靈球"
+    ],
+    "image": "tangela.png"
+  },
+  {
+    "number": "041",
+    "name": "巨蔓藤",
+    "types": [
+      "草"
+    ],
+    "specialties": [
+      "鑑定"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "博士的寶物",
+      "綠色長椅"
+    ],
+    "image": "tangrowth.png"
+  },
+  {
+    "number": "042",
+    "name": "飛天螳螂",
+    "types": [
+      "蟲",
+      "飛行"
+    ],
+    "specialties": [
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "樹蔭草叢"
+    ],
+    "image": "scyther.png"
+  },
+  {
+    "number": "043",
+    "name": "巨鉗螳螂",
+    "types": [
+      "蟲",
+      "鋼"
+    ],
+    "specialties": [
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "樹蔭草叢"
+    ],
+    "image": "scizor.png"
+  },
+  {
+    "number": "044",
+    "name": "凱羅斯",
+    "types": [
+      "蟲"
+    ],
+    "specialties": [
+      "砍伐",
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "樹蔭草叢"
+    ],
+    "image": "pinsir.png"
+  },
+  {
+    "number": "045",
+    "name": "鯉魚王",
+    "types": [
+      "水"
+    ],
+    "specialties": [],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "海釣"
+    ],
+    "image": "magikarp.png"
+  },
+  {
+    "number": "046",
+    "name": "暴鯉龍",
+    "types": [
+      "水",
+      "飛行"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "被照亮的瀑布"
+    ],
+    "image": "gyarados.png"
+  },
+  {
+    "number": "047",
+    "name": "百變怪",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "變身"
+    ],
+    "times": [],
+    "weather": [],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [],
+    "image": "ditto.png"
+  },
+  {
+    "number": "048",
+    "name": "咕咕",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "specialties": [
+      "交易",
+      "飛行"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "高台草叢",
+      "美麗花田",
+      "溫柔燈光晚安"
+    ],
+    "image": "hoothoot.png"
+  },
+  {
+    "number": "049",
+    "name": "貓頭夜鷹",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "specialties": [
+      "飛行",
+      "交易"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "高台草叢",
+      "溫柔燈光晚安"
+    ],
+    "image": "noctowl.png"
+  },
+  {
+    "number": "050",
+    "name": "赫拉克羅斯",
+    "types": [
+      "蟲",
+      "格鬥"
+    ],
+    "specialties": [
+      "砍伐",
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "樹蔭草叢"
+    ],
+    "image": "heracross.png"
+  },
+  {
+    "number": "051",
+    "name": "電螢蟲",
+    "types": [
+      "蟲"
+    ],
+    "specialties": [
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "濕潤花田"
+    ],
+    "image": "volbeat.png"
+  },
+  {
+    "number": "052",
+    "name": "甜甜螢",
+    "types": [
+      "蟲"
+    ],
+    "specialties": [
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "濕潤花田"
+    ],
+    "image": "illumise.png"
+  },
+  {
+    "number": "053",
+    "name": "溶食獸",
+    "types": [
+      "毒"
+    ],
+    "specialties": [
+      "儲物"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "飢腸轆轆餐廳"
+    ],
+    "image": "gulpin.png"
+  },
+  {
+    "number": "054",
+    "name": "吞食獸",
+    "types": [
+      "毒"
+    ],
+    "specialties": [
+      "儲物"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "令人興奮的餐桌"
+    ],
+    "image": "swalot.png"
+  },
+  {
+    "number": "055",
+    "name": "刺球仙人掌",
+    "types": [
+      "草"
+    ],
+    "specialties": [
+      "栽培"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "晴天地點"
+    ],
+    "image": "cacnea.png"
+  },
+  {
+    "number": "056",
+    "name": "夢歌仙人掌",
+    "types": [
+      "草",
+      "惡"
+    ],
+    "specialties": [
+      "栽培",
+      "掉落"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "樹蔭花田"
+    ],
+    "image": "cacturne.png"
+  },
+  {
+    "number": "057",
+    "name": "三蜜蜂",
+    "types": [
+      "蟲",
+      "飛行"
+    ],
+    "specialties": [
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "美麗花田"
+    ],
+    "image": "combee.png"
+  },
+  {
+    "number": "058",
+    "name": "蜂女王",
+    "types": [
+      "蟲",
+      "飛行"
+    ],
+    "specialties": [
+      "採蜜",
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "花卉盛景"
+    ],
+    "image": "vespiquen.png"
+  },
+  {
+    "number": "059",
+    "name": "無殼海兔",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [],
+    "habitats": [
+      "路標看板"
+    ],
+    "image": "shellos.png"
+  },
+  {
+    "number": "060",
+    "name": "海兔獸",
+    "types": [
+      "水",
+      "地面"
+    ],
+    "specialties": [
+      "澆水",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [],
+    "habitats": [
+      "海釣"
+    ],
+    "image": "gastrodon.png"
+  },
+  {
+    "number": "061",
+    "name": "飄飄球",
+    "types": [
+      "幽靈",
+      "飛行"
+    ],
+    "specialties": [
+      "夢之島"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "乘著溫暖的風",
+      "玩偶與晚安",
+      "被布偶包圍"
+    ],
+    "image": "drifloon.png"
+  },
+  {
+    "number": "062",
+    "name": "隨風球",
+    "types": [
+      "幽靈",
+      "飛行"
+    ],
+    "specialties": [
+      "飛行",
+      "收集"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "被布偶包圍"
+    ],
+    "image": "drifblim.png"
+  },
+  {
+    "number": "063",
+    "name": "螺釘地鼠",
+    "types": [
+      "地面"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "夜晚",
+      "黃昏"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "新鮮蔬菜田"
+    ],
+    "image": "drilbur.png"
+  },
+  {
+    "number": "064",
+    "name": "龍頭地鼠",
+    "types": [
+      "地面",
+      "鋼"
+    ],
+    "specialties": [
+      "搜索",
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "新鮮蔬菜田"
+    ],
+    "image": "excadrill.png"
+  },
+  {
+    "number": "065",
+    "name": "搬運小匠",
+    "types": [
+      "格鬥"
+    ],
+    "specialties": [
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "岩蔭草叢"
+    ],
+    "image": "timburr.png"
+  },
+  {
+    "number": "066",
+    "name": "鐵骨土人",
+    "types": [
+      "格鬥"
+    ],
+    "specialties": [
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "岩蔭草叢",
+      "大件行李搬運"
+    ],
+    "image": "gurdurr.png"
+  },
+  {
+    "number": "067",
+    "name": "修建老匠",
+    "types": [
+      "格鬥"
+    ],
+    "specialties": [
+      "建造",
+      "粉碎"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "工地發電所"
+    ],
+    "image": "conkeldurr.png"
+  },
+  {
+    "number": "068",
+    "name": "燭光靈",
+    "types": [
+      "幽靈",
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "墓前供品",
+      "詭異墓前供品"
+    ],
+    "image": "litwick.png"
+  },
+  {
+    "number": "069",
+    "name": "燈火幽靈",
+    "types": [
+      "幽靈",
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "墓前供品",
+      "詭異墓前供品"
+    ],
+    "image": "lampent.png"
+  },
+  {
+    "number": "070",
+    "name": "水晶燈火靈",
+    "types": [
+      "幽靈",
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "詭異墓前供品"
+    ],
+    "image": "chandelure.png"
+  },
+  {
+    "number": "071",
+    "name": "牙牙",
+    "types": [
+      "龍"
+    ],
+    "specialties": [
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "伐木工人作業場",
+      "圓木溫暖"
+    ],
+    "image": "axew.png"
+  },
+  {
+    "number": "072",
+    "name": "斧牙龍",
+    "types": [
+      "龍"
+    ],
+    "specialties": [
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "伐木工人作業場",
+      "圓木溫暖"
+    ],
+    "image": "fraxure.png"
+  },
+  {
+    "number": "073",
+    "name": "雙斧戰龍",
+    "types": [
+      "龍"
+    ],
+    "specialties": [
+      "砍伐",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "伐木工人作業場",
+      "圓木溫暖"
+    ],
+    "image": "haxorus.png"
+  },
+  {
+    "number": "074",
+    "name": "黏黏寶",
+    "types": [
+      "龍"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "樹蔭花田",
+      "祈雨地點"
+    ],
+    "image": "goomy.png"
+  },
+  {
+    "number": "075",
+    "name": "黏美兒",
+    "types": [
+      "龍"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤草叢"
+    ],
+    "image": "sliggoo.png"
+  },
+  {
+    "number": "076",
+    "name": "黏美龍",
+    "types": [
+      "龍"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "樹果大集合"
+    ],
+    "image": "goodra.png"
+  },
+  {
+    "number": "077",
+    "name": "古月鳥",
+    "types": [
+      "飛行",
+      "水"
+    ],
+    "specialties": [
+      "澆水",
+      "飛行"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤草叢"
+    ],
+    "image": "cramorant.png"
+  },
+  {
+    "number": "078",
+    "name": "皮丘",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "野餐餐桌"
+    ],
+    "image": "pichu.png"
+  },
+  {
+    "number": "079",
+    "name": "皮卡丘",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "野餐餐桌"
+    ],
+    "image": "pikachu.png"
+  },
+  {
+    "number": "080",
+    "name": "雷丘",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電",
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "自然中的市集"
+    ],
+    "image": "raichu.png"
+  },
+  {
+    "number": "081",
+    "name": "超音蝠",
+    "types": [
+      "毒",
+      "飛行"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "樹蔭黃色草叢",
+      "公園長椅"
+    ],
+    "image": "zubat.png"
+  },
+  {
+    "number": "082",
+    "name": "大嘴蝠",
+    "types": [
+      "毒",
+      "飛行"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "樹蔭黃色草叢"
+    ],
+    "image": "golbat.png"
+  },
+  {
+    "number": "083",
+    "name": "叉字蝠",
+    "types": [
+      "毒",
+      "飛行"
+    ],
+    "specialties": [
+      "砍伐",
+      "搜索"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "高台黃色草叢",
+      "垃圾場"
+    ],
+    "image": "crobat.png"
+  },
+  {
+    "number": "084",
+    "name": "喵喵",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "涼爽"
+    ],
+    "habitats": [
+      "休息處",
+      "收銀台結帳"
+    ],
+    "image": "meowth.png"
+  },
+  {
+    "number": "085",
+    "name": "貓老大",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "交易",
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "涼爽"
+    ],
+    "habitats": [
+      "邪惡組織的巢穴"
+    ],
+    "image": "persian.png"
+  },
+  {
+    "number": "086",
+    "name": "可達鴨",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "溫泉沖洗處"
+    ],
+    "image": "psyduck.png"
+  },
+  {
+    "number": "087",
+    "name": "哥達鴨",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "溫泉沖洗處"
+    ],
+    "image": "golduck.png"
+  },
+  {
+    "number": "088",
+    "name": "卡蒂狗",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒",
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "來整理吧",
+      "度假村備餐"
+    ],
+    "image": "growlithe.png"
+  },
+  {
+    "number": "089",
+    "name": "風速狗",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒",
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "小博物館",
+      "岩漿釣魚"
+    ],
+    "image": "arcanine.png"
+  },
+  {
+    "number": "090",
+    "name": "大蔥鴨",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "specialties": [
+      "砍伐",
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "行李打包好了"
+    ],
+    "image": "farfetchd.png"
+  },
+  {
+    "number": "091",
+    "name": "臭泥",
+    "types": [
+      "毒"
+    ],
+    "specialties": [
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "沼澤釣魚"
+    ],
+    "image": "grimer.png"
+  },
+  {
+    "number": "092",
+    "name": "臭臭泥",
+    "types": [
+      "毒"
+    ],
+    "specialties": [
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "沼澤釣魚"
+    ],
+    "image": "muk.png"
+  },
+  {
+    "number": "093",
+    "name": "鬼斯",
+    "types": [
+      "幽靈",
+      "毒"
+    ],
+    "specialties": [
+      "收集",
+      "交易"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "詭異書房"
+    ],
+    "image": "gastly.png"
+  },
+  {
+    "number": "094",
+    "name": "鬼斯通",
+    "types": [
+      "幽靈",
+      "毒"
+    ],
+    "specialties": [
+      "收集",
+      "交易"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "小心機關",
+      "詭異書房"
+    ],
+    "image": "haunter.png"
+  },
+  {
+    "number": "095",
+    "name": "耿鬼",
+    "types": [
+      "幽靈",
+      "毒"
+    ],
+    "specialties": [
+      "收集",
+      "交易"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "小心機關"
+    ],
+    "image": "gengar.png"
+  },
+  {
+    "number": "096",
+    "name": "霹靂電球",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電",
+      "爆破"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "公園長椅",
+      "航海遊戲"
+    ],
+    "image": "voltorb.png"
+  },
+  {
+    "number": "097",
+    "name": "頑皮雷彈",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電",
+      "爆破"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "公園長椅",
+      "航海遊戲"
+    ],
+    "image": "electrode.png"
+  },
+  {
+    "number": "098",
+    "name": "蛋蛋",
+    "types": [
+      "草",
+      "超能力"
+    ],
+    "specialties": [
+      "栽培",
+      "傳送"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "南國風情",
+      "海灘樹蔭",
+      "紅色草叢"
+    ],
+    "image": "exeggcute.png"
+  },
+  {
+    "number": "099",
+    "name": "椰蛋樹",
+    "types": [
+      "草",
+      "超能力"
+    ],
+    "specialties": [
+      "栽培",
+      "傳送"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "南國風情",
+      "海灘樹蔭"
+    ],
+    "image": "exeggutor.png"
+  },
+  {
+    "number": "100",
+    "name": "小福蛋",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "鬧鐘床鋪區",
+      "收銀台結帳"
+    ],
+    "image": "happiny.png"
+  },
+  {
+    "number": "101",
+    "name": "吉利蛋",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "痊癒前好好休息"
+    ],
+    "image": "chansey.png"
+  },
+  {
+    "number": "102",
+    "name": "幸福蛋",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "交易",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "超可愛空間"
+    ],
+    "image": "blissey.png"
+  },
+  {
+    "number": "103",
+    "name": "電擊怪",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "自動販賣機套組"
+    ],
+    "image": "elekid.png"
+  },
+  {
+    "number": "104",
+    "name": "電擊獸",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "垃圾桶滿了",
+      "燈光舞台"
+    ],
+    "image": "electabuzz.png"
+  },
+  {
+    "number": "105",
+    "name": "電擊魔獸",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電",
+      "粉碎"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "燈光舞台",
+      "自動販賣機套組"
+    ],
+    "image": "electivire.png"
+  },
+  {
+    "number": "106",
+    "name": "拉普拉斯",
+    "types": [
+      "水",
+      "冰"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "熱帶海濱"
+    ],
+    "image": "lapras.png"
+  },
+  {
+    "number": "107",
+    "name": "小卡比獸",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "推平"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "玩偶與晚安",
+      "樹蔭下酣睡的卡比獸"
+    ],
+    "image": "munchlax.png"
+  },
+  {
+    "number": "108",
+    "name": "卡比獸",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "推平",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "樹蔭下酣睡的卡比獸",
+      "美好的古董"
+    ],
+    "image": "snorlax.png"
+  },
+  {
+    "number": "109",
+    "name": "圓絲蛛",
+    "types": [
+      "蟲",
+      "毒"
+    ],
+    "specialties": [
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "黃色草叢"
+    ],
+    "image": "spinarak.png"
+  },
+  {
+    "number": "110",
+    "name": "阿利多斯",
+    "types": [
+      "蟲",
+      "毒"
+    ],
+    "specialties": [
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "黃色草叢"
+    ],
+    "image": "ariados.png"
+  },
+  {
+    "number": "111",
+    "name": "咩利羊",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "草叢自動販賣機",
+      "毛線編織"
+    ],
+    "image": "mareep.png"
+  },
+  {
+    "number": "112",
+    "name": "茸茸羊",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "掉落",
+      "發電"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "夜間祭典會場",
+      "毛線編織"
+    ],
+    "image": "flaaffy.png"
+  },
+  {
+    "number": "113",
+    "name": "電龍",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "自然風生活"
+    ],
+    "image": "ampharos.png"
+  },
+  {
+    "number": "114",
+    "name": "露力麗",
+    "types": [
+      "一般",
+      "妖精"
+    ],
+    "specialties": [
+      "澆水",
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤黃色草叢",
+      "來整理吧"
+    ],
+    "image": "azurill.png"
+  },
+  {
+    "number": "115",
+    "name": "瑪力露",
+    "types": [
+      "水",
+      "妖精"
+    ],
+    "specialties": [
+      "澆水",
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤黃色草叢",
+      "碼頭"
+    ],
+    "image": "marill.png"
+  },
+  {
+    "number": "116",
+    "name": "瑪力露麗",
+    "types": [
+      "水",
+      "妖精"
+    ],
+    "specialties": [
+      "澆水",
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "碼頭"
+    ],
+    "image": "azumarill.png"
+  },
+  {
+    "number": "117",
+    "name": "烏波",
+    "types": [
+      "毒",
+      "地面"
+    ],
+    "specialties": [
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "沼澤草叢"
+    ],
+    "image": "paldean-wooper.png"
+  },
+  {
+    "number": "118",
+    "name": "土王",
+    "types": [
+      "毒",
+      "地面"
+    ],
+    "specialties": [
+      "掉落",
+      "推平"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "沼澤草叢",
+      "沼澤釣魚"
+    ],
+    "image": "clodsire.png"
+  },
+  {
+    "number": "119",
+    "name": "圖圖犬",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "上色"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [],
+    "habitats": [
+      "小小工作室"
+    ],
+    "image": "smeargle.png"
+  },
+  {
+    "number": "120",
+    "name": "火稚雞",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "嘰嘰喳喳餵食",
+      "度假村備餐"
+    ],
+    "image": "torchic.png"
+  },
+  {
+    "number": "121",
+    "name": "力壯雞",
+    "types": [
+      "火",
+      "格鬥"
+    ],
+    "specialties": [
+      "燃燒",
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "火力發電所",
+      "度假村備餐"
+    ],
+    "image": "combusken.png"
+  },
+  {
+    "number": "122",
+    "name": "火焰雞",
+    "types": [
+      "火",
+      "格鬥"
+    ],
+    "specialties": [
+      "燃燒",
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "嘰嘰喳喳餵食",
+      "火力發電所"
+    ],
+    "image": "blaziken.png"
+  },
+  {
+    "number": "123",
+    "name": "長翅鷗",
+    "types": [
+      "水",
+      "飛行"
+    ],
+    "specialties": [
+      "澆水",
+      "飛行"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "高台黃色草叢",
+      "風之花田"
+    ],
+    "image": "wingull.png"
+  },
+  {
+    "number": "124",
+    "name": "大嘴鷗",
+    "types": [
+      "水",
+      "飛行"
+    ],
+    "specialties": [
+      "澆水",
+      "飛行"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "高台黃色草叢",
+      "風之花田"
+    ],
+    "image": "pelipper.png"
+  },
+  {
+    "number": "125",
+    "name": "幕下力士",
+    "types": [
+      "格鬥"
+    ],
+    "specialties": [
+      "建造",
+      "推平"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "樹蔭黃色草叢",
+      "行李打包好了"
+    ],
+    "image": "makuhita.png"
+  },
+  {
+    "number": "126",
+    "name": "鐵掌力士",
+    "types": [
+      "格鬥"
+    ],
+    "specialties": [
+      "建造",
+      "推平"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "樹蔭黃色草叢",
+      "行李打包好了"
+    ],
+    "image": "hariyama.png"
+  },
+  {
+    "number": "127",
+    "name": "阿勃梭魯",
+    "types": [
+      "惡"
+    ],
+    "specialties": [
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "歡迎來到度假村"
+    ],
+    "image": "absol.png"
+  },
+  {
+    "number": "128",
+    "name": "波加曼",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤黃色草叢"
+    ],
+    "image": "piplup.png"
+  },
+  {
+    "number": "129",
+    "name": "波皇子",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "澆水",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤黃色草叢",
+      "水力發電所"
+    ],
+    "image": "prinplup.png"
+  },
+  {
+    "number": "130",
+    "name": "帝王拿波",
+    "types": [
+      "水",
+      "鋼"
+    ],
+    "specialties": [
+      "澆水",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "外送料理",
+      "水力發電所"
+    ],
+    "image": "empoleon.png"
+  },
+  {
+    "number": "131",
+    "name": "差不多娃娃",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "收銀台結帳"
+    ],
+    "image": "audino.png"
+  },
+  {
+    "number": "132",
+    "name": "破破袋",
+    "types": [
+      "毒"
+    ],
+    "specialties": [
+      "回收"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "垃圾集中處"
+    ],
+    "image": "trubbish.png"
+  },
+  {
+    "number": "133",
+    "name": "灰塵山",
+    "types": [
+      "毒"
+    ],
+    "specialties": [
+      "掉落",
+      "回收"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "垃圾集中處"
+    ],
+    "image": "garbodor.png"
+  },
+  {
+    "number": "134",
+    "name": "索羅亞",
+    "types": [
+      "惡"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "涼爽花田"
+    ],
+    "image": "zorua.png"
+  },
+  {
+    "number": "135",
+    "name": "索羅亞克",
+    "types": [
+      "惡"
+    ],
+    "specialties": [
+      "砍伐",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "涼爽花田",
+      "小心機關"
+    ],
+    "image": "zoroark.png"
+  },
+  {
+    "number": "136",
+    "name": "泡沫栗鼠",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "收集"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "換裝空間",
+      "打扮中請勿偷看"
+    ],
+    "image": "minccino.png"
+  },
+  {
+    "number": "137",
+    "name": "奇諾栗鼠",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "收集",
+      "回收"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "打扮中請勿偷看"
+    ],
+    "image": "cinccino.png"
+  },
+  {
+    "number": "138",
+    "name": "強顎雞母蟲",
+    "types": [
+      "蟲"
+    ],
+    "specialties": [
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "黃色草叢",
+      "自動販賣機旁歇腳"
+    ],
+    "image": "grubbin.png"
+  },
+  {
+    "number": "139",
+    "name": "蟲電寶",
+    "types": [
+      "蟲",
+      "電"
+    ],
+    "specialties": [
+      "發電",
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "自動販賣機旁歇腳"
+    ],
+    "image": "charjabug.png"
+  },
+  {
+    "number": "140",
+    "name": "鍬農炮蟲",
+    "types": [
+      "蟲",
+      "電"
+    ],
+    "specialties": [
+      "發電",
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "樹蔭花田"
+    ],
+    "image": "vikavolt.png"
+  },
+  {
+    "number": "141",
+    "name": "謎擬Ｑ",
+    "types": [
+      "幽靈",
+      "妖精"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "皮卡丘空間"
+    ],
+    "image": "mimikyu.png"
+  },
+  {
+    "number": "142",
+    "name": "布撥",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "涼爽花田",
+      "飢腸轆轆餐廳"
+    ],
+    "image": "pawmi.png"
+  },
+  {
+    "number": "143",
+    "name": "布土撥",
+    "types": [
+      "電",
+      "格鬥"
+    ],
+    "specialties": [
+      "發電",
+      "粉碎"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "飢腸轆轆餐廳",
+      "咖啡空間"
+    ],
+    "image": "pawmo.png"
+  },
+  {
+    "number": "144",
+    "name": "巴布土撥",
+    "types": [
+      "電",
+      "格鬥"
+    ],
+    "specialties": [
+      "發電",
+      "粉碎"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "咖啡空間"
+    ],
+    "image": "pawmot.png"
+  },
+  {
+    "number": "145",
+    "name": "米立龍",
+    "types": [
+      "龍",
+      "水"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [],
+    "habitats": [
+      "海灘套組"
+    ],
+    "image": "tatsugiri.png"
+  },
+  {
+    "number": "146",
+    "name": "阿柏蛇",
+    "types": [
+      "毒"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "濕潤優雅花田"
+    ],
+    "image": "ekans.png"
+  },
+  {
+    "number": "147",
+    "name": "阿柏怪",
+    "types": [
+      "毒"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "濕潤優雅花田"
+    ],
+    "image": "arbok.png"
+  },
+  {
+    "number": "148",
+    "name": "皮寶寶",
+    "types": [
+      "妖精"
+    ],
+    "specialties": [
+      "鼓舞"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "優雅花田"
+    ],
+    "image": "cleffa.png"
+  },
+  {
+    "number": "149",
+    "name": "皮皮",
+    "types": [
+      "妖精"
+    ],
+    "specialties": [
+      "鼓舞"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "優雅花田",
+      "銅像觀光點"
+    ],
+    "image": "clefairy.png"
+  },
+  {
+    "number": "150",
+    "name": "皮可西",
+    "types": [
+      "妖精"
+    ],
+    "specialties": [
+      "鼓舞",
+      "交易"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "優雅花田",
+      "銅像觀光點"
+    ],
+    "image": "clefable.png"
+  },
+  {
+    "number": "151",
+    "name": "寶寶丁",
+    "types": [
+      "一般",
+      "妖精"
+    ],
+    "specialties": [
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "花田樹樁舞台"
+    ],
+    "image": "igglybuff.png"
+  },
+  {
+    "number": "152",
+    "name": "胖丁",
+    "types": [
+      "一般",
+      "妖精"
+    ],
+    "specialties": [
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "花田樹樁舞台",
+      "演奏會舞台"
+    ],
+    "image": "jigglypuff.png"
+  },
+  {
+    "number": "153",
+    "name": "胖可丁",
+    "types": [
+      "一般",
+      "妖精"
+    ],
+    "specialties": [
+      "鼓舞",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "演奏會舞台"
+    ],
+    "image": "wigglytuff.png"
+  },
+  {
+    "number": "154",
+    "name": "地鼠",
+    "types": [
+      "地面"
+    ],
+    "specialties": [
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "樹蔭紅色草叢",
+      "倉庫偷吃"
+    ],
+    "image": "diglett.png"
+  },
+  {
+    "number": "155",
+    "name": "三地鼠",
+    "types": [
+      "地面"
+    ],
+    "specialties": [
+      "鼓舞",
+      "粉碎"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "樹蔭紅色草叢",
+      "大家來派對"
+    ],
+    "image": "dugtrio.png"
+  },
+  {
+    "number": "156",
+    "name": "腕力",
+    "types": [
+      "格鬥"
+    ],
+    "specialties": [
+      "建造",
+      "收集"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "岩蔭草叢"
+    ],
+    "image": "machop.png"
+  },
+  {
+    "number": "157",
+    "name": "豪力",
+    "types": [
+      "格鬥"
+    ],
+    "specialties": [
+      "建造",
+      "收集"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "草叢訓練場",
+      "跟著節奏一二"
+    ],
+    "image": "machoke.png"
+  },
+  {
+    "number": "158",
+    "name": "怪力",
+    "types": [
+      "格鬥"
+    ],
+    "specialties": [
+      "建造",
+      "收集"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "草叢訓練場",
+      "叮噹鐵骨工程"
+    ],
+    "image": "machamp.png"
+  },
+  {
+    "number": "159",
+    "name": "小拳石",
+    "types": [
+      "岩石",
+      "地面"
+    ],
+    "specialties": [
+      "粉碎"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "綠色草叢"
+    ],
+    "image": "geodude.png"
+  },
+  {
+    "number": "160",
+    "name": "隆隆石",
+    "types": [
+      "岩石",
+      "地面"
+    ],
+    "specialties": [
+      "粉碎"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "長滿苔蘚的岩石"
+    ],
+    "image": "graveler.png"
+  },
+  {
+    "number": "161",
+    "name": "隆隆岩",
+    "types": [
+      "岩石",
+      "地面"
+    ],
+    "specialties": [
+      "粉碎",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "長滿苔蘚的岩石"
+    ],
+    "image": "golem.png"
+  },
+  {
+    "number": "162",
+    "name": "鴨嘴寶寶",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "美麗花田"
+    ],
+    "image": "magby.png"
+  },
+  {
+    "number": "163",
+    "name": "鴨嘴火獸",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "挖掘與燃燒"
+    ],
+    "image": "magmar.png"
+  },
+  {
+    "number": "164",
+    "name": "鴨嘴炎獸",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒",
+      "粉碎"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "迷你廚房"
+    ],
+    "image": "magmortar.png"
+  },
+  {
+    "number": "165",
+    "name": "盆才怪",
+    "types": [
+      "岩石"
+    ],
+    "specialties": [
+      "推平"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "樹蔭紅色草叢"
+    ],
+    "image": "bonsly.png"
+  },
+  {
+    "number": "166",
+    "name": "樹才怪",
+    "types": [
+      "岩石"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "樹蔭紅色草叢",
+      "大家來派對"
+    ],
+    "image": "sudowoodo.png"
+  },
+  {
+    "number": "167",
+    "name": "黑暗鴉",
+    "types": [
+      "惡",
+      "飛行"
+    ],
+    "specialties": [
+      "交易",
+      "飛行"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "高台紅色草叢",
+      "樹蔭優雅花田"
+    ],
+    "image": "murkrow.png"
+  },
+  {
+    "number": "168",
+    "name": "烏鴉頭頭",
+    "types": [
+      "惡",
+      "飛行"
+    ],
+    "specialties": [
+      "飛行",
+      "交易"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "高台紅色草叢",
+      "鳥鳴演奏會"
+    ],
+    "image": "honchkrow.png"
+  },
+  {
+    "number": "169",
+    "name": "幼基拉斯",
+    "types": [
+      "岩石",
+      "地面"
+    ],
+    "specialties": [
+      "粉碎",
+      "推平"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "苔蘚遍布"
+    ],
+    "image": "larvitar.png"
+  },
+  {
+    "number": "170",
+    "name": "沙基拉斯",
+    "types": [
+      "岩石",
+      "地面"
+    ],
+    "specialties": [
+      "粉碎",
+      "推平"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "樹蔭粉紅色草叢"
+    ],
+    "image": "pupitar.png"
+  },
+  {
+    "number": "171",
+    "name": "班基拉斯",
+    "types": [
+      "岩石",
+      "惡"
+    ],
+    "specialties": [
+      "粉碎",
+      "推平"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "農作真辛苦",
+      "苔蘚遍布"
+    ],
+    "image": "tyranitar.png"
+  },
+  {
+    "number": "172",
+    "name": "蓮葉童子",
+    "types": [
+      "水",
+      "草"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤紅色草叢",
+      "歡樂水窪",
+      "溫泉釣魚"
+    ],
+    "image": "lotad.png"
+  },
+  {
+    "number": "173",
+    "name": "蓮帽小童",
+    "types": [
+      "水",
+      "草"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤紅色草叢",
+      "溫泉釣魚"
+    ],
+    "image": "lombre.png"
+  },
+  {
+    "number": "174",
+    "name": "樂天河童",
+    "types": [
+      "水",
+      "草"
+    ],
+    "specialties": [
+      "澆水",
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "歡樂水窪"
+    ],
+    "image": "ludicolo.png"
+  },
+  {
+    "number": "175",
+    "name": "大嘴娃",
+    "types": [
+      "鋼",
+      "妖精"
+    ],
+    "specialties": [
+      "交易",
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "收銀台結帳"
+    ],
+    "image": "mawile.png"
+  },
+  {
+    "number": "176",
+    "name": "煤炭龜",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "苔蘚溫泉"
+    ],
+    "image": "torkoal.png"
+  },
+  {
+    "number": "177",
+    "name": "圓法師",
+    "types": [
+      "蟲"
+    ],
+    "specialties": [
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "紅色草叢",
+      "音樂與閱讀"
+    ],
+    "image": "kricketot.png"
+  },
+  {
+    "number": "178",
+    "name": "音箱蟀",
+    "types": [
+      "蟲"
+    ],
+    "specialties": [
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "紅色草叢",
+      "音樂與閱讀"
+    ],
+    "image": "kricketune.png"
+  },
+  {
+    "number": "179",
+    "name": "聒噪鳥",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "specialties": [
+      "鼓舞",
+      "飛行"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "高台紅色草叢",
+      "鳥鳴演奏會"
+    ],
+    "image": "chatot.png"
+  },
+  {
+    "number": "180",
+    "name": "利歐路",
+    "types": [
+      "格鬥"
+    ],
+    "specialties": [
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "紅色草叢",
+      "跟著節奏一二"
+    ],
+    "image": "riolu.png"
+  },
+  {
+    "number": "181",
+    "name": "路卡利歐",
+    "types": [
+      "格鬥",
+      "鋼"
+    ],
+    "specialties": [
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "跟著節奏一二"
+    ],
+    "image": "lucario.png"
+  },
+  {
+    "number": "182",
+    "name": "音箱洛托姆",
+    "types": [
+      "電",
+      "一般"
+    ],
+    "specialties": [
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "音樂與閱讀"
+    ],
+    "image": "stereo-rotom.png"
+  },
+  {
+    "number": "183",
+    "name": "燃燒蟲",
+    "types": [
+      "蟲",
+      "火"
+    ],
+    "specialties": [
+      "燃燒",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "樹蔭優雅花田"
+    ],
+    "image": "larvesta.png"
+  },
+  {
+    "number": "184",
+    "name": "火神蛾",
+    "types": [
+      "蟲",
+      "火"
+    ],
+    "specialties": [
+      "燃燒",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "樹蔭優雅花田",
+      "岩漿熱呼呼"
+    ],
+    "image": "volcarona.png"
+  },
+  {
+    "number": "185",
+    "name": "木木梟",
+    "types": [
+      "草",
+      "飛行"
+    ],
+    "specialties": [
+      "栽培"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "新鮮蔬菜田"
+    ],
+    "image": "rowlet.png"
+  },
+  {
+    "number": "186",
+    "name": "投羽梟",
+    "types": [
+      "草",
+      "飛行"
+    ],
+    "specialties": [
+      "栽培",
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "三角樹蔭與岩石草叢"
+    ],
+    "image": "dartrix.png"
+  },
+  {
+    "number": "187",
+    "name": "狙射樹梟",
+    "types": [
+      "草",
+      "幽靈"
+    ],
+    "specialties": [
+      "栽培",
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "三角樹蔭與岩石草叢",
+      "現代生活"
+    ],
+    "image": "decidueye.png"
+  },
+  {
+    "number": "188",
+    "name": "炎兔兒",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "紅色草叢"
+    ],
+    "image": "scorbunny.png"
+  },
+  {
+    "number": "189",
+    "name": "騰蹴小將",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "露天溫泉",
+      "清爽更衣室"
+    ],
+    "image": "raboot.png"
+  },
+  {
+    "number": "190",
+    "name": "閃焰王牌",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒",
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "紅色草叢",
+      "清爽更衣室"
+    ],
+    "image": "cinderace.png"
+  },
+  {
+    "number": "191",
+    "name": "貪心栗鼠",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "搜索",
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "樹蔭草叢"
+    ],
+    "image": "skwovet.png"
+  },
+  {
+    "number": "192",
+    "name": "藏飽栗鼠",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [],
+    "habitats": [
+      "主廚的廚房"
+    ],
+    "image": "greedent.png"
+  },
+  {
+    "number": "193",
+    "name": "小炭仔",
+    "types": [
+      "岩石"
+    ],
+    "specialties": [
+      "燃燒",
+      "收集"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "平交道"
+    ],
+    "image": "rolycoly.png"
+  },
+  {
+    "number": "194",
+    "name": "大炭車",
+    "types": [
+      "岩石",
+      "火"
+    ],
+    "specialties": [
+      "燃燒",
+      "收集"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "平交道"
+    ],
+    "image": "carkol.png"
+  },
+  {
+    "number": "195",
+    "name": "巨炭山",
+    "types": [
+      "岩石",
+      "火"
+    ],
+    "specialties": [
+      "燃燒",
+      "收集"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "平交道",
+      "沉甸甸的鐵"
+    ],
+    "image": "coalossal.png"
+  },
+  {
+    "number": "196",
+    "name": "毒電嬰",
+    "types": [
+      "電",
+      "毒"
+    ],
+    "specialties": [
+      "發電"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "悠閒回顧相簿"
+    ],
+    "image": "toxel.png"
+  },
+  {
+    "number": "197",
+    "name": "顫弦蠑螈",
+    "types": [
+      "電",
+      "毒"
+    ],
+    "specialties": [
+      "發電",
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [],
+    "habitats": [
+      "高昂搖滾舞台",
+      "低沉搖滾舞台"
+    ],
+    "image": "toxtricity.png"
+  },
+  {
+    "number": "198",
+    "name": "狗仔包",
+    "types": [
+      "妖精"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "優雅花田",
+      "大口麵包工坊"
+    ],
+    "image": "fidough.png"
+  },
+  {
+    "number": "199",
+    "name": "麻花犬",
+    "types": [
+      "妖精"
+    ],
+    "specialties": [
+      "搜索",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "優雅花田",
+      "大口麵包工坊"
+    ],
+    "image": "dachsbun.png"
+  },
+  {
+    "number": "200",
+    "name": "炭小侍",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "岩漿熱呼呼"
+    ],
+    "image": "charcadet.png"
+  },
+  {
+    "number": "201",
+    "name": "紅蓮鎧騎",
+    "types": [
+      "火",
+      "超能力"
+    ],
+    "specialties": [
+      "燃燒",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "忠誠騎士的祭壇"
+    ],
+    "image": "armarouge.png"
+  },
+  {
+    "number": "202",
+    "name": "蒼炎刃鬼",
+    "types": [
+      "火",
+      "幽靈"
+    ],
+    "specialties": [
+      "燃燒",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "怨念騎士的祭壇"
+    ],
+    "image": "ceruledge.png"
+  },
+  {
+    "number": "203",
+    "name": "晶光芽",
+    "types": [
+      "岩石",
+      "毒"
+    ],
+    "specialties": [
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "詭異白色岩石",
+      "倉庫偷吃"
+    ],
+    "image": "glimmet.png"
+  },
+  {
+    "number": "204",
+    "name": "晶光花",
+    "types": [
+      "岩石",
+      "毒"
+    ],
+    "specialties": [
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "詭異白色岩石",
+      "倉庫偷吃"
+    ],
+    "image": "glimmora.png"
+  },
+  {
+    "number": "205",
+    "name": "索財靈",
+    "types": [
+      "幽靈"
+    ],
+    "specialties": [
+      "收藏家"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "小博物館"
+    ],
+    "image": "gimmighoul.png"
+  },
+  {
+    "number": "206",
+    "name": "賽富豪",
+    "types": [
+      "鋼",
+      "幽靈"
+    ],
+    "specialties": [
+      "收藏家"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "極致奢華"
+    ],
+    "image": "gholdengo.png"
+  },
+  {
+    "number": "207",
+    "name": "六尾",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "蓬鬆花田"
+    ],
+    "image": "vulpix.png"
+  },
+  {
+    "number": "208",
+    "name": "九尾",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "蓬鬆花田",
+      "九焰"
+    ],
+    "image": "ninetales.png"
+  },
+  {
+    "number": "209",
+    "name": "蚊香蝌蚪",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "刷刷大掃除"
+    ],
+    "image": "poliwag.png"
+  },
+  {
+    "number": "210",
+    "name": "蚊香君",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤蓬鬆花田"
+    ],
+    "image": "poliwhirl.png"
+  },
+  {
+    "number": "211",
+    "name": "蚊香泳士",
+    "types": [
+      "水",
+      "格鬥"
+    ],
+    "specialties": [
+      "澆水",
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "人孔蓋檢查中",
+      "道場訓練"
+    ],
+    "image": "poliwrath.png"
+  },
+  {
+    "number": "212",
+    "name": "蚊香蛙皇",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "澆水",
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤優雅花田",
+      "花田樹樁舞台",
+      "療癒溫泉"
+    ],
+    "image": "politoed.png"
+  },
+  {
+    "number": "213",
+    "name": "凱西",
+    "types": [
+      "超能力"
+    ],
+    "specialties": [
+      "傳送"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "滿溢超能力",
+      "水晶占卜"
+    ],
+    "image": "abra.png"
+  },
+  {
+    "number": "214",
+    "name": "勇基拉",
+    "types": [
+      "超能力"
+    ],
+    "specialties": [
+      "傳送"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "水晶占卜"
+    ],
+    "image": "kadabra.png"
+  },
+  {
+    "number": "215",
+    "name": "胡地",
+    "types": [
+      "超能力"
+    ],
+    "specialties": [
+      "傳送",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "滿溢超能力",
+      "實驗空間"
+    ],
+    "image": "alakazam.png"
+  },
+  {
+    "number": "216",
+    "name": "魔尼尼",
+    "types": [
+      "超能力",
+      "妖精"
+    ],
+    "specialties": [
+      "收集"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "亮晶晶洗臉台",
+      "請自由閱讀"
+    ],
+    "image": "mime-jr.png"
+  },
+  {
+    "number": "217",
+    "name": "魔牆人偶",
+    "types": [
+      "超能力",
+      "妖精"
+    ],
+    "specialties": [
+      "收集",
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "亮晶晶洗臉台"
+    ],
+    "image": "mr-mime.png"
+  },
+  {
+    "number": "218",
+    "name": "多邊獸",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "回收"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "研究者的桌子"
+    ],
+    "image": "porygon.png"
+  },
+  {
+    "number": "219",
+    "name": "多邊獸Ⅱ",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "回收"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "辦公桌"
+    ],
+    "image": "porygon2.png"
+  },
+  {
+    "number": "220",
+    "name": "多邊獸Ｚ",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "稀有化"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [],
+    "habitats": [
+      "遊戲角對戰"
+    ],
+    "image": "porygon-z.png"
+  },
+  {
+    "number": "221",
+    "name": "迷你龍",
+    "types": [
+      "龍"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤蓬鬆花田",
+      "簡約浴室"
+    ],
+    "image": "dratini.png"
+  },
+  {
+    "number": "222",
+    "name": "哈克龍",
+    "types": [
+      "龍"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤蓬鬆花田",
+      "簡約浴室"
+    ],
+    "image": "dragonair.png"
+  },
+  {
+    "number": "223",
+    "name": "快龍",
+    "types": [
+      "龍",
+      "飛行"
+    ],
+    "specialties": [
+      "澆水",
+      "飛行"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "水邊小船"
+    ],
+    "image": "dragonite.png"
+  },
+  {
+    "number": "224",
+    "name": "火球鼠",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "水管秘密基地"
+    ],
+    "image": "cyndaquil.png"
+  },
+  {
+    "number": "225",
+    "name": "火岩鼠",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "水管秘密基地",
+      "壁爐旁小憩"
+    ],
+    "image": "quilava.png"
+  },
+  {
+    "number": "226",
+    "name": "火爆獸",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "壁爐旁小憩",
+      "流行之最"
+    ],
+    "image": "typhlosion.png"
+  },
+  {
+    "number": "227",
+    "name": "夢妖",
+    "types": [
+      "幽靈"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "蓬鬆花田",
+      "辦公室後場"
+    ],
+    "image": "misdreavus.png"
+  },
+  {
+    "number": "228",
+    "name": "夢妖魔",
+    "types": [
+      "幽靈"
+    ],
+    "specialties": [
+      "收集",
+      "交易"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "蓬鬆花田",
+      "家庭劇院",
+      "辦公室後場"
+    ],
+    "image": "mismagius.png"
+  },
+  {
+    "number": "229",
+    "name": "麒麟奇",
+    "types": [
+      "一般",
+      "超能力"
+    ],
+    "specialties": [
+      "收集"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "樹蔭蓬鬆花田"
+    ],
+    "image": "girafarig.png"
+  },
+  {
+    "number": "230",
+    "name": "奇麒麟",
+    "types": [
+      "一般",
+      "超能力"
+    ],
+    "specialties": [
+      "收集",
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "樹蔭蓬鬆花田"
+    ],
+    "image": "farigiraf.png"
+  },
+  {
+    "number": "231",
+    "name": "拉魯拉絲",
+    "types": [
+      "超能力",
+      "妖精"
+    ],
+    "specialties": [
+      "傳送"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "讀書空間"
+    ],
+    "image": "ralts.png"
+  },
+  {
+    "number": "232",
+    "name": "奇魯莉安",
+    "types": [
+      "超能力",
+      "妖精"
+    ],
+    "specialties": [
+      "傳送"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "讀書空間",
+      "滋潤化妝台"
+    ],
+    "image": "kirlia.png"
+  },
+  {
+    "number": "233",
+    "name": "沙奈朵",
+    "types": [
+      "超能力",
+      "妖精"
+    ],
+    "specialties": [
+      "傳送",
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "滋潤化妝台",
+      "小型圖書館"
+    ],
+    "image": "gardevoir.png"
+  },
+  {
+    "number": "234",
+    "name": "艾路雷朵",
+    "types": [
+      "超能力",
+      "格鬥"
+    ],
+    "specialties": [
+      "傳送",
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "道場訓練"
+    ],
+    "image": "gallade.png"
+  },
+  {
+    "number": "235",
+    "name": "正電拍拍",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "絕景臉孔看板"
+    ],
+    "image": "plusle.png"
+  },
+  {
+    "number": "236",
+    "name": "負電拍拍",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "絕景臉孔看板"
+    ],
+    "image": "minun.png"
+  },
+  {
+    "number": "237",
+    "name": "大顎蟻",
+    "types": [
+      "地面"
+    ],
+    "specialties": [
+      "推平",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "粉紅色草叢"
+    ],
+    "image": "trapinch.png"
+  },
+  {
+    "number": "238",
+    "name": "超音波幼蟲",
+    "types": [
+      "地面",
+      "龍"
+    ],
+    "specialties": [
+      "推平",
+      "飛行"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "粉紅色草叢"
+    ],
+    "image": "vibrava.png"
+  },
+  {
+    "number": "239",
+    "name": "沙漠蜻蜓",
+    "types": [
+      "地面",
+      "龍"
+    ],
+    "specialties": [
+      "推平",
+      "飛行"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "粉紅色草叢"
+    ],
+    "image": "flygon.png"
+  },
+  {
+    "number": "240",
+    "name": "青綿鳥",
+    "types": [
+      "一般",
+      "飛行"
+    ],
+    "specialties": [
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "粉紅色草叢"
+    ],
+    "image": "swablu.png"
+  },
+  {
+    "number": "241",
+    "name": "七夕青鳥",
+    "types": [
+      "龍",
+      "飛行"
+    ],
+    "specialties": [
+      "掉落",
+      "飛行"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "鳥鳴花園"
+    ],
+    "image": "altaria.png"
+  },
+  {
+    "number": "242",
+    "name": "夜巡靈",
+    "types": [
+      "幽靈"
+    ],
+    "specialties": [
+      "收集"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "粉紅色草叢"
+    ],
+    "image": "duskull.png"
+  },
+  {
+    "number": "243",
+    "name": "彷徨夜靈",
+    "types": [
+      "幽靈"
+    ],
+    "specialties": [
+      "收集"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "垃圾場的電視"
+    ],
+    "image": "dusclops.png"
+  },
+  {
+    "number": "244",
+    "name": "黑夜魔靈",
+    "types": [
+      "幽靈"
+    ],
+    "specialties": [
+      "收集",
+      "交易"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "垃圾場的電視"
+    ],
+    "image": "dusknoir.png"
+  },
+  {
+    "number": "245",
+    "name": "鐵啞鈴",
+    "types": [
+      "鋼",
+      "超能力"
+    ],
+    "specialties": [
+      "回收"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "涼爽"
+    ],
+    "habitats": [
+      "騎車途中休息"
+    ],
+    "image": "beldum.png"
+  },
+  {
+    "number": "246",
+    "name": "金屬怪",
+    "types": [
+      "鋼",
+      "超能力"
+    ],
+    "specialties": [
+      "回收"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "涼爽"
+    ],
+    "habitats": [
+      "以博士為目標研究中"
+    ],
+    "image": "metang.png"
+  },
+  {
+    "number": "247",
+    "name": "巨金怪",
+    "types": [
+      "鋼",
+      "超能力"
+    ],
+    "specialties": [
+      "回收",
+      "粉碎"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "涼爽"
+    ],
+    "habitats": [
+      "絕佳遊戲環境"
+    ],
+    "image": "metagross.png"
+  },
+  {
+    "number": "248",
+    "name": "藤藤蛇",
+    "types": [
+      "草"
+    ],
+    "specialties": [
+      "栽培"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "遊樂場"
+    ],
+    "image": "snivy.png"
+  },
+  {
+    "number": "249",
+    "name": "青藤蛇",
+    "types": [
+      "草"
+    ],
+    "specialties": [
+      "栽培",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "樹蔭蓬鬆花田"
+    ],
+    "image": "servine.png"
+  },
+  {
+    "number": "250",
+    "name": "君主蛇",
+    "types": [
+      "草"
+    ],
+    "specialties": [
+      "栽培",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "樹蔭蓬鬆花田",
+      "請自由閱讀"
+    ],
+    "image": "serperior.png"
+  },
+  {
+    "number": "251",
+    "name": "呱呱泡蛙",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤粉紅色草叢"
+    ],
+    "image": "froakie.png"
+  },
+  {
+    "number": "252",
+    "name": "呱頭蛙",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤粉紅色草叢",
+      "惡作劇開關"
+    ],
+    "image": "frogadier.png"
+  },
+  {
+    "number": "253",
+    "name": "甲賀忍蛙",
+    "types": [
+      "水",
+      "惡"
+    ],
+    "specialties": [
+      "澆水",
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "濕潤粉紅色草叢",
+      "惡作劇開關"
+    ],
+    "image": "greninja.png"
+  },
+  {
+    "number": "254",
+    "name": "咚咚鼠",
+    "types": [
+      "電",
+      "妖精"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "輪胎公園"
+    ],
+    "image": "dedenne.png"
+  },
+  {
+    "number": "255",
+    "name": "嗡蝠",
+    "types": [
+      "飛行",
+      "龍"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "律動客廳"
+    ],
+    "image": "noibat.png"
+  },
+  {
+    "number": "256",
+    "name": "音波龍",
+    "types": [
+      "飛行",
+      "龍"
+    ],
+    "specialties": [
+      "搜索",
+      "飛行"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "律動客廳"
+    ],
+    "image": "noivern.png"
+  },
+  {
+    "number": "256",
+    "name": "稚山雀",
+    "types": [
+      "飛行"
+    ],
+    "specialties": [
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "蓬鬆花田"
+    ],
+    "image": "rookidee.png"
+  },
+  {
+    "number": "257",
+    "name": "藍鴉",
+    "types": [
+      "飛行"
+    ],
+    "specialties": [
+      "砍伐"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "高台粉紅色草叢"
+    ],
+    "image": "corvisquire.png"
+  },
+  {
+    "number": "258",
+    "name": "鋼鎧鴉",
+    "types": [
+      "飛行",
+      "鋼"
+    ],
+    "specialties": [
+      "砍伐",
+      "飛行"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "高台粉紅色草叢",
+      "人孔蓋檢查中"
+    ],
+    "image": "corviknight.png"
+  },
+  {
+    "number": "260",
+    "name": "多龍梅西亞",
+    "types": [
+      "龍",
+      "幽靈"
+    ],
+    "specialties": [
+      "收集",
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "樹蔭粉紅色草叢"
+    ],
+    "image": "dreepy.png"
+  },
+  {
+    "number": "261",
+    "name": "多龍奇",
+    "types": [
+      "龍",
+      "幽靈"
+    ],
+    "specialties": [
+      "收集",
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "樹蔭粉紅色草叢",
+      "辦公室後場"
+    ],
+    "image": "drakloak.png"
+  },
+  {
+    "number": "262",
+    "name": "多龍巴魯托",
+    "types": [
+      "龍",
+      "幽靈"
+    ],
+    "specialties": [
+      "收集",
+      "搜索"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "辦公室後場"
+    ],
+    "image": "dragapult.png"
+  },
+  {
+    "number": "263",
+    "name": "新葉喵",
+    "types": [
+      "草"
+    ],
+    "specialties": [
+      "栽培"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "樹蔭粉紅色草叢",
+      "夥伴與偵訊"
+    ],
+    "image": "sprigatito.png"
+  },
+  {
+    "number": "264",
+    "name": "蒂蕾喵",
+    "types": [
+      "草"
+    ],
+    "specialties": [
+      "栽培"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "夥伴與偵訊"
+    ],
+    "image": "floragato.png"
+  },
+  {
+    "number": "265",
+    "name": "魔幻假面喵",
+    "types": [
+      "草",
+      "惡"
+    ],
+    "specialties": [
+      "栽培",
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "咚咚驚嚇箱"
+    ],
+    "image": "meowscarada.png"
+  },
+  {
+    "number": "266",
+    "name": "電海燕",
+    "types": [
+      "電",
+      "飛行"
+    ],
+    "specialties": [
+      "發電"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "高台粉紅色草叢"
+    ],
+    "image": "wattrel.png"
+  },
+  {
+    "number": "267",
+    "name": "大電海燕",
+    "types": [
+      "電",
+      "飛行"
+    ],
+    "specialties": [
+      "發電",
+      "飛行"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "高台粉紅色草叢"
+    ],
+    "image": "kilowattrel.png"
+  },
+  {
+    "number": "268",
+    "name": "小鍛匠",
+    "types": [
+      "妖精",
+      "鋼"
+    ],
+    "specialties": [
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "大件行李搬運",
+      "大型垃圾場",
+      "人孔蓋檢查中"
+    ],
+    "image": "tinkatink.png"
+  },
+  {
+    "number": "269",
+    "name": "巧鍛匠",
+    "types": [
+      "妖精",
+      "鋼"
+    ],
+    "specialties": [
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "大件行李搬運",
+      "人孔蓋檢查中"
+    ],
+    "image": "tinkatuff.png"
+  },
+  {
+    "number": "270",
+    "name": "巨鍛匠",
+    "types": [
+      "妖精",
+      "鋼"
+    ],
+    "specialties": [
+      "建造"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [],
+    "habitats": [
+      "大型垃圾場"
+    ],
+    "image": "tinkaton.png"
+  },
+  {
+    "number": "271",
+    "name": "化石翼龍",
+    "types": [
+      "岩石",
+      "飛行"
+    ],
+    "specialties": [
+      "飛行"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "翼之化石展示台"
+    ],
+    "image": "aerodactyl.png"
+  },
+  {
+    "number": "272",
+    "name": "頭蓋龍",
+    "types": [
+      "岩石"
+    ],
+    "specialties": [
+      "粉碎"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "頭蓋化石展示台"
+    ],
+    "image": "cranidos.png"
+  },
+  {
+    "number": "273",
+    "name": "戰槌龍",
+    "types": [
+      "岩石"
+    ],
+    "specialties": [
+      "粉碎"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "頭錘化石展示台"
+    ],
+    "image": "rampardos.png"
+  },
+  {
+    "number": "274",
+    "name": "盾甲龍",
+    "types": [
+      "岩石",
+      "鋼"
+    ],
+    "specialties": [
+      "粉碎"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "盾之化石展示台"
+    ],
+    "image": "shieldon.png"
+  },
+  {
+    "number": "275",
+    "name": "護城龍",
+    "types": [
+      "岩石",
+      "鋼"
+    ],
+    "specialties": [
+      "粉碎",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "盾牌化石展示台"
+    ],
+    "image": "bastiodon.png"
+  },
+  {
+    "number": "276",
+    "name": "寶寶暴龍",
+    "types": [
+      "岩石",
+      "龍"
+    ],
+    "specialties": [
+      "粉碎"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "顎之化石展示台"
+    ],
+    "image": "tyrunt.png"
+  },
+  {
+    "number": "277",
+    "name": "怪顎龍",
+    "types": [
+      "岩石",
+      "龍"
+    ],
+    "specialties": [
+      "粉碎",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "乾燥"
+    ],
+    "habitats": [
+      "暴君化石展示台"
+    ],
+    "image": "tyrantrum.png"
+  },
+  {
+    "number": "278",
+    "name": "冰雪龍",
+    "types": [
+      "岩石",
+      "冰"
+    ],
+    "specialties": [
+      "粉碎"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "涼爽"
+    ],
+    "habitats": [
+      "鰭之化石展示台"
+    ],
+    "image": "amaura.png"
+  },
+  {
+    "number": "279",
+    "name": "冰雪巨龍",
+    "types": [
+      "岩石",
+      "冰"
+    ],
+    "specialties": [
+      "粉碎",
+      "掉落"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "涼爽"
+    ],
+    "habitats": [
+      "凍原化石展示台"
+    ],
+    "image": "aurorus.png"
+  },
+  {
+    "number": "280",
+    "name": "伊布",
+    "types": [
+      "一般"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "美麗花田"
+    ],
+    "image": "eevee.png"
+  },
+  {
+    "number": "281",
+    "name": "水伊布",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [
+      "繽紛藍色"
+    ],
+    "image": "vaporeon.png"
+  },
+  {
+    "number": "282",
+    "name": "雷伊布",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "電擊薯條"
+    ],
+    "image": "jolteon.png"
+  },
+  {
+    "number": "283",
+    "name": "火伊布",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "火辣辣辛辣"
+    ],
+    "image": "flareon.png"
+  },
+  {
+    "number": "284",
+    "name": "太陽伊布",
+    "types": [
+      "超能力"
+    ],
+    "specialties": [
+      "收集"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "優雅午後"
+    ],
+    "image": "espeon.png"
+  },
+  {
+    "number": "285",
+    "name": "月亮伊布",
+    "types": [
+      "惡"
+    ],
+    "specialties": [
+      "搜索"
+    ],
+    "times": [
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [
+      "黑色風味"
+    ],
+    "image": "umbreon.png"
+  },
+  {
+    "number": "286",
+    "name": "葉伊布",
+    "types": [
+      "草"
+    ],
+    "specialties": [
+      "栽培"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [
+      "綠色三明治"
+    ],
+    "image": "leafeon.png"
+  },
+  {
+    "number": "287",
+    "name": "冰伊布",
+    "types": [
+      "冰"
+    ],
+    "specialties": [
+      "交易"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "涼爽"
+    ],
+    "habitats": [
+      "冰涼刨冰"
+    ],
+    "image": "glaceon.png"
+  },
+  {
+    "number": "288",
+    "name": "仙子伊布",
+    "types": [
+      "妖精"
+    ],
+    "specialties": [
+      "鼓舞"
+    ],
+    "times": [
+      "黎明",
+      "白天",
+      "黃昏",
+      "夜晚"
+    ],
+    "weather": [
+      "晴天",
+      "陰天",
+      "雨天"
+    ],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [
+      "可愛蛋糕"
+    ],
+    "image": "sylveon.png"
+  },
+  {
+    "number": "289",
+    "name": "蓋歐卡",
+    "types": [
+      "水"
+    ],
+    "specialties": [],
+    "times": [],
+    "weather": [],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [],
+    "image": "kyogre.png"
+  },
+  {
+    "number": "290",
+    "name": "雷公",
+    "types": [
+      "電"
+    ],
+    "specialties": [
+      "發電"
+    ],
+    "times": [],
+    "weather": [],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [],
+    "image": "raikou.png"
+  },
+  {
+    "number": "291",
+    "name": "炎帝",
+    "types": [
+      "火"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [],
+    "weather": [],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [],
+    "image": "entei.png"
+  },
+  {
+    "number": "292",
+    "name": "水君",
+    "types": [
+      "水"
+    ],
+    "specialties": [
+      "澆水"
+    ],
+    "times": [],
+    "weather": [],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [],
+    "image": "suicune.png"
+  },
+  {
+    "number": "293",
+    "name": "波爾凱尼恩",
+    "types": [
+      "火",
+      "水"
+    ],
+    "specialties": [
+      "燃燒"
+    ],
+    "times": [],
+    "weather": [],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [],
+    "image": "volcanion.png"
+  },
+  {
+    "number": "294",
+    "name": "急凍鳥",
+    "types": [
+      "冰",
+      "飛行"
+    ],
+    "specialties": [
+      "飛行"
+    ],
+    "times": [],
+    "weather": [],
+    "environment": [
+      "涼爽"
+    ],
+    "habitats": [],
+    "image": "articuno.png"
+  },
+  {
+    "number": "295",
+    "name": "閃電鳥",
+    "types": [
+      "電",
+      "飛行"
+    ],
+    "specialties": [
+      "飛行"
+    ],
+    "times": [],
+    "weather": [],
+    "environment": [
+      "明亮"
+    ],
+    "habitats": [],
+    "image": "zapdos.png"
+  },
+  {
+    "number": "296",
+    "name": "火焰鳥",
+    "types": [
+      "火",
+      "飛行"
+    ],
+    "specialties": [
+      "飛行"
+    ],
+    "times": [],
+    "weather": [],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [],
+    "image": "moltres.png"
+  },
+  {
+    "number": "297",
+    "name": "洛奇亞",
+    "types": [
+      "超能力",
+      "飛行"
+    ],
+    "specialties": [],
+    "times": [],
+    "weather": [],
+    "environment": [
+      "濕潤"
+    ],
+    "habitats": [],
+    "image": "lugia.png"
+  },
+  {
+    "number": "298",
+    "name": "鳳王",
+    "types": [
+      "火",
+      "飛行"
+    ],
+    "specialties": [],
+    "times": [],
+    "weather": [],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [],
+    "image": "ho-oh.png"
+  },
+  {
+    "number": "299",
+    "name": "超夢",
+    "types": [
+      "超能力"
+    ],
+    "specialties": [
+      "傳送"
+    ],
+    "times": [],
+    "weather": [],
+    "environment": [
+      "黑暗"
+    ],
+    "habitats": [],
+    "image": "mewtwo.png"
+  },
+  {
+    "number": "300",
+    "name": "夢幻",
+    "types": [
+      "超能力"
+    ],
+    "specialties": [
+      "傳送"
+    ],
+    "times": [],
+    "weather": [],
+    "environment": [
+      "溫暖"
+    ],
+    "habitats": [],
+    "image": "mew.png"
+  }
+]
