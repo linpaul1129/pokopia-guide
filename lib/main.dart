@@ -2,7 +2,6 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'providers/data_provider.dart';
-import 'screens/habitat_list_screen.dart';
 import 'screens/search_screen.dart';
 import 'screens/favorites_screen.dart';
 import 'screens/recipe_list_screen.dart';
@@ -55,7 +54,6 @@ class _MainShellState extends State<MainShell> {
   int _currentIndex = 0;
 
   final List<Widget> _screens = const [
-    HabitatListScreen(),
     SearchScreen(),
     RecipeListScreen(),
     FavoritesScreen(),
@@ -75,10 +73,6 @@ class _MainShellState extends State<MainShell> {
         unselectedItemColor: Colors.grey,
         type: BottomNavigationBarType.fixed,
         items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.landscape),
-            label: '棲息地',
-          ),
           BottomNavigationBarItem(
             icon: Icon(Icons.search),
             label: '搜尋',

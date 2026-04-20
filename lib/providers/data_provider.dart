@@ -4,11 +4,12 @@ import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../models/habitat.dart';
 import '../models/material_info.dart';
+import '../models/pokemon_info.dart';
 
 class DataProvider extends ChangeNotifier {
   List<Habitat> _habitats = [];
   Set<int> _favorites = {};
-  Map<String, String> _pokemonNameMap = {};
+  List<PokemonInfo> _pokemonList = [];
 
   Set<String> _itemFavorites = {};
   Map<String, MaterialInfo> _materialsInfo = {};
@@ -17,8 +18,24 @@ class DataProvider extends ChangeNotifier {
 
   List<Habitat> get habitats => _habitats;
   Set<int> get favorites => _favorites;
-  Map<String, String> get pokemonNameMap => _pokemonNameMap;
+  List<PokemonInfo> get pokemonList => _pokemonList;
   bool get isLoading => _isLoading;
+
+  String? getPokemonImage(String name) {
+    try {
+      return _pokemonList.firstWhere((p) => p.name == name).image;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  PokemonInfo? getPokemonInfo(String name) {
+    try {
+      return _pokemonList.firstWhere((p) => p.name == name);
+    } catch (_) {
+      return null;
+    }
+  }
 
   MaterialInfo? getMaterialInfo(String name) => _materialsInfo[name];
 
@@ -34,9 +51,11 @@ class DataProvider extends ChangeNotifier {
         .map((e) => Habitat.fromJson(e as Map<String, dynamic>))
         .toList();
 
-    final String nameMapStr =
-        await rootBundle.loadString('assets/data/pokemon_name_map.json');
-    _pokemonNameMap = Map<String, String>.from(json.decode(nameMapStr) as Map);
+    final String pokemonStr =
+        await rootBundle.loadString('assets/data/pokemon.json');
+    _pokemonList = (json.decode(pokemonStr) as List)
+        .map((e) => PokemonInfo.fromJson(e as Map<String, dynamic>))
+        .toList();
 
     final prefs = await SharedPreferences.getInstance();
 
