@@ -131,7 +131,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
                               crossAxisCount: 3,
                               crossAxisSpacing: 8,
                               mainAxisSpacing: 8,
-                              childAspectRatio: 0.72,
+                              childAspectRatio: 0.52,
                             ),
                             itemCount: list.length,
                             itemBuilder: (context, index) {
