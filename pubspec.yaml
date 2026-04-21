@@ -21,7 +21,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/data/habitats.json
-    - assets/data/pokemon_name_map.json
+    - assets/data/pokemon.json
     - assets/data/items.json
     - assets/images/pokemon/
     - assets/images/habitats/

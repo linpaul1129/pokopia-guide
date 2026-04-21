@@ -93,7 +93,7 @@ class HabitatDetailScreen extends StatelessWidget {
               spacing: 8,
               runSpacing: 8,
               children: habitat.pokemon.map((p) {
-                final imageFile = provider.pokemonNameMap[p];
+                final imageFile = provider.getPokemonImage(p);
                 return GestureDetector(
                   onTap: () => Navigator.push(
                     context,
