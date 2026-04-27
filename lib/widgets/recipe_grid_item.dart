@@ -22,6 +22,9 @@ class RecipeGridItem extends StatelessWidget {
     final provider = context.watch<DataProvider>();
     final hasMaterials = info.craftMaterials.isNotEmpty;
     final isFav = provider.isRecipeFavorite(itemName);
+    final imagePath = info.image.contains('/')
+        ? 'assets/images/${info.image}'
+        : 'assets/images/items/${info.image}';
 
     return GestureDetector(
       onTap: () => Navigator.push(
@@ -32,98 +35,142 @@ class RecipeGridItem extends StatelessWidget {
               : ItemDetailScreen(itemName: itemName, info: info),
         ),
       ),
-      child: Container(
-        decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(12),
-          border: Border.all(
-            color: isFav
-                ? const Color(0xFFFFD700)
-                : hasMaterials
-                    ? const Color(0xFFCCE5FF)
-                    : const Color(0xFFE5E7EB),
-            width: isFav ? 2 : 1,
-          ),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withValues(alpha: 0.06),
-              blurRadius: 8,
-              offset: const Offset(0, 3),
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          final w = constraints.maxWidth;
+          final nameSize = (w * 0.088).clamp(10.0, 14.0);
+          final descSize = (w * 0.073).clamp(8.5, 11.0);
+          final starSize = (w * 0.15).clamp(14.0, 22.0);
+
+          return Container(
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(
+                color: isFav
+                    ? const Color(0xFFFFD700)
+                    : hasMaterials
+                        ? const Color(0xFFCCE5FF)
+                        : const Color(0xFFE5E7EB),
+                width: isFav ? 2 : 1,
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withValues(alpha: 0.06),
+                  blurRadius: 8,
+                  offset: const Offset(0, 3),
+                ),
+              ],
             ),
-          ],
-        ),
-        child: Padding(
-          padding: const EdgeInsets.all(10),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Row(
+            child: Padding(
+              padding: const EdgeInsets.all(10),
+              child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  // ── 名稱 + 分類標籤 + 星星 ─────────────────────────────
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              itemName,
+                              style: TextStyle(
+                                fontSize: nameSize,
+                                fontWeight: FontWeight.bold,
+                                color: const Color(0xFF222222),
+                              ),
+                              maxLines: 2,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                            if (info.category.isNotEmpty) ...[
+                              const SizedBox(height: 3),
+                              _CategoryBadge(category: info.category),
+                            ],
+                          ],
+                        ),
+                      ),
+                      GestureDetector(
+                        onTap: () => provider.toggleRecipeFavorite(itemName),
+                        child: Icon(
+                          isFav ? Icons.star : Icons.star_border,
+                          color: isFav
+                              ? const Color(0xFFFFD700)
+                              : Colors.grey[400],
+                          size: starSize,
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 6),
+                  // ── 圖片（填滿剩餘高度，隨格子寬度縮放）──────────────
                   Expanded(
-                    child: Text(
-                      itemName,
-                      style: const TextStyle(
-                        fontSize: 11,
-                        fontWeight: FontWeight.bold,
-                        color: Color(0xFF222222),
+                    child: Stack(
+                      fit: StackFit.expand,
+                      children: [
+                        Image.asset(
+                          imagePath,
+                          fit: BoxFit.contain,
+                          errorBuilder: (_, __, ___) => Center(
+                            child: Icon(
+                              Icons.broken_image_outlined,
+                              color: Colors.grey[400],
+                            ),
+                          ),
+                        ),
+                        if (hasMaterials)
+                          Positioned(
+                            right: 0,
+                            bottom: 0,
+                            child: Container(
+                              width: 18,
+                              height: 18,
+                              decoration: BoxDecoration(
+                                color: const Color(0xFFCC0000),
+                                borderRadius: BorderRadius.circular(4),
+                              ),
+                              child: const Icon(
+                                Icons.build,
+                                color: Colors.white,
+                                size: 11,
+                              ),
+                            ),
+                          ),
+                      ],
+                    ),
+                  ),
+                  // ── 描述（圖片下方 16px）─────────────────────────────
+                  if (info.description.isNotEmpty) ...[
+                    const SizedBox(height: 16),
+                    Text(
+                      info.description,
+                      style: TextStyle(
+                        fontSize: descSize,
+                        color: Colors.grey[600],
+                        height: 1.3,
                       ),
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
+                      textAlign: TextAlign.center,
                     ),
-                  ),
-                  GestureDetector(
-                    onTap: () => provider.toggleRecipeFavorite(itemName),
-                    child: Icon(
-                      isFav ? Icons.star : Icons.star_border,
-                      color: isFav
-                          ? const Color(0xFFFFD700)
-                          : Colors.grey[400],
-                      size: 18,
+                  ],
+                  // ── 素材圖示 ─────────────────────────────────────────
+                  if (hasMaterials) ...[
+                    const SizedBox(height: 4),
+                    _MaterialIcons(
+                      materials: info.craftMaterials
+                          .map(RecipeMaterial.fromJson)
+                          .toList(),
+                      cellWidth: w,
                     ),
-                  ),
+                  ],
                 ],
               ),
-              const SizedBox(height: 4),
-              Expanded(
-                child: Stack(
-                  alignment: Alignment.center,
-                  children: [
-                    ItemImage(
-                        filename: info.image, size: 48, fit: BoxFit.contain),
-                    if (hasMaterials)
-                      Positioned(
-                        right: 0,
-                        bottom: 0,
-                        child: Container(
-                          width: 18,
-                          height: 18,
-                          decoration: BoxDecoration(
-                            color: const Color(0xFFCC0000),
-                            borderRadius: BorderRadius.circular(4),
-                          ),
-                          child: const Icon(
-                            Icons.build,
-                            color: Colors.white,
-                            size: 11,
-                          ),
-                        ),
-                      ),
-                  ],
-                ),
-              ),
-              const SizedBox(height: 6),
-              _CategoryBadge(category: info.category),
-              if (hasMaterials) ...[
-                const SizedBox(height: 6),
-                _MaterialIcons(
-                    materials: info.craftMaterials
-                        .map(RecipeMaterial.fromJson)
-                        .toList()),
-              ],
-            ],
-          ),
-        ),
+            ),
+          );
+        },
       ),
     );
   }
@@ -133,13 +180,16 @@ class RecipeGridItem extends StatelessWidget {
 
 class _MaterialIcons extends StatelessWidget {
   final List<RecipeMaterial> materials;
-  const _MaterialIcons({required this.materials});
+  final double cellWidth;
+  const _MaterialIcons({required this.materials, required this.cellWidth});
 
   @override
   Widget build(BuildContext context) {
     const maxShow = 4;
     final show = materials.take(maxShow).toList();
     final rest = materials.length - show.length;
+    final iconSize = (cellWidth * 0.22).clamp(22.0, 32.0);
+    final badgeFontSize = (iconSize * 0.22).clamp(6.0, 9.0);
 
     return Wrap(
       spacing: 2,
@@ -152,8 +202,8 @@ class _MaterialIcons extends StatelessWidget {
                 clipBehavior: Clip.none,
                 children: [
                   Container(
-                    width: 28,
-                    height: 28,
+                    width: iconSize,
+                    height: iconSize,
                     decoration: BoxDecoration(
                       color: const Color(0xFFEFF6FF),
                       borderRadius: BorderRadius.circular(6),
@@ -161,7 +211,7 @@ class _MaterialIcons extends StatelessWidget {
                     ),
                     child: Padding(
                       padding: const EdgeInsets.all(3),
-                      child: ItemImage(filename: m.image, size: 22),
+                      child: ItemImage(filename: m.image, size: iconSize - 6),
                     ),
                   ),
                   if (m.quantity > 1)
@@ -177,8 +227,8 @@ class _MaterialIcons extends StatelessWidget {
                         ),
                         child: Text(
                           '×${m.quantity}',
-                          style: const TextStyle(
-                            fontSize: 7,
+                          style: TextStyle(
+                            fontSize: badgeFontSize,
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
                           ),
@@ -190,8 +240,8 @@ class _MaterialIcons extends StatelessWidget {
             )),
         if (rest > 0)
           Container(
-            width: 28,
-            height: 28,
+            width: iconSize,
+            height: iconSize,
             decoration: BoxDecoration(
               color: const Color(0xFFEEEEEE),
               borderRadius: BorderRadius.circular(6),
@@ -199,7 +249,8 @@ class _MaterialIcons extends StatelessWidget {
             child: Center(
               child: Text(
                 '+$rest',
-                style: TextStyle(fontSize: 9, color: Colors.grey[600]),
+                style: TextStyle(
+                    fontSize: badgeFontSize, color: Colors.grey[600]),
               ),
             ),
           ),
