@@ -32,7 +32,10 @@ class _SearchScreenState extends State<SearchScreen> {
 
     final filteredHabitats = _query.isEmpty
         ? provider.habitats
-        : provider.habitats.where((h) => h.name.contains(_query)).toList();
+        : provider.habitats
+            .where((h) =>
+                h.name.contains(_query) || h.materials.contains(_query))
+            .toList();
 
     final filteredPokemon = _query.isEmpty
         ? provider.pokemonList
@@ -102,7 +105,7 @@ class _SearchScreenState extends State<SearchScreen> {
                   onChanged: (v) => setState(() => _query = v),
                   style: const TextStyle(color: Colors.black87),
                   decoration: InputDecoration(
-                    hintText: _tab == _DisplayTab.habitat ? '搜尋棲息地名稱...' : '搜尋寶可夢名稱...',
+                    hintText: _tab == _DisplayTab.habitat ? '搜尋棲息地名稱或所需素材...' : '搜尋寶可夢名稱...',
                     prefixIcon: const Icon(Icons.search, color: Color(0xFFCC0000)),
                     suffixIcon: _query.isNotEmpty
                         ? IconButton(

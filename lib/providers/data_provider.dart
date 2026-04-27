@@ -108,7 +108,9 @@ class DataProvider extends ChangeNotifier {
 
   List<Habitat> searchByHabitat(String query) {
     if (query.isEmpty) return [];
-    return _habitats.where((h) => h.name.contains(query)).toList();
+    return _habitats
+        .where((h) => h.name.contains(query) || h.materials.contains(query))
+        .toList();
   }
 
   List<Habitat> get favoriteHabitats =>
